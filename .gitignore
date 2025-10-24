@@ -1,0 +1,9 @@
+# Custom directories
+ignore/
+
+# Editors
+*.swp
+
+# Python
+__pycache__/
+*.pyc
