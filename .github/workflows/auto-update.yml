@@ -25,7 +25,7 @@ jobs:
     - name: Format Python and YAML files
       run: |
         uvx ruff format .
-        uvx yamlfix .
+        uvx yamlfix --exclude '.github/**' .
 
     - name: Compute new hive map
       run: uv run hive/hive.py --save
