@@ -123,11 +123,11 @@ def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=Fa
     from matplotlib.patches import Polygon
 
     # https://www.freefontdownload.org/en/stheiti-regular.font
-    heiti_font_path = "fonts/stheiti-regular.ttf"
+    heiti_font_path = Path(__file__).parent / "fonts" / "stheiti-regular.ttf"
     heiti_font = fm.FontProperties(fname=heiti_font_path)
 
     # https://fonts.google.com/noto/specimen/Noto+Serif+KR
-    kor_font_path = "fonts/NotoSerifKR-Regular.ttf"
+    kor_font_path = Path(__file__).parent / "fonts" / "NotoSerifKR-Regular.ttf"
     kor_font = fm.FontProperties(fname=kor_font_path)
 
     pit1_x, pit1_y = pit1_loc
