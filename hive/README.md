@@ -28,7 +28,7 @@ Cities locations as of 2025-10-25:
 
 | Name | X | Y |
 | --- | --- | --- |
-| ALFADHLI | 715 | 554 |
+| ALFADHLI | 716 | 541 |
 | Aziz | 728 | 544 |
 | Azrael | 735 | 553 |
 | BlackBebe | 733 | 549 |
@@ -40,13 +40,13 @@ Cities locations as of 2025-10-25:
 | Coma | 719 | 550 |
 | DarkPanda | 725 | 554 |
 | Darth Porpoise | 716 | 543 |
-| Diablo | 716 | 541 |
+| Diablo | 713 | 541 |
 | DoRaeMi | 726 | 546 |
 | Dossari | 717 | 550 |
 | Dumblidore | 713 | 551 |
 | FallingRegrets | 715 | 552 |
 | Fear | 734 | 545 |
-| Forsaken | 713 | 541 |
+| Forsaken | 709 | 549 |
 | Frinkley | 728 | 546 |
 | GUNNAR | 735 | 547 |
 | HuiMin | 732 | 543 |
