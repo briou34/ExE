@@ -181,10 +181,7 @@ def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=Fa
             rect_kwargs = {"alpha": 1}
 
             if name in {  # Cities to move
-                "FallingRegrets",
                 "Briou",
-                "Brett Sinclair",
-                "LadyLove",
                 "Shell",
                 "趴懶大",
                 "Rage",
