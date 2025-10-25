@@ -19,7 +19,7 @@ DAMAGES_LOG = yaml.safe_load((Path(__file__).parent / "damages_log.yml").open("r
 
 
 def main():
-    from rich import Console
+    from rich.console import Console
 
     console = Console()
 
