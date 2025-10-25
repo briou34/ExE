@@ -22,10 +22,11 @@ jobs:
     - name: Set up Python and uv
       uses: astral-sh/setup-uv@v3 # Official uv setup action
 
-    - name: Format Python and YAML files
-      run: |
-        uvx ruff format .
-        uvx yamlfix --exclude '.github/**' .
+    - name: Format Python files
+      run: uvx ruff format .
+
+    - name: Format YAML files
+      run: "uvx yamlfix --exclude '.github/workflows/**' ."
 
     - name: Compute new hive map
       run: uv run hive/hive.py --save
