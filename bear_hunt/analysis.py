@@ -122,7 +122,9 @@ def as_markdown_table(data, columns, justifys=None):
             [
                 "---"
                 if j is None
-                else (":---:" if j == "center" else ("---:" if j == "right" else ":---"))
+                else (
+                    ":---:" if j == "center" else ("---:" if j == "right" else ":---")
+                )
                 for j in justifys
             ]
         )
