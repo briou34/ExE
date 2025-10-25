@@ -2,7 +2,6 @@
 
 - [Hive](hive/README.md)
 - [Bear Hunt](bear_hunt/README.md)
-- [Advices](advices/README.md)
 
 ## Hive
 
