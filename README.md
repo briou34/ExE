@@ -2,6 +2,7 @@
 
 - [Hive](hive/README.md)
 - [Bear Hunt](bear_hunt/README.md)
+- [Timeline](#timeline)
 
 ## Hive
 
