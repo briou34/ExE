@@ -33,7 +33,7 @@ def make_timeline():
         ["🐶 Gen 4 Pets early start", day0 + timedelta(days=190)],
         ["🐶 Gen 4 Pets late start", day0 + timedelta(days=200)],
         # True Gold
-        ["📦 True Gold 5", day0 + timedelta(days=150)],
+        ["📦 True Gold 5", day0 + timedelta(days=155)],
         ["🏫 War Academy", day0 + timedelta(days=220)],
     ]
 
