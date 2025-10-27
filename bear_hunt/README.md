@@ -26,6 +26,7 @@ print(
 | 2025-10-20 | 23 | 3.82B |
 | 2025-10-22 | 28 | 6.03B |
 | 2025-10-24 | 23 | 5.23B |
+| 2025-10-26 | 27 | 4.62B |
 
 <!-- [[[end]]] -->
 
@@ -50,6 +51,7 @@ print(
 | 2025-10-19 | 23 | 9.44B |
 | 2025-10-21 | 28 | 10.03B |
 | 2025-10-23 | 28 | 7.12B |
+| 2025-10-26 | 18 | 7.66B |
 
 <!-- [[[end]]] -->
 
@@ -68,66 +70,63 @@ print(
 
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
-| 1 | 達努巴克 | 3.37B | 7 |
-| 2 | Coma | 2.73B | 7 |
-| 3 | Troka | 1.95B | 7 |
-| 4 | Cery | 1.81B | 4 |
-| 5 | Sjefen | 1.79B | 7 |
-| 6 | Lyghtz | 1.75B | 4 |
-| 7 | Lloyd Frontera | 1.69B | 7 |
-| 8 | IrotRiot | 1.65B | 7 |
-| 9 | FallingRegrets | 1.46B | 7 |
-| 10 | Briou | 1.15B | 7 |
-| 11 | Dossari | 1.13B | 5 |
-| 12 | Lord_DJ | 892.06M | 6 |
-| 13 | Monkey D Ciuscon | 818.18M | 6 |
-| 14 | LadyLove | 795.30M | 5 |
-| 15 | Lord Adoniran | 525.10M | 4 |
-| 16 | rice baby | 521.59M | 4 |
-| 17 | BlackBebe | 517.83M | 2 |
-| 18 | Sir Bishop | 505.69M | 7 |
-| 19 | Queen of Hearts | 464.09M | 3 |
-| 20 | MOnsTruM224 | 462.41M | 5 |
-| 21 | Darth Porpoise | 439.83M | 4 |
-| 22 | Brett Sinclair | 435.08M | 4 |
-| 23 | Mill2y | 418.13M | 1 |
-| 24 | Dazzl | 310.93M | 2 |
-| 25 | Nick | 296.50M | 1 |
-| 26 | Azrael | 259.00M | 2 |
-| 27 | 熾星空 | 253.23M | 2 |
-| 28 | Aziz | 241.11M | 1 |
-| 29 | Dark Panda | 237.38M | 2 |
-| 30 | DarthPorpoise | 229.27M | 2 |
-| 31 | Sked | 226.05M | 3 |
-| 32 | Shell | 223.90M | 1 |
-| 33 | DarkPanda | 210.50M | 2 |
-| 34 | sin6969 | 196.32M | 1 |
-| 35 | Professor | 190.99M | 1 |
-| 36 | LEA | 168.58M | 6 |
-| 37 | 少量課金者 | 128.02M | 1 |
-| 38 | Cloney Jr | 127.40M | 1 |
-| 39 | HasannEmree | 122.07M | 2 |
-| 40 | Queen of Cats | 121.83M | 1 |
-| 41 | RainbowMonkey | 110.06M | 2 |
-| 42 | TheGuardiaN | 94.62M | 1 |
+| 1 | 達努巴克 | 3.32B | 7 |
+| 2 | Coma | 2.55B | 7 |
+| 3 | Troka | 1.91B | 7 |
+| 4 | Sjefen | 1.86B | 7 |
+| 5 | IrotRiot | 1.71B | 7 |
+| 6 | Lyghtz | 1.70B | 4 |
+| 7 | Lloyd Frontera | 1.59B | 7 |
+| 8 | FallingRegrets | 1.38B | 7 |
+| 9 | Cery | 1.27B | 3 |
+| 10 | Briou | 1.10B | 7 |
+| 11 | LadyLove | 1.06B | 6 |
+| 12 | Dossari | 934.44M | 4 |
+| 13 | Lord_DJ | 884.34M | 6 |
+| 14 | Monkey D Ciuscon | 836.68M | 6 |
+| 15 | BlackBebe | 715.48M | 3 |
+| 16 | Brett Sinclair | 573.37M | 5 |
+| 17 | Sir Bishop | 560.01M | 7 |
+| 18 | rice baby | 550.72M | 5 |
+| 19 | MOnsTruM224 | 518.96M | 5 |
+| 20 | DarkPanda | 467.91M | 4 |
+| 21 | Mill2y | 418.13M | 1 |
+| 22 | DarthPorpoise | 410.93M | 3 |
+| 23 | Lord Adoniran | 345.88M | 3 |
+| 24 | Queen of Hearts | 313.99M | 3 |
+| 25 | Darth Porpoise | 277.07M | 3 |
+| 26 | Aziz | 241.11M | 1 |
+| 27 | LEA | 210.65M | 6 |
+| 28 | sin6969 | 196.32M | 1 |
+| 29 | Professor | 190.99M | 1 |
+| 30 | 熾星空 | 165.92M | 1 |
+| 31 | ROSTR | 164.15M | 2 |
+| 32 | Sked | 151.52M | 2 |
+| 33 | Dazzl | 150.56M | 1 |
+| 34 | 少量課金者 | 128.02M | 1 |
+| 35 | Cloney Jr | 127.40M | 1 |
+| 36 | Queen of Cats | 121.83M | 1 |
+| 37 | Kings Scooby | 116.87M | 1 |
+| 38 | RainbowMonkey | 110.06M | 2 |
+| 39 | Trimute | 102.02M | 2 |
+| 40 | Azrael | 95.26M | 1 |
+| 41 | TheGuardiaN | 94.62M | 1 |
+| 42 | HasannEmree | 90.72M | 1 |
 | 43 | Thadeus | 78.76M | 1 |
-| 44 | ROSTR | 77.75M | 1 |
-| 45 | DoRaeMi | 73.78M | 1 |
-| 46 | Dumblidore | 56.27M | 2 |
-| 47 | EL MACHO | 55.38M | 1 |
-| 48 | 趴懶大 | 51.48M | 1 |
-| 49 | KW | 48.90M | 1 |
-| 50 | Trimute | 40.73M | 1 |
-| 51 | BelalShash | 37.87M | 2 |
-| 52 | PangolaPapi | 31.09M | 1 |
-| 53 | ALFADHLI | 30.23M | 2 |
-| 54 | Sensio | 25.85M | 1 |
-| 55 | Montanas | 21.88M | 1 |
-| 56 | Shabazz | 19.67M | 1 |
-| 57 | Supernova | 16.72M | 1 |
-| 58 | MikeE2005 | 11.35M | 1 |
-| 59 | Nubian King 13 | 9.21M | 1 |
-| 60 | 球球仔 | 2.65M | 1 |
+| 44 | DoRaeMi | 73.78M | 1 |
+| 45 | 趴懶大 | 72.99M | 2 |
+| 46 | BelalShash | 64.59M | 2 |
+| 47 | Dumblidore | 56.27M | 2 |
+| 48 | EL MACHO | 55.38M | 1 |
+| 49 | MAKO | 51.73M | 1 |
+| 50 | KW | 48.90M | 1 |
+| 51 | PangolaPapi | 31.09M | 1 |
+| 52 | ALFADHLI | 30.23M | 2 |
+| 53 | Sensio | 25.85M | 1 |
+| 54 | Montanas | 21.88M | 1 |
+| 55 | Shabazz | 19.67M | 1 |
+| 56 | Nubian King 13 | 9.21M | 1 |
+| 57 | 球球仔 | 2.65M | 1 |
 
 <!-- [[[end]]] -->
 
@@ -146,56 +145,59 @@ print(
 
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
-| 1 | Chen | 5.54B | 6 |
-| 2 | Frinkley | 4.94B | 5 |
-| 3 | Ocram | 4.51B | 6 |
-| 4 | Yaaak | 4.02B | 6 |
-| 5 | Aziz | 2.69B | 5 |
-| 6 | Fear | 2.39B | 6 |
-| 7 | TW | 2.36B | 5 |
-| 8 | brfc | 1.38B | 4 |
-| 9 | Lyghtz | 1.30B | 2 |
-| 10 | Shell | 1.28B | 5 |
-| 11 | Rage | 1.20B | 6 |
-| 12 | 趴懶大 | 1.17B | 4 |
-| 13 | HuiMin | 1.12B | 5 |
-| 14 | Azrael | 745.05M | 4 |
-| 15 | SP1R1T | 713.16M | 4 |
-| 16 | TheGuardiaN | 665.13M | 4 |
-| 17 | DoRaeMi | 618.27M | 4 |
-| 18 | 屁屁俠 | 614.69M | 5 |
+| 1 | Chen | 6.55B | 7 |
+| 2 | Frinkley | 6.17B | 6 |
+| 3 | Ocram | 5.32B | 7 |
+| 4 | Yaaak | 4.68B | 7 |
+| 5 | Aziz | 3.37B | 6 |
+| 6 | TW | 3.13B | 6 |
+| 7 | Fear | 2.39B | 6 |
+| 8 | brfc | 1.76B | 5 |
+| 9 | Shell | 1.55B | 6 |
+| 10 | HuiMin | 1.48B | 6 |
+| 11 | Rage | 1.47B | 7 |
+| 12 | Lyghtz | 1.30B | 2 |
+| 13 | 趴懶大 | 1.17B | 4 |
+| 14 | Azrael | 1.08B | 5 |
+| 15 | 屁屁俠 | 719.83M | 6 |
+| 16 | SP1R1T | 713.16M | 4 |
+| 17 | TheGuardiaN | 665.13M | 4 |
+| 18 | DoRaeMi | 618.27M | 4 |
 | 19 | Dazzl | 610.20M | 2 |
 | 20 | BlackBebe | 590.43M | 2 |
 | 21 | 球球仔 | 511.90M | 3 |
-| 22 | TIBBI | 504.89M | 1 |
-| 23 | Kings Scooby | 468.78M | 2 |
-| 24 | Sked | 432.02M | 3 |
-| 25 | Only you | 415.52M | 2 |
-| 26 | Shabazz | 360.68M | 3 |
-| 27 | Queen of Hearts | 354.00M | 2 |
-| 28 | Professor | 344.51M | 1 |
-| 29 | Antonio | 338.33M | 5 |
-| 30 | LordGiga | 249.75M | 3 |
-| 31 | Willow | 241.82M | 2 |
-| 32 | Mill2y | 232.29M | 1 |
-| 33 | 少量課金者 | 222.79M | 1 |
-| 34 | DarkPanda | 196.80M | 2 |
-| 35 | Mazzoni | 177.96M | 2 |
-| 36 | tamere | 177.77M | 1 |
-| 37 | scorpion | 157.08M | 5 |
-| 38 | Queen of Cats | 139.38M | 1 |
-| 39 | Supernova | 137.10M | 1 |
-| 40 | Ukel | 125.29M | 4 |
-| 41 | LauRa Che | 121.83M | 1 |
-| 42 | 차은아 | 80.53M | 2 |
-| 43 | Nightmare Lune | 69.79M | 1 |
-| 44 | King Koopa | 66.11M | 3 |
-| 45 | ROSTR | 54.35M | 2 |
-| 46 | 17 | 20.60M | 1 |
-| 47 | SARAH | 17.79M | 1 |
-| 48 | PangolaPapi | 11.26M | 1 |
-| 49 | Nubian King 13 | 3.68M | 1 |
-| 50 | Morphose | 1.02M | 1 |
-| 51 | LEA | 580.49K | 1 |
+| 22 | 少量課金者 | 508.32M | 2 |
+| 23 | TIBBI | 504.89M | 1 |
+| 24 | Kings Scooby | 468.78M | 2 |
+| 25 | Sked | 432.02M | 3 |
+| 26 | Only you | 415.52M | 2 |
+| 27 | Shabazz | 360.68M | 3 |
+| 28 | Queen of Hearts | 354.00M | 2 |
+| 29 | Professor | 344.51M | 1 |
+| 30 | Antonio | 338.33M | 5 |
+| 31 | LordGiga | 309.51M | 4 |
+| 32 | Willow | 241.82M | 2 |
+| 33 | scorpion | 232.74M | 6 |
+| 34 | Mill2y | 232.29M | 1 |
+| 35 | Cloney Jr | 220.46M | 1 |
+| 36 | DarkPanda | 196.80M | 2 |
+| 37 | Mazzoni | 177.96M | 2 |
+| 38 | tamere | 177.77M | 1 |
+| 39 | Queen of Cats | 139.38M | 1 |
+| 40 | Supernova | 137.10M | 1 |
+| 41 | Ukel | 125.29M | 4 |
+| 42 | LauRa Che | 121.83M | 1 |
+| 43 | HasannEmree | 96.55M | 1 |
+| 44 | 차은아 | 80.53M | 2 |
+| 45 | Nightmare Lune | 69.79M | 1 |
+| 46 | King Koopa | 66.11M | 3 |
+| 47 | ROSTR | 54.35M | 2 |
+| 48 | supernova | 37.08M | 1 |
+| 49 | 17 | 20.60M | 1 |
+| 50 | SARAH | 17.79M | 1 |
+| 51 | PangolaPapi | 11.26M | 1 |
+| 52 | Nubian King 13 | 3.68M | 1 |
+| 53 | Morphose | 1.02M | 1 |
+| 54 | LEA | 580.49K | 1 |
 
 <!-- [[[end]]] -->

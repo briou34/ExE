@@ -55,8 +55,9 @@ Cities locations as of 2025-10-27:
 | IronFLS | 736 | 545 |
 | IrotRiot | 720 | 546 |
 | Kai forshort | 723 | 554 |
+| Kenpachi | 737 | 553 |
 | King Koopa | 724 | 544 |
-| Kings Scooby | 733 | 553 |
+| Kings Scooby | 729 | 552 |
 | LEA | 722 | 544 |
 | LadyLove | 714 | 543 |
 | Lloyd Frontera | 712 | 543 |
@@ -70,9 +71,10 @@ Cities locations as of 2025-10-27:
 | MOnsTruM224 | 719 | 554 |
 | Mazzoni | 726 | 544 |
 | Mill2y | 718 | 544 |
+| Mk 21_03 | 734 | 555 |
 | Monkey D Ciuscon | 717 | 552 |
 | Montanas | 717 | 554 |
-| Monyahcat | 731 | 553 |
+| Monyahcat | 733 | 553 |
 | Morphose | 727 | 552 |
 | MurderMittens | 709 | 543 |
 | Nick | 719 | 548 |
@@ -83,7 +85,7 @@ Cities locations as of 2025-10-27:
 | Professor | 735 | 549 |
 | Queen of Cats | 711 | 549 |
 | Queen of Hearts | 721 | 548 |
-| ROSTR | 729 | 552 |
+| ROSTR | 731 | 553 |
 | Rage | 726 | 548 |
 | RainbowMonkey | 723 | 552 |
 | SARAH | 722 | 541 |
