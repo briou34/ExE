@@ -32,7 +32,16 @@ def main():
         default=1,
         help="Which bear hunt to analyze (1 or 2). Default is 1.",
     )
-    bear_choice = parser.parse_args().bear
+    parser.add_argument(
+        "--nlasts",
+        "-n",
+        type=int,
+        default=7,
+        help="Number of last hunts to consider for player rankings. Default is 7.",
+    )
+    args = parser.parse_args()
+    bear_choice = args.bear
+    n_lasts = args.nlasts
     summary_table = as_rich_table(
         summary(bear=bear_choice),
         columns=["Date", "# Players", "Total score"],
@@ -40,7 +49,7 @@ def main():
         title=f"Bear Hunt {bear_choice} - Summary",
     )
     players_table = as_rich_table(
-        players_records(bear=bear_choice, n_lasts=7),
+        players_records(bear=bear_choice, n_lasts=n_lasts),
         columns=["#", "Player", "Score", "# Hunts"],
         justifys=[None, None, "right", "right"],
         title=f"Bear Hunt {bear_choice} - Top Players over last 7 hunts",
