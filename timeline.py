@@ -25,12 +25,11 @@ def make_timeline():
         ["Server launch", day0 + timedelta(days=1)],
         ["Today", today],
         # Heroes
-        ["✨ Gen 3 Heroes", day0 + timedelta(days=112)],
+        ["✨ Gen 3 Heroes", day0 + timedelta(days=113)],
         ["✨ Gen 4 Heroes early start", day0 + timedelta(days=190)],
         ["✨ Gen 4 Heroes late start", day0 + timedelta(days=200)],
         # Pets
-        ["🐶 Gen 3 Pets early start", day0 + timedelta(days=105)],
-        ["🐶 Gen 3 Pets late start", day0 + timedelta(days=110)],
+        ["🐶 Gen 3 Pets", day0 + timedelta(days=113)],
         ["🐶 Gen 4 Pets early start", day0 + timedelta(days=190)],
         ["🐶 Gen 4 Pets late start", day0 + timedelta(days=200)],
         # True Gold
@@ -57,7 +56,7 @@ def make_timeline():
         cf_date = castle_fight1 + WEEK * 2 * (i - 1)
         if (cf_date - today).days < 0:
             continue
-        if (cf_date - today).days > 20:
+        if (cf_date - today).days > 28:
             break
         events.append(["🏰 Castle Fight", cf_date])
 
