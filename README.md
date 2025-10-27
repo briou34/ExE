@@ -47,7 +47,7 @@ ______________________________________________________________________
 - Mon 17 Nov - 🏆 Strongest Governor II (Day 134)
 - Sat 22 Nov - 🏰 Castle Fight (Day 139)
 - Mon 01 Dec - ⚔ KvK III (Day 148)
-- Wed 03 Dec - 📦 True Gold 5 (Day 150)
+- Mon 08 Dec - 📦 True Gold 5 (Day 155)
 - Mon 29 Dec - ⚔ KvK IV (Day 176)
 - Mon 12 Jan - ✨ Gen 4 Heroes early start (Day 190)
 - Mon 12 Jan - 🐶 Gen 4 Pets early start (Day 190)
