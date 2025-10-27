@@ -28,7 +28,7 @@ Cities locations as of 2025-10-27:
 
 | Name | X | Y |
 | --- | --- | --- |
-| ALFADHLI | 716 | 541 |
+| ALFADHLI | 713 | 541 |
 | Aziz | 728 | 544 |
 | Azrael | 735 | 553 |
 | BlackBebe | 733 | 549 |
@@ -40,7 +40,7 @@ Cities locations as of 2025-10-27:
 | Coma | 719 | 550 |
 | DarkPanda | 725 | 554 |
 | Darth Porpoise | 716 | 543 |
-| Diablo | 713 | 541 |
+| Diablo | 738 | 545 |
 | DoRaeMi | 726 | 546 |
 | Dossari | 717 | 550 |
 | Dumblidore | 713 | 551 |
@@ -59,6 +59,7 @@ Cities locations as of 2025-10-27:
 | King Koopa | 724 | 544 |
 | Kings Scooby | 729 | 552 |
 | LEA | 722 | 544 |
+| Lady Emily | 716 | 541 |
 | LadyLove | 714 | 543 |
 | Lloyd Frontera | 712 | 543 |
 | LongBow3rd | 709 | 541 |
@@ -71,7 +72,7 @@ Cities locations as of 2025-10-27:
 | MOnsTruM224 | 719 | 554 |
 | Mazzoni | 726 | 544 |
 | Mill2y | 718 | 544 |
-| Mk 21_03 | 734 | 555 |
+| Mk 21_03 | 739 | 549 |
 | Monkey D Ciuscon | 717 | 552 |
 | Montanas | 717 | 554 |
 | Monyahcat | 733 | 553 |
