@@ -32,9 +32,8 @@ for line in timeline:
 
 - Mon 07 Jul - Server launch (Day 1)
 - Mon 06 Oct - ⚔ KvK I (Day 92)
-- Sun 19 Oct - 🐶 Gen 3 Pets early start (Day 105)
-- Fri 24 Oct - 🐶 Gen 3 Pets late start (Day 110)
-- Sun 26 Oct - ✨ Gen 3 Heroes (Day 112)
+- Mon 27 Oct - ✨ Gen 3 Heroes (Day 113)
+- Mon 27 Oct - 🐶 Gen 3 Pets (Day 113)
 
 ______________________________________________________________________
 
@@ -45,6 +44,7 @@ ______________________________________________________________________
 - Mon 03 Nov - ⚔ KvK II (Day 120)
 - Sat 08 Nov - 🏰 Castle Fight (Day 125)
 - Mon 17 Nov - 🏆 Strongest Governor II (Day 134)
+- Sat 22 Nov - 🏰 Castle Fight (Day 139)
 - Mon 01 Dec - ⚔ KvK III (Day 148)
 - Wed 03 Dec - 📦 True Gold 5 (Day 150)
 - Mon 29 Dec - ⚔ KvK IV (Day 176)
