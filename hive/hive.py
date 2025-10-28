@@ -1,11 +1,5 @@
 """
 Usage: hive.py [--tilted] [--save] [--show]
-
-TODO:
-
-- Separately computes absolute cities locations
-- And print them
-- Check for tilted version
 """
 
 # /// script
