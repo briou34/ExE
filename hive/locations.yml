@@ -20,7 +20,7 @@ banners:
   - [743, 553]
 cities:
   bear_1:
-    ALFADHLI: [-2, -6]
+    ALFADHLI: [6, 3]
     Brett Sinclair: [-2, 6]
     Briou: [-4, 0]
     Cery: [-3, -2]
@@ -29,7 +29,7 @@ cities:
     Dossari: [2, 3]
     Dumblidore: [-2, 4]
     FallingRegrets: [0, 5]
-    Forsaken: [-6, 2]
+    Forsaken: [-4, 5]
     IrotRiot: [5, -1]
     LEA: [7, -3]
     Lady Emily: [1, -6]
