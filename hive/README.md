@@ -51,7 +51,6 @@ Cities locations as of 2025-10-30:
 | GUNNAR           | 735 | 547 |
 | HuiMin           | 732 | 543 |
 | HᴀꜱᴀɴɴEᴍʀᴇᴇ      | 723 | 548 |
-| Ibra             | 734 | 541 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 720 | 546 |
 | Kai forshort     | 723 | 554 |
@@ -64,7 +63,6 @@ Cities locations as of 2025-10-30:
 | Lloyd Frontera   | 712 | 543 |
 | LongBow3rd       | 709 | 541 |
 | Lord Adoniran    | 713 | 549 |
-| Lord Keith       | 708 | 545 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
@@ -109,7 +107,6 @@ Cities locations as of 2025-10-30:
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | brfc             | 733 | 551 |
-| rice baby        | 721 | 552 |
 | scorpion         | 730 | 541 |
 | sin6969          | 718 | 546 |
 | tamere           | 727 | 554 |
