@@ -15,12 +15,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0 # Needed if committing back
 
     - name: Set up Python and uv
-      uses: astral-sh/setup-uv@v3 # Official uv setup action
+      uses: astral-sh/setup-uv@v6 # Official uv setup action
 
     - name: Format Python files
       run: uvx ruff format .
