@@ -6,6 +6,8 @@ Usage: analysis.py [--bear {1,2}]
 # dependencies = [
 #     "rich",
 #     "pyyaml",
+#     "matplotlib",
+#     "PyQT6",
 # ]
 # ///
 
@@ -39,6 +41,20 @@ def main():
         default=7,
         help="Number of last hunts to consider for player rankings. Default is 7.",
     )
+    parser.add_argument(
+        "--graph",
+        "-g",
+        action="store_true",
+        default=False,
+        help="Display a bar chart of total damages over time.",
+    )
+    parser.add_argument(
+        "--save",
+        "-s",
+        action="store_true",
+        default=False,
+        help="Save the graph to a file instead of displaying it.",
+    )
     args = parser.parse_args()
     bear_choice = args.bear
     n_lasts = args.nlasts
@@ -58,6 +74,55 @@ def main():
     console.print(summary_table)
     console.print()
     console.print(players_table)
+
+    if args.graph:
+        import matplotlib.pyplot as plt
+        import matplotlib.ticker as ticker
+        from itertools import accumulate
+
+        fig, ax = plt.subplots(figsize=(9, 5))
+        log = DAMAGES_LOG[f"bear{bear_choice}"]
+        # Bar graph
+        for date in sorted(list(log.keys())):
+            records = sorted(log[date].items(), key=lambda item: item[1], reverse=True)
+            players, scores = zip(*records)
+            ax.bar(
+                [date] * len(players),
+                scores,
+                bottom=list(accumulate([0] + list(scores[:-1]))),
+                color=["#104956" if i % 2 == 0 else "#1C849B" for i in range(len(players))],
+            )
+        # Values on top of the bars
+        total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
+        max_score = max(total_scores)
+        for date, total_score in zip(sorted(list(log.keys())), total_scores):
+            ax.text(
+                date,
+                total_score + total_score * 0.01,
+                score_to_str(total_score),
+                ha="center",
+                va="bottom",
+                fontsize=10,
+            )
+        ax.set_ylim(0, max_score * 1.1)
+        # Set the y-axis ticks in multiples of 2B
+        ax.yaxis.set_major_locator(ticker.MultipleLocator(2_000_000_000))
+        ax.yaxis.set_major_formatter(
+            ticker.FuncFormatter(lambda x, pos: score_to_str(int(x), precision=0))
+        )
+        ax.set_title(f"Bear Hunt {bear_choice} - Total Damages")
+        ax.tick_params("x", rotation=20)
+        plt.tight_layout()
+
+        if args.save:
+            from datetime import datetime, UTC
+
+            today_str = datetime.now(tz=UTC).strftime("%Y-%m-%d")
+            imgs_dir = Path(__file__).parent / "images"
+            imgs_dir.mkdir(exist_ok=True)
+            fig.savefig(imgs_dir / f"{today_str}_bear{bear_choice}_damages.png", dpi=200)
+        else:
+            plt.show()
 
 
 def summary(bear=1):
@@ -131,9 +196,7 @@ def as_markdown_table(data, columns, justifys=None):
             [
                 "---"
                 if j is None
-                else (
-                    ":---:" if j == "center" else ("---:" if j == "right" else ":---")
-                )
+                else (":---:" if j == "center" else ("---:" if j == "right" else ":---"))
                 for j in justifys
             ]
         )
@@ -145,14 +208,14 @@ def as_markdown_table(data, columns, justifys=None):
     return "\n".join(rows)
 
 
-def score_to_str(score: int) -> str:
+def score_to_str(score: int, precision=2) -> str:
     K, M, B = 1_000, 1_000_000, 1_000_000_000
     if score >= B:
-        return f"{score / B:.2f}B"
+        return f"{score / B:.{precision}f}B"
     elif score >= M:
-        return f"{score / M:.2f}M"
+        return f"{score / M:.{precision}f}M"
     elif score >= K:
-        return f"{score / K:.2f}K"
+        return f"{score / K:.{precision}f}K"
     else:
         return str(score)
 
