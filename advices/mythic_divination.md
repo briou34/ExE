@@ -9,17 +9,17 @@ In cumulative token cost, when resetting after X flips:
 
 | #Flips | Flip cost | + Reset cost | Total | Token / flip |
 | ------ | --------- | ------------ | ----- | ------------ |
-| 0 | - | 15 | 15 | - |
-| 1 | 1 | 14 | 15 | 15 |
-| 2 | 3 | 13 | 16 | 8 |
-| 3 | 6 | 10 | 16 | 5.33 |
-| 4 | 10 | 6 | 16 | 4 |
-| 5 | 16 | 5 | 21 | 4.2 |
-| 6 | 24 | 4 | 28 | 4.66 |
-| 7 | 36 | 3 | 39 | 5.57 |
-| 8 | 51 | 2 | 53 | 6.625 |
-| 9 | 71 | 1 | 72 | 8 |
-| 10 | 96 | - | 96 | 9.6 |
+| 0      | -         | 15           | 15    | -            |
+| 1      | 1         | 14           | 15    | 15           |
+| 2      | 3         | 13           | 16    | 8            |
+| 3      | 6         | 10           | 16    | 5.33         |
+| 4      | 10        | 6            | 16    | 4            |
+| 5      | 16        | 5            | 21    | 4.2          |
+| 6      | 24        | 4            | 28    | 4.66         |
+| 7      | 36        | 3            | 39    | 5.57         |
+| 8      | 51        | 2            | 53    | 6.625        |
+| 9      | 71        | 1            | 72    | 8            |
+| 10     | 96        | -            | 96    | 9.6          |
 
 So it makes no sense to reset before flipping 4 cards.
 After that, only flip a few more if there is worthy rewards left or if the 4th card was a multiplier.
