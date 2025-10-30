@@ -16,6 +16,7 @@ print(
   )
 )
 ]]] -->
+
 | Date | # Players | Total score |
 | :--- | ---: | ---: |
 | 2025-10-12 | 30 | 5.97B |
@@ -27,6 +28,7 @@ print(
 | 2025-10-24 | 23 | 5.23B |
 | 2025-10-26 | 27 | 4.62B |
 | 2025-10-28 | 23 | 3.59B |
+
 <!-- [[[end]]] -->
 
 <!-- [[[cog
@@ -40,7 +42,9 @@ graph_fpath = sorted(
 )[-1]
 print(f"![Bear 1 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
+
 ![Bear 1 damages graph](images/2025-10-30_bear1_damages.png)
+
 <!-- [[[end]]] -->
 
 **Bear 2:**
@@ -55,6 +59,7 @@ print(
   )
 )
 ]]] -->
+
 | Date | # Players | Total score |
 | :--- | ---: | ---: |
 | 2025-10-12 | 22 | 5.53B |
@@ -65,6 +70,7 @@ print(
 | 2025-10-23 | 28 | 7.12B |
 | 2025-10-26 | 18 | 7.66B |
 | 2025-10-28 | 24 | 6.57B |
+
 <!-- [[[end]]] -->
 
 <!-- [[[cog
@@ -78,7 +84,9 @@ graph_fpath = sorted(
 )[-1]
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
+
 ![Bear 2 damages graph](images/2025-10-30_bear2_damages.png)
+
 <!-- [[[end]]] -->
 
 ## Bear 1 - Top Players over last 7 hunts
@@ -93,6 +101,7 @@ print(
   )
 )
 ]]] -->
+
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
 | 1 | 達努巴克 | 3.17B | 7 |
@@ -150,6 +159,7 @@ print(
 | 53 | Montanas | 21.88M | 1 |
 | 54 | Nubian King 13 | 9.21M | 1 |
 | 55 | 球球仔 | 2.65M | 1 |
+
 <!-- [[[end]]] -->
 
 ## Bear 2 - Top Players over last 7 hunts
@@ -164,6 +174,7 @@ print(
   )
 )
 ]]] -->
+
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
 | 1 | Frinkley | 7.07B | 7 |
@@ -222,4 +233,5 @@ print(
 | 54 | Nubian King 13 | 3.68M | 1 |
 | 55 | Morphose | 1.02M | 1 |
 | 56 | LEA | 580.49K | 1 |
+
 <!-- [[[end]]] -->

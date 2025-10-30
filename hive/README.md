@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-10-28_hive.png)
+![hive map](images/2025-10-30_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,11 +24,11 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-10-28:
+Cities locations as of 2025-10-30:
 
 | Name | X | Y |
 | --- | --- | --- |
-| ALFADHLI | 713 | 541 |
+| ALFADHLI | 721 | 550 |
 | Aziz | 728 | 544 |
 | Azrael | 735 | 553 |
 | BlackBebe | 733 | 549 |
@@ -46,7 +46,7 @@ Cities locations as of 2025-10-28:
 | Dumblidore | 713 | 551 |
 | FallingRegrets | 715 | 552 |
 | Fear | 734 | 545 |
-| Forsaken | 709 | 549 |
+| Forsaken | 711 | 552 |
 | Frinkley | 728 | 546 |
 | GUNNAR | 735 | 547 |
 | HuiMin | 732 | 543 |

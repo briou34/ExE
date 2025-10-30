@@ -90,7 +90,9 @@ def main():
                 [date] * len(players),
                 scores,
                 bottom=list(accumulate([0] + list(scores[:-1]))),
-                color=["#104956" if i % 2 == 0 else "#1C849B" for i in range(len(players))],
+                color=[
+                    "#104956" if i % 2 == 0 else "#1C849B" for i in range(len(players))
+                ],
             )
         # Values on top of the bars
         total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
@@ -120,7 +122,9 @@ def main():
             today_str = datetime.now(tz=UTC).strftime("%Y-%m-%d")
             imgs_dir = Path(__file__).parent / "images"
             imgs_dir.mkdir(exist_ok=True)
-            fig.savefig(imgs_dir / f"{today_str}_bear{bear_choice}_damages.png", dpi=200)
+            fig.savefig(
+                imgs_dir / f"{today_str}_bear{bear_choice}_damages.png", dpi=200
+            )
         else:
             plt.show()
 
@@ -196,7 +200,9 @@ def as_markdown_table(data, columns, justifys=None):
             [
                 "---"
                 if j is None
-                else (":---:" if j == "center" else ("---:" if j == "right" else ":---"))
+                else (
+                    ":---:" if j == "center" else ("---:" if j == "right" else ":---")
+                )
                 for j in justifys
             ]
         )
