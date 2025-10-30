@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write  # Allow git push
+  contents: write # Allow git push
 
 jobs:
   format-and-update:
@@ -30,6 +30,11 @@ jobs:
 
     - name: Compute new hive map
       run: uv run hive/hive.py --save
+
+    - name: Compute new bear hunt damages graphs
+      run: |
+        uv run bear_hunt/analysis.py --graph --save --bear 1
+        uv run bear_hunt/analysis.py --graph --save --bear 2
 
     - name: Update READMEs via cog
       run: |

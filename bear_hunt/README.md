@@ -16,7 +16,6 @@ print(
   )
 )
 ]]] -->
-
 | Date | # Players | Total score |
 | :--- | ---: | ---: |
 | 2025-10-12 | 30 | 5.97B |
@@ -27,7 +26,21 @@ print(
 | 2025-10-22 | 28 | 6.03B |
 | 2025-10-24 | 23 | 5.23B |
 | 2025-10-26 | 27 | 4.62B |
+| 2025-10-28 | 23 | 3.59B |
+<!-- [[[end]]] -->
 
+<!-- [[[cog
+# Display the latest bear damages bar graph
+import re
+from pathlib import Path
+pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_bear1_damages\.png")
+imgs_dir = Path("bear_hunt", "images")
+graph_fpath = sorted(
+  [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
+)[-1]
+print(f"![Bear 1 damages graph]({Path('images') / graph_fpath.name})")
+]]] -->
+![Bear 1 damages graph](images/2025-10-30_bear1_damages.png)
 <!-- [[[end]]] -->
 
 **Bear 2:**
@@ -42,7 +55,6 @@ print(
   )
 )
 ]]] -->
-
 | Date | # Players | Total score |
 | :--- | ---: | ---: |
 | 2025-10-12 | 22 | 5.53B |
@@ -53,7 +65,20 @@ print(
 | 2025-10-23 | 28 | 7.12B |
 | 2025-10-26 | 18 | 7.66B |
 | 2025-10-28 | 24 | 6.57B |
+<!-- [[[end]]] -->
 
+<!-- [[[cog
+# Display the latest bear damages bar graph
+import re
+from pathlib import Path
+pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_bear2_damages\.png")
+imgs_dir = Path("bear_hunt", "images")
+graph_fpath = sorted(
+  [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
+)[-1]
+print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
+]]] -->
+![Bear 2 damages graph](images/2025-10-30_bear2_damages.png)
 <!-- [[[end]]] -->
 
 ## Bear 1 - Top Players over last 7 hunts
@@ -68,67 +93,63 @@ print(
   )
 )
 ]]] -->
-
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
-| 1 | 達努巴克 | 3.32B | 7 |
-| 2 | Coma | 2.55B | 7 |
-| 3 | Troka | 1.91B | 7 |
-| 4 | Sjefen | 1.86B | 7 |
-| 5 | IrotRiot | 1.71B | 7 |
-| 6 | Lyghtz | 1.70B | 4 |
-| 7 | Lloyd Frontera | 1.59B | 7 |
-| 8 | FallingRegrets | 1.38B | 7 |
-| 9 | Cery | 1.27B | 3 |
-| 10 | Briou | 1.10B | 7 |
-| 11 | LadyLove | 1.06B | 6 |
-| 12 | Dossari | 934.44M | 4 |
-| 13 | Lord_DJ | 884.34M | 6 |
-| 14 | Monkey D Ciuscon | 836.68M | 6 |
-| 15 | BlackBebe | 715.48M | 3 |
-| 16 | Brett Sinclair | 573.37M | 5 |
-| 17 | Sir Bishop | 560.01M | 7 |
-| 18 | rice baby | 550.72M | 5 |
-| 19 | MOnsTruM224 | 518.96M | 5 |
-| 20 | DarkPanda | 467.91M | 4 |
-| 21 | Mill2y | 418.13M | 1 |
-| 22 | DarthPorpoise | 410.93M | 3 |
-| 23 | Lord Adoniran | 345.88M | 3 |
-| 24 | Queen of Hearts | 313.99M | 3 |
-| 25 | Darth Porpoise | 277.07M | 3 |
+| 1 | 達努巴克 | 3.17B | 7 |
+| 2 | Coma | 2.42B | 7 |
+| 3 | IrotRiot | 1.87B | 7 |
+| 4 | Sjefen | 1.84B | 7 |
+| 5 | Troka | 1.82B | 7 |
+| 6 | Lyghtz | 1.76B | 4 |
+| 7 | Lloyd Frontera | 1.55B | 7 |
+| 8 | FallingRegrets | 1.45B | 7 |
+| 9 | Briou | 1.21B | 7 |
+| 10 | LadyLove | 1.12B | 6 |
+| 11 | Cery | 820.86M | 2 |
+| 12 | Monkey D Ciuscon | 758.67M | 6 |
+| 13 | Dossari | 744.76M | 3 |
+| 14 | Lord_DJ | 743.44M | 5 |
+| 15 | Brett Sinclair | 573.37M | 5 |
+| 16 | Sir Bishop | 572.74M | 7 |
+| 17 | DarthPorpoise | 565.86M | 4 |
+| 18 | BlackBebe | 541.88M | 3 |
+| 19 | DarkPanda | 498.53M | 4 |
+| 20 | MOnsTruM224 | 457.79M | 5 |
+| 21 | rice baby | 420.57M | 4 |
+| 22 | Mill2y | 418.13M | 1 |
+| 23 | Lord Adoniran | 308.09M | 2 |
+| 24 | Queen of Cats | 286.31M | 2 |
+| 25 | LEA | 274.83M | 7 |
 | 26 | Aziz | 241.11M | 1 |
-| 27 | LEA | 210.65M | 6 |
-| 28 | sin6969 | 196.32M | 1 |
-| 29 | Professor | 190.99M | 1 |
-| 30 | 熾星空 | 165.92M | 1 |
-| 31 | ROSTR | 164.15M | 2 |
-| 32 | Sked | 151.52M | 2 |
-| 33 | Dazzl | 150.56M | 1 |
-| 34 | 少量課金者 | 128.02M | 1 |
-| 35 | Cloney Jr | 127.40M | 1 |
-| 36 | Queen of Cats | 121.83M | 1 |
-| 37 | Kings Scooby | 116.87M | 1 |
-| 38 | RainbowMonkey | 110.06M | 2 |
-| 39 | Trimute | 102.02M | 2 |
-| 40 | Azrael | 95.26M | 1 |
-| 41 | TheGuardiaN | 94.62M | 1 |
-| 42 | HasannEmree | 90.72M | 1 |
-| 43 | Thadeus | 78.76M | 1 |
-| 44 | DoRaeMi | 73.78M | 1 |
-| 45 | 趴懶大 | 72.99M | 2 |
-| 46 | BelalShash | 64.59M | 2 |
-| 47 | Dumblidore | 56.27M | 2 |
-| 48 | EL MACHO | 55.38M | 1 |
-| 49 | MAKO | 51.73M | 1 |
-| 50 | KW | 48.90M | 1 |
-| 51 | PangolaPapi | 31.09M | 1 |
-| 52 | ALFADHLI | 30.23M | 2 |
-| 53 | Sensio | 25.85M | 1 |
-| 54 | Montanas | 21.88M | 1 |
-| 55 | Shabazz | 19.67M | 1 |
-| 56 | Nubian King 13 | 9.21M | 1 |
-| 57 | 球球仔 | 2.65M | 1 |
-
+| 27 | sin6969 | 196.32M | 1 |
+| 28 | Darth Porpoise | 195.76M | 2 |
+| 29 | Queen of Hearts | 187.87M | 2 |
+| 30 | Thadeus | 182.90M | 2 |
+| 31 | 熾星空 | 165.92M | 1 |
+| 32 | ROSTR | 164.15M | 2 |
+| 33 | 少量課金者 | 128.02M | 1 |
+| 34 | Cloney Jr | 127.40M | 1 |
+| 35 | Kings Scooby | 116.87M | 1 |
+| 36 | RainbowMonkey | 110.06M | 2 |
+| 37 | Trimute | 102.02M | 2 |
+| 38 | 趴懶大 | 99.74M | 3 |
+| 39 | TheGuardiaN | 94.62M | 1 |
+| 40 | Sked | 91.34M | 1 |
+| 41 | HasannEmree | 90.72M | 1 |
+| 42 | DoRaeMi | 73.78M | 1 |
+| 43 | BelalShash | 64.59M | 2 |
+| 44 | Morphose | 59.26M | 1 |
+| 45 | Dumblidore | 56.27M | 2 |
+| 46 | EL MACHO | 55.38M | 1 |
+| 47 | MAKO | 55.11M | 2 |
+| 48 | Forsaken | 54.23M | 1 |
+| 49 | KW | 48.90M | 1 |
+| 50 | PangolaPapi | 31.09M | 1 |
+| 51 | ALFADHLI | 30.23M | 2 |
+| 52 | Sensio | 25.85M | 1 |
+| 53 | Montanas | 21.88M | 1 |
+| 54 | Nubian King 13 | 9.21M | 1 |
+| 55 | 球球仔 | 2.65M | 1 |
 <!-- [[[end]]] -->
 
 ## Bear 2 - Top Players over last 7 hunts
@@ -143,7 +164,6 @@ print(
   )
 )
 ]]] -->
-
 | # | Player | Score | # Hunts |
 | ---: | :--- | ---: | ---: |
 | 1 | Frinkley | 7.07B | 7 |
@@ -202,5 +222,4 @@ print(
 | 54 | Nubian King 13 | 3.68M | 1 |
 | 55 | Morphose | 1.02M | 1 |
 | 56 | LEA | 580.49K | 1 |
-
 <!-- [[[end]]] -->
