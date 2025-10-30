@@ -1,5 +1,13 @@
 # 🐻 Bear Hunt
 
+
+
+
+
+
+
+
+
 Keeping only the last 7 records, which is the number of bear hunts in between two Castle Battles.
 
 ## Summary
