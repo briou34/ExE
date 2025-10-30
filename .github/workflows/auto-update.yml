@@ -42,8 +42,14 @@ jobs:
         uvx --from cogapp --with pyyaml cog -Pr hive/README.md
         uvx --from cogapp --with pyyaml cog -Pr bear_hunt/README.md
 
+    - name: Check files before formatting
+      run: git status && git diff --stat
+
     - name: Format Markdown files
       run: uvx mdformat --number .
+
+    - name: Check files after formatting
+      run: git status && git diff --stat
 
     - name: Commit and push changes (if any)
       run: |
