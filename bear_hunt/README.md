@@ -112,55 +112,54 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | Lyghtz           |   3.60B |       7 |
-|   2 | IrotRiot         |   2.47B |       7 |
-|   3 | 達努巴克         |   2.38B |       5 |
+|   1 | 達努巴克         |   3.77B |       7 |
+|   2 | Lyghtz           |   3.60B |       7 |
+|   3 | IrotRiot         |   2.47B |       7 |
 |   4 | Troka            |   2.35B |       7 |
 |   5 | Coma             |   2.13B |       6 |
 |   6 | FallingRegrets   |   2.12B |       7 |
 |   7 | LadyLove         |   1.94B |       7 |
 |   8 | Cery             |   1.57B |       3 |
 |   9 | Briou            |   1.56B |       7 |
-|  10 | 違勢巴克         |   1.39B |       2 |
-|  11 | Lloyd Frontera   |   1.37B |       5 |
-|  12 | BlackBebe        |   1.35B |       5 |
-|  13 | Sjefen           |   1.34B |       6 |
-|  14 | CiusconUnchained |   1.09B |       7 |
-|  15 | DarkPanda        | 856.68M |       7 |
-|  16 | DarthPorpoise    | 826.04M |       5 |
-|  17 | Brett Sinclair   | 812.08M |       5 |
-|  18 | Queen of Cats    | 706.49M |       4 |
-|  19 | Lord_DJ          | 679.10M |       4 |
-|  20 | Llyod Frontera   | 657.67M |       2 |
-|  21 | Sir Bishop       | 643.62M |       6 |
-|  22 | MOnsTruM224      | 639.25M |       7 |
-|  23 | Lord Adoniran    | 553.01M |       3 |
-|  24 | Mill2y           | 529.54M |       1 |
-|  25 | Professor        | 456.47M |       2 |
-|  26 | LEA              | 359.08M |       7 |
-|  27 | Darth Porpoise   | 321.27M |       1 |
-|  28 | Dossari          | 296.95M |       2 |
-|  29 | Trimute          | 294.32M |       3 |
-|  30 | King of Dogs     | 223.89M |       3 |
-|  31 | ROSTR            | 206.10M |       3 |
-|  32 | 熾星空           | 165.92M |       1 |
-|  33 | HasannEmree      | 163.34M |       1 |
-|  34 | Queen of Hearts  | 141.31M |       2 |
-|  35 | SARAH            | 130.93M |       1 |
-|  36 | Morphose         | 128.51M |       2 |
-|  37 | Diablo           | 118.18M |       1 |
-|  38 | Kings Scooby     | 116.87M |       1 |
-|  39 | Thadeus          | 104.13M |       1 |
-|  40 | 趴懶大           |  99.74M |       3 |
-|  41 | XLR8R            |  69.74M |       1 |
-|  42 | sin6969          |  55.62M |       1 |
-|  43 | MAKO             |  55.11M |       2 |
-|  44 | BelalShash       |  38.00M |       1 |
-|  45 | rice baby        |  29.13M |       1 |
-|  46 | Teddix           |  27.49M |       1 |
-|  47 | Ukel             |  15.41M |       1 |
-|  48 | Dumbliđore       |  13.95M |       1 |
-|  49 | sin666           |   2.93M |       1 |
+|  10 | Lloyd Frontera   |   1.37B |       5 |
+|  11 | BlackBebe        |   1.35B |       5 |
+|  12 | Sjefen           |   1.34B |       6 |
+|  13 | CiusconUnchained |   1.09B |       7 |
+|  14 | DarkPanda        | 856.68M |       7 |
+|  15 | DarthPorpoise    | 826.04M |       5 |
+|  16 | Brett Sinclair   | 812.08M |       5 |
+|  17 | Queen of Cats    | 706.49M |       4 |
+|  18 | Lord_DJ          | 679.10M |       4 |
+|  19 | Llyod Frontera   | 657.67M |       2 |
+|  20 | Sir Bishop       | 643.62M |       6 |
+|  21 | MOnsTruM224      | 639.25M |       7 |
+|  22 | Lord Adoniran    | 553.01M |       3 |
+|  23 | Mill2y           | 529.54M |       1 |
+|  24 | Professor        | 456.47M |       2 |
+|  25 | LEA              | 359.08M |       7 |
+|  26 | Darth Porpoise   | 321.27M |       1 |
+|  27 | Dossari          | 296.95M |       2 |
+|  28 | Trimute          | 294.32M |       3 |
+|  29 | King of Dogs     | 223.89M |       3 |
+|  30 | ROSTR            | 206.10M |       3 |
+|  31 | 熾星空           | 165.92M |       1 |
+|  32 | HasannEmree      | 163.34M |       1 |
+|  33 | Queen of Hearts  | 141.31M |       2 |
+|  34 | SARAH            | 130.93M |       1 |
+|  35 | Morphose         | 128.51M |       2 |
+|  36 | Diablo           | 118.18M |       1 |
+|  37 | Kings Scooby     | 116.87M |       1 |
+|  38 | Thadeus          | 104.13M |       1 |
+|  39 | 趴懶大           |  99.74M |       3 |
+|  40 | XLR8R            |  69.74M |       1 |
+|  41 | sin6969          |  55.62M |       1 |
+|  42 | MAKO             |  55.11M |       2 |
+|  43 | BelalShash       |  38.00M |       1 |
+|  44 | rice baby        |  29.13M |       1 |
+|  45 | Teddix           |  27.49M |       1 |
+|  46 | Ukel             |  15.41M |       1 |
+|  47 | Dumbliđore       |  13.95M |       1 |
+|  48 | sin666           |   2.93M |       1 |
 
 <!-- [[[end]]] -->
 
