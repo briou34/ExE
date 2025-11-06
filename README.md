@@ -18,7 +18,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({hive_map_fpath})")
 ]]] -->
 
-![hive map](hive/images/2025-10-30_hive.png)
+![hive map](hive/images/2025-11-06_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -35,14 +35,14 @@ for line in timeline:
 - Mon 06 Oct - ⚔ KvK I (Day 92)
 - Mon 27 Oct - ✨ Gen 3 Heroes (Day 113)
 - Mon 27 Oct - 🐶 Gen 3 Pets (Day 113)
-
-______________________________________________________________________
-
-- Thu 30 Oct - Today (Day 116)
-
-______________________________________________________________________
-
 - Mon 03 Nov - ⚔ KvK II (Day 120)
+
+______________________________________________________________________
+
+- Thu 06 Nov - Today (Day 123)
+
+______________________________________________________________________
+
 - Sat 08 Nov - 🏰 Castle Fight (Day 125)
 - Mon 17 Nov - 🏆 Strongest Governor II (Day 134)
 - Sat 22 Nov - 🏰 Castle Fight (Day 139)
@@ -55,5 +55,6 @@ ______________________________________________________________________
 - Thu 22 Jan - 🐶 Gen 4 Pets late start (Day 200)
 - Mon 26 Jan - ⚔ KvK V (Day 204)
 - Wed 11 Feb - 🏫 War Academy (Day 220)
+- Mon 23 Feb - ⚔ KvK VI (Day 232)
 
 <!-- [[[end]]] -->

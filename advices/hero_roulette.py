@@ -18,7 +18,8 @@ thresholds_costs = {
     15: price_per_10spins + price_per_1spin * (15 - 10 - free_spins),
     35: price_per_10spins * 3 + price_per_1spin * (35 - 30 - free_spins),
     70: (price_per_10spins - 1500) * free_spins + price_per_10spins * (7 - free_spins),
-    120: (price_per_10spins - 1500) * free_spins + price_per_10spins * (12 - free_spins),
+    120: (price_per_10spins - 1500) * free_spins
+    + price_per_10spins * (12 - free_spins),
     150: 15 * price_per_10spins - 1500,  # considering maxing roulette on single day
 }
 

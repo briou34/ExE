@@ -63,18 +63,24 @@ def main():
     from rich.console import Console
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tilted", action="store_true", help="Use tilted (rotated) axes")
+    parser.add_argument(
+        "--tilted", action="store_true", help="Use tilted (rotated) axes"
+    )
     parser.add_argument(
         "--save",
         action="store_true",
         default=False,
         help="Save the figure instead of showing it",
     )
-    parser.add_argument("--show", action="store_true", default=False, help="Show the figure")
+    parser.add_argument(
+        "--show", action="store_true", default=False, help="Show the figure"
+    )
     args = parser.parse_args()
 
     console = Console()
-    console.print(as_rich_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
+    console.print(
+        as_rich_table(get_cities_locations_table(), columns=["Name", "X", "Y"])
+    )
 
     if args.show or args.save:
         import matplotlib.pyplot as plt
@@ -88,8 +94,12 @@ def main():
             hq_loc=LOCATIONS["hq"],
             pit1_loc=LOCATIONS["pitfall_1"],
             pit2_loc=LOCATIONS["pitfall_2"],
-            cities_locs1=add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]),
-            cities_locs2=add_deltas(LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"]),
+            cities_locs1=add_deltas(
+                LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]
+            ),
+            cities_locs2=add_deltas(
+                LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"]
+            ),
         )
         if args.show:
             plt.show()
@@ -107,7 +117,9 @@ def get_cities_locations_table():
     cities_locs2 = add_deltas(pit2_loc, LOCATIONS["cities"]["bear_2"])
     cities_locs_table = [
         (name, x, y)
-        for name, (x, y) in dict(sorted({**cities_locs1, **cities_locs2}.items())).items()
+        for name, (x, y) in dict(
+            sorted({**cities_locs1, **cities_locs2}.items())
+        ).items()
     ]
     return cities_locs_table
 
@@ -128,7 +140,9 @@ def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=Fa
     pit2_x, pit2_y = pit2_loc
 
     add_build = partial(add_building, ax=ax)
-    add_pitfall = partial(add_build, width=3, height=3, color=COLORS["pitfall"], label="Pitfall")
+    add_pitfall = partial(
+        add_build, width=3, height=3, color=COLORS["pitfall"], label="Pitfall"
+    )
     add_city = partial(
         add_build, width=2, height=2, color=COLORS["city"], text_kwargs={"fontsize": 8}
     )
@@ -339,7 +353,9 @@ def setup_rotated_ax():
         grid_locator1=FixedLocator(range(XMIN, XMAX + 1, 1)),
         grid_locator2=FixedLocator(range(YMIN, YMAX + 1, 1)),
     )
-    ax = fig.add_subplot(111, axes_class=floating_axes.FloatingAxes, grid_helper=grid_helper)
+    ax = fig.add_subplot(
+        111, axes_class=floating_axes.FloatingAxes, grid_helper=grid_helper
+    )
     ax.grid(which="both", color="gray", linestyle="--", linewidth=0.5)
 
     return ax.get_aux_axes(tr)
@@ -349,7 +365,9 @@ def setup_rotated_ax():
 
 
 def add_deltas(base_loc, deltas):
-    return {name: (base_loc[0] + dx, base_loc[1] + dy) for name, (dx, dy) in deltas.items()}
+    return {
+        name: (base_loc[0] + dx, base_loc[1] + dy) for name, (dx, dy) in deltas.items()
+    }
 
 
 def as_rich_table(data, columns, justifys=None, title=None):
@@ -378,7 +396,9 @@ def as_markdown_table(data, columns, justifys=None):
             [
                 "---"
                 if j is None
-                else (":---:" if j == "center" else ("---:" if j == "right" else ":---"))
+                else (
+                    ":---:" if j == "center" else ("---:" if j == "right" else ":---")
+                )
                 for j in justifys
             ]
         )

@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-10-30_hive.png)
+![hive map](images/2025-11-06_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-10-30:
+Cities locations as of 2025-11-06:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -44,18 +44,20 @@ Cities locations as of 2025-10-30:
 | DoRaeMi          | 726 | 546 |
 | Dossari          | 717 | 550 |
 | Dumblidore       | 713 | 551 |
+| EL MACHO         | 713 | 541 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
-| Forsaken         | 711 | 552 |
 | Frinkley         | 728 | 546 |
 | GUNNAR           | 735 | 547 |
 | HuiMin           | 732 | 543 |
 | HᴀꜱᴀɴɴEᴍʀᴇᴇ      | 723 | 548 |
+| I am your father | 711 | 554 |
+| Ibra             | 734 | 541 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 720 | 546 |
-| Kai forshort     | 723 | 554 |
-| Kenpachi         | 737 | 553 |
+| Kay_forshort     | 723 | 554 |
 | King Koopa       | 724 | 544 |
+| King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
 | LEA              | 722 | 544 |
 | Lady Emily       | 716 | 541 |
@@ -63,9 +65,11 @@ Cities locations as of 2025-10-30:
 | Lloyd Frontera   | 712 | 543 |
 | LongBow3rd       | 709 | 541 |
 | Lord Adoniran    | 713 | 549 |
+| Lord Keith       | 708 | 545 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
+| MAKO             | 715 | 554 |
 | MIHAWK           | 726 | 540 |
 | MOnsTruM224      | 719 | 554 |
 | Mazzoni          | 726 | 544 |
@@ -98,16 +102,19 @@ Cities locations as of 2025-10-30:
 | Supernova        | 724 | 546 |
 | TIBBI            | 727 | 550 |
 | TW拍吉           | 732 | 545 |
+| Teddix           | 707 | 543 |
 | Thadeus          | 709 | 547 |
 | TheGuardiaN      | 735 | 551 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
-| Willow           | 711 | 554 |
+| Willow           | 711 | 552 |
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | brfc             | 733 | 551 |
+| rice baby        | 721 | 552 |
 | scorpion         | 730 | 541 |
+| sin666           | 728 | 556 |
 | sin6969          | 718 | 546 |
 | tamere           | 727 | 554 |
 | ابو فهد KW       | 728 | 541 |
