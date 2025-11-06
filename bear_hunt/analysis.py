@@ -68,7 +68,7 @@ def main():
         players_records(bear=bear_choice, n_lasts=n_lasts),
         columns=["#", "Player", "Score", "# Hunts"],
         justifys=[None, None, "right", "right"],
-        title=f"Bear Hunt {bear_choice} - Top Players over last 7 hunts",
+        title=f"Bear Hunt {bear_choice} - Top Players over last {n_lasts} hunts",
     )
     console.print()
     console.print(summary_table)
