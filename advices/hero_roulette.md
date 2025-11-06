@@ -20,3 +20,4 @@ So only use spins x10 and only go for Spin Rewards threshold, expectations as fo
 - x35 spins: 54.13 shards for 43500 gems (803.6 gem/shards)
 - x70 spins: 103.26 shards for 90000 gems (871.6 gem/shards)
 - x120 spins: 180.59 shards for 157500 gems (872.1 gem/shards)
+- x150 spins: 196.99 shards for 201000 gems (1020.4 gem/shards)
