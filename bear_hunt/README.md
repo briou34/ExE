@@ -47,7 +47,7 @@ graph_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-11-06_bear1_damages.png)
+![Bear 1 damages graph](images/2025-11-07_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -78,6 +78,7 @@ print(
 | 2025-11-01 |        22 |       6.04B |
 | 2025-11-03 |        23 |       6.58B |
 | 2025-11-05 |        32 |       9.16B |
+| 2025-11-07 |        21 |       6.61B |
 
 <!-- [[[end]]] -->
 
@@ -93,7 +94,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-11-06_bear2_damages.png)
+![Bear 2 damages graph](images/2025-11-07_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -176,60 +177,60 @@ print(
 )
 ]]] -->
 
-|   # | Player          |   Score | # Hunts |
-| --: | :-------------- | ------: | ------: |
-|   1 | CHEN            |   6.46B |       7 |
-|   2 | Frinkley        |   5.38B |       6 |
-|   3 | Ocram           |   4.36B |       7 |
-|   4 | Aziz            |   4.12B |       7 |
-|   5 | Yaaak           |   3.93B |       6 |
-|   6 | TW              |   3.19B |       7 |
-|   7 | Fear            |   2.15B |       6 |
-|   8 | brfc            |   1.72B |       6 |
-|   9 | 少量課金者      |   1.66B |       7 |
-|  10 | HuiMin          |   1.50B |       7 |
-|  11 | DoRaeMi         |   1.49B |       5 |
-|  12 | Rage            |   1.47B |       6 |
-|  13 | Shell           |   1.45B |       6 |
-|  14 | Azrael          |   1.33B |       7 |
-|  15 | TIBBI           |   1.21B |       3 |
-|  16 | Professor       | 884.40M |       2 |
-|  17 | SP1R1T          | 868.34M |       5 |
-|  18 | TheGuardiaN     | 767.91M |       5 |
-|  19 | Kings Scooby    | 711.73M |       3 |
-|  20 | 屁屁俠          | 555.38M |       5 |
-|  21 | Cery            | 459.69M |       1 |
-|  22 | Lord_DJ         | 451.65M |       2 |
-|  23 | Sked            | 400.18M |       3 |
-|  24 | BlackBebe       | 399.54M |       1 |
-|  25 | scorpion        | 370.90M |       6 |
-|  26 | King Scooby     | 333.51M |       1 |
-|  27 | 球球仔          | 329.65M |       5 |
-|  28 | Queen of Hearts | 323.54M |       2 |
-|  29 | Cloney Jr       | 307.09M |       2 |
-|  30 | 趴懶大          | 266.89M |       2 |
-|  31 | Shabazz         | 244.81M |       2 |
-|  32 | Diablo          | 211.77M |       2 |
-|  33 | LordGiga        | 187.41M |       4 |
-|  34 | Lady Emily      | 106.11M |       2 |
-|  35 | HasannEmree     |  96.55M |       1 |
-|  36 | Mazzoni         |  94.73M |       3 |
-|  37 | Trimute         |  81.55M |       1 |
-|  38 | Nightmare Lune  |  81.40M |       2 |
-|  39 | Monyahcat       |  80.21M |       1 |
-|  40 | ROSTR           |  69.43M |       1 |
-|  41 | EL MACHO        |  66.83M |       1 |
-|  42 | Kenpachi        |  48.37M |       1 |
-|  43 | King Koopa      |  38.93M |       1 |
-|  44 | KW              |  37.38M |       1 |
-|  45 | supernova       |  37.08M |       1 |
-|  46 | The KING TUT    |  34.95M |       2 |
-|  47 | Ukel            |  24.52M |       1 |
-|  48 | MAKO            |  21.65M |       1 |
-|  49 | PangolaPapi     |  17.99M |       1 |
-|  50 | Willow          |  16.92M |       1 |
-|  51 | tamere          |  14.77M |       1 |
-|  52 | 차은아          |   7.63M |       1 |
-|  53 | ALFADHLI        |   4.22M |       1 |
+|   # | Player           |   Score | # Hunts |
+| --: | :--------------- | ------: | ------: |
+|   1 | CHEN             |   6.57B |       7 |
+|   2 | Frinkley         |   4.36B |       5 |
+|   3 | Ocram            |   4.35B |       7 |
+|   4 | Aziz             |   4.15B |       7 |
+|   5 | TW               |   3.48B |       7 |
+|   6 | Yaaak            |   3.23B |       5 |
+|   7 | 少量課金者       |   1.93B |       7 |
+|   8 | Fear             |   1.79B |       5 |
+|   9 | brfc             |   1.76B |       6 |
+|  10 | TIBBI            |   1.75B |       4 |
+|  11 | DoRaeMi          |   1.72B |       5 |
+|  12 | Shell            |   1.66B |       6 |
+|  13 | HuiMin           |   1.65B |       7 |
+|  14 | Rage             |   1.25B |       5 |
+|  15 | Azrael           |   1.16B |       6 |
+|  16 | Professor        | 884.40M |       2 |
+|  17 | SP1R1T           | 863.76M |       4 |
+|  18 | TheGuardiaN      | 767.91M |       5 |
+|  19 | Sked             | 637.92M |       3 |
+|  20 | Kings Scooby     | 621.81M |       3 |
+|  21 | Cery             | 459.69M |       1 |
+|  22 | 屁屁俠           | 456.84M |       4 |
+|  23 | Lord_DJ          | 451.65M |       2 |
+|  24 | 球球仔           | 424.13M |       6 |
+|  25 | 趴懶大           | 372.55M |       3 |
+|  26 | scorpion         | 346.35M |       5 |
+|  27 | King Scooby      | 333.51M |       1 |
+|  28 | Cloney Jr        | 307.09M |       2 |
+|  29 | LordGiga         | 245.84M |       4 |
+|  30 | 차은아           | 213.43M |       2 |
+|  31 | Diablo           | 211.77M |       2 |
+|  32 | 屁屁侠           | 194.03M |       1 |
+|  33 | Queen of Hearts  | 184.53M |       1 |
+|  34 | Trimute          | 177.14M |       2 |
+|  35 | Shabazz          | 140.53M |       1 |
+|  36 | Ukel             | 127.87M |       1 |
+|  37 | Lady Emily       | 106.11M |       2 |
+|  38 | HasannEmree      |  96.55M |       1 |
+|  39 | Monyahcat        |  80.21M |       1 |
+|  40 | ROSTR            |  69.43M |       1 |
+|  41 | EL MACHO         |  66.83M |       1 |
+|  42 | Mazzoni          |  55.34M |       2 |
+|  43 | Kenpachi         |  48.37M |       1 |
+|  44 | LongBow3rd       |  39.02M |       1 |
+|  45 | KW               |  37.38M |       1 |
+|  46 | supernova        |  37.08M |       1 |
+|  47 | The KING TUT     |  34.95M |       2 |
+|  48 | MAKO             |  21.65M |       1 |
+|  49 | PangolaPapi      |  17.99M |       1 |
+|  50 | I am your father |  15.81M |       1 |
+|  51 | tamere           |  14.77M |       1 |
+|  52 | Nightmare Lune   |  11.61M |       1 |
+|  53 | ALFADHLI         |   4.22M |       1 |
 
 <!-- [[[end]]] -->

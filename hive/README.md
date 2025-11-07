@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-06_hive.png)
+![hive map](images/2025-11-07_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-06:
+Cities locations as of 2025-11-07:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -102,7 +102,6 @@ Cities locations as of 2025-11-06:
 | Supernova        | 724 | 546 |
 | TIBBI            | 727 | 550 |
 | TW拍吉           | 732 | 545 |
-| Teddix           | 707 | 543 |
 | Thadeus          | 709 | 547 |
 | TheGuardiaN      | 735 | 551 |
 | Trimute          | 722 | 546 |

@@ -18,7 +18,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({hive_map_fpath})")
 ]]] -->
 
-![hive map](hive/images/2025-11-06_hive.png)
+![hive map](hive/images/2025-11-07_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -39,7 +39,7 @@ for line in timeline:
 
 ______________________________________________________________________
 
-- Thu 06 Nov - Today (Day 123)
+- Fri 07 Nov - Today (Day 124)
 
 ______________________________________________________________________
 
@@ -47,6 +47,7 @@ ______________________________________________________________________
 - Mon 17 Nov - 🏆 Strongest Governor II (Day 134)
 - Sat 22 Nov - 🏰 Castle Fight (Day 139)
 - Mon 01 Dec - ⚔ KvK III (Day 148)
+- Sat 06 Dec - 🏰 Castle Fight (Day 153)
 - Mon 08 Dec - 📦 True Gold 5 (Day 155)
 - Mon 29 Dec - ⚔ KvK IV (Day 176)
 - Mon 12 Jan - ✨ Gen 4 Heroes early start (Day 190)
