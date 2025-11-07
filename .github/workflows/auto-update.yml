@@ -23,7 +23,7 @@ jobs:
       uses: astral-sh/setup-uv@v6 # Official uv setup action
 
     - name: Format Python files
-      run: uvx ruff format .
+      run: uvx ruff format --line-length 100 .
 
     - name: Format YAML files
       run: uvx yamlfix --exclude .github/workflows/*.yml .
