@@ -18,7 +18,29 @@ from pathlib import Path
 
 import yaml
 
-heiti_names = {
+LOCATIONS = yaml.safe_load((Path(__file__).parent / "locations.yml").open("r"))
+
+COLORS = {
+    "pitfall": "#E95DCD",
+    "hq": "#306B34",
+    "rsr node": "#F3B700",
+    "city": [0.4, 0.8, 1, 0.5],
+    "banner": "#F63E02",
+    "fortress": [1, 0, 0],
+    "mountain": [0, 0, 0],
+    "lake": [0.25, 0.86, 0.87],
+}
+
+XMIN, XMAX = 706, 742
+YMIN, YMAX = 537, 561
+
+# https://www.freefontdownload.org/en/stheiti-regular.font
+HEITI_FONT_PATH = Path(__file__).parent / "fonts" / "stheiti-regular.ttf"
+
+# https://fonts.google.com/noto/specimen/Noto+Serif+KR
+KOR_FONT_PATH = Path(__file__).parent / "fonts" / "NotoSerifKR-Regular.ttf"
+
+HEITI_NAMES = {
     "CHEN陈",
     "TW拍吉",
     "一代宗师林总",
@@ -36,27 +58,10 @@ heiti_names = {
     "다죽자",
 }
 
-kor_names = {
+KOR_NAMES = {
     "차은아",
     "흐림없는눈",
 }
-
-
-COLORS = {
-    "pitfall": "#E95DCD",
-    "hq": "#306B34",
-    "rsr node": "#F3B700",
-    "city": [0.4, 0.8, 1, 0.5],
-    "banner": "#F63E02",
-    "fortress": [1, 0, 0],
-    "mountain": [0, 0, 0],
-    "lake": [0.25, 0.86, 0.87],
-}
-
-XMIN, XMAX = 706, 742
-YMIN, YMAX = 537, 561
-
-LOCATIONS = yaml.safe_load((Path(__file__).parent / "locations.yml").open("r"))
 
 
 def main():
@@ -87,11 +92,14 @@ def main():
             ax = setup_rotated_ax()  # in game orientation
         else:
             ax = setup_normal_ax()  # easier to move objects when coding
-        fig = plot_map(
+        fig = plot_base_map(
             ax=ax,
             hq_loc=LOCATIONS["hq"],
             pit1_loc=LOCATIONS["pitfall_1"],
             pit2_loc=LOCATIONS["pitfall_2"],
+        )
+        fig = plot_cities(
+            ax=ax,
             cities_locs1=add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]),
             cities_locs2=add_deltas(LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"]),
         )
@@ -116,49 +124,17 @@ def get_cities_locations_table():
     return cities_locs_table
 
 
-def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=False):
+def plot_cities(ax, cities_locs1, cities_locs2):
     import matplotlib.font_manager as fm
-    from matplotlib.patches import Polygon
-
-    # https://www.freefontdownload.org/en/stheiti-regular.font
-    heiti_font_path = Path(__file__).parent / "fonts" / "stheiti-regular.ttf"
-    heiti_font = fm.FontProperties(fname=heiti_font_path)
-
-    # https://fonts.google.com/noto/specimen/Noto+Serif+KR
-    kor_font_path = Path(__file__).parent / "fonts" / "NotoSerifKR-Regular.ttf"
-    kor_font = fm.FontProperties(fname=kor_font_path)
-
-    pit1_x, pit1_y = pit1_loc
-    pit2_x, pit2_y = pit2_loc
 
     add_build = partial(add_building, ax=ax)
-    add_pitfall = partial(add_build, width=3, height=3, color=COLORS["pitfall"], label="Pitfall")
     add_city = partial(
         add_build, width=2, height=2, color=COLORS["city"], text_kwargs={"fontsize": 8}
     )
-    add_rsr_node = partial(add_build, width=2, height=2, color=COLORS["rsr node"])
 
-    add_banner = partial(add_banner_, ax=ax, pad=0.2, color=COLORS["banner"])
-    add_hq = partial(add_hq_, color=COLORS["hq"], ax=ax)
+    heiti_font = fm.FontProperties(fname=HEITI_FONT_PATH)
+    kor_font = fm.FontProperties(fname=KOR_FONT_PATH)
 
-    # Main buildings
-    add_hq(hq_loc)
-    add_pitfall(
-        (pit1_x, pit1_y),
-        label="19:00\nUTC",
-        text_kwargs={"fontsize": 14, "fontweight": "bold"},
-    )
-    add_pitfall(
-        (pit2_x, pit2_y),
-        label="12:00\nUTC",
-        text_kwargs={"fontsize": 14, "fontweight": "bold"},
-    )
-
-    # Banners
-    for loc in LOCATIONS["banners"]:
-        add_banner(loc)
-
-    # Cities
     for locs, color in zip([cities_locs1, cities_locs2], ["#50C9CE", "#9883E5"]):
         for name, loc in locs.items():
             text_kwargs = {"fontsize": 7}
@@ -181,9 +157,9 @@ def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=Fa
                 rect_kwargs["edgecolor"] = "red"
                 rect_kwargs["linewidth"] = 2
 
-            if name in heiti_names:
+            if name in HEITI_NAMES:
                 text_kwargs["fontproperties"] = heiti_font
-            elif name in kor_names:
+            elif name in KOR_NAMES:
                 text_kwargs["fontproperties"] = kor_font
 
             label = name
@@ -197,6 +173,38 @@ def plot_map(ax, hq_loc, pit1_loc, pit2_loc, cities_locs1, cities_locs2, show=Fa
                 text_kwargs=text_kwargs,
                 rect_kwargs=rect_kwargs,
             )
+    return ax.figure
+
+
+def plot_base_map(ax, hq_loc, pit1_loc, pit2_loc):
+    from matplotlib.patches import Polygon
+
+    pit1_x, pit1_y = pit1_loc
+    pit2_x, pit2_y = pit2_loc
+
+    add_build = partial(add_building, ax=ax)
+    add_pitfall = partial(add_build, width=3, height=3, color=COLORS["pitfall"], label="Pitfall")
+    add_rsr_node = partial(add_build, width=2, height=2, color=COLORS["rsr node"])
+
+    add_banner = partial(add_banner_, ax=ax, pad=0.2, color=COLORS["banner"])
+    add_hq = partial(add_hq_, color=COLORS["hq"], ax=ax)
+
+    # Main buildings
+    add_hq(hq_loc)
+    add_pitfall(
+        (pit1_x, pit1_y),
+        label="19:00\nUTC",
+        text_kwargs={"fontsize": 14, "fontweight": "bold"},
+    )
+    add_pitfall(
+        (pit2_x, pit2_y),
+        label="12:00\nUTC",
+        text_kwargs={"fontsize": 14, "fontweight": "bold"},
+    )
+
+    # Banners
+    for loc in LOCATIONS["banners"]:
+        add_banner(loc)
 
     # Ressource nodes, Mountains, Lakes
     for loc, rsr in LOCATIONS.get("resources_nodes", []):
