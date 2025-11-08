@@ -48,7 +48,7 @@ graph_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-11-07_bear1_damages.png)
+![Bear 1 damages graph](images/2025-11-08_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -95,7 +95,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-11-07_bear2_damages.png)
+![Bear 2 damages graph](images/2025-11-08_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -179,11 +179,11 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | CHEN             |   6.57B |       7 |
+|   1 | CHEN陈           |   6.57B |       7 |
 |   2 | Frinkley         |   4.36B |       5 |
 |   3 | Ocram            |   4.35B |       7 |
 |   4 | Aziz             |   4.15B |       7 |
-|   5 | TW               |   3.48B |       7 |
+|   5 | TW拍吉           |   3.48B |       7 |
 |   6 | Yaaak            |   3.23B |       5 |
 |   7 | 少量課金者       |   1.93B |       7 |
 |   8 | Fear             |   1.79B |       5 |
@@ -223,7 +223,7 @@ print(
 |  42 | Mazzoni          |  55.34M |       2 |
 |  43 | Kenpachi         |  48.37M |       1 |
 |  44 | LongBow3rd       |  39.02M |       1 |
-|  45 | KW               |  37.38M |       1 |
+|  45 | ابو فهد KW       |  37.38M |       1 |
 |  46 | supernova        |  37.08M |       1 |
 |  47 | The KING TUT     |  34.95M |       2 |
 |  48 | MAKO             |  21.65M |       1 |

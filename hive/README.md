@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-07_hive.png)
+![hive map](images/2025-11-08_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-07:
+Cities locations as of 2025-11-08:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -36,6 +36,7 @@ Cities locations as of 2025-11-07:
 | Briou            | 711 | 547 |
 | CHEN陈           | 730 | 545 |
 | Cery             | 712 | 545 |
+| CiusconUnchained | 717 | 552 |
 | Cloney Jr        | 738 | 551 |
 | Coma             | 719 | 550 |
 | DarkPanda        | 725 | 554 |
@@ -49,10 +50,9 @@ Cities locations as of 2025-11-07:
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
 | GUNNAR           | 735 | 547 |
+| HasannEmree      | 723 | 548 |
 | HuiMin           | 732 | 543 |
-| HᴀꜱᴀɴɴEᴍʀᴇᴇ      | 723 | 548 |
 | I am your father | 711 | 554 |
-| Ibra             | 734 | 541 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 720 | 546 |
 | Kay_forshort     | 723 | 554 |
@@ -62,7 +62,7 @@ Cities locations as of 2025-11-07:
 | LEA              | 722 | 544 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
-| Lloyd Frontera   | 712 | 543 |
+| Llyod Frontera   | 712 | 543 |
 | LongBow3rd       | 709 | 541 |
 | Lord Adoniran    | 713 | 549 |
 | Lord Keith       | 708 | 545 |
@@ -75,11 +75,9 @@ Cities locations as of 2025-11-07:
 | Mazzoni          | 726 | 544 |
 | Mill2y           | 718 | 544 |
 | Mk 21_03         | 739 | 549 |
-| Monkey D Ciuscon | 717 | 552 |
 | Montanas         | 717 | 554 |
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
-| MurderMittens    | 709 | 543 |
 | Nick             | 719 | 548 |
 | Nightmare Lune   | 732 | 541 |
 | Nubian King 13   | 725 | 552 |
@@ -111,7 +109,6 @@ Cities locations as of 2025-11-07:
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | brfc             | 733 | 551 |
-| rice baby        | 721 | 552 |
 | scorpion         | 730 | 541 |
 | sin666           | 728 | 556 |
 | sin6969          | 718 | 546 |
