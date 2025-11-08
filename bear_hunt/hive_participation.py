@@ -19,9 +19,17 @@ from matplotlib.patches import Rectangle
 
 sys.path.append(str(Path(__file__).parent.parent / "hive"))
 
-from hive import (HEITI_FONT_PATH, HEITI_NAMES, KOR_FONT_PATH, KOR_NAMES,
-                  LOCATIONS, add_building, add_deltas, plot_base_map,
-                  setup_normal_ax)
+from hive import (
+    HEITI_FONT_PATH,
+    HEITI_NAMES,
+    KOR_FONT_PATH,
+    KOR_NAMES,
+    LOCATIONS,
+    add_building,
+    add_deltas,
+    plot_base_map,
+    setup_normal_ax,
+)
 
 DAMAGES_LOG = yaml.safe_load(
     (Path(__file__).parent / ".." / "bear_hunt" / "damages_log.yml").open("r")

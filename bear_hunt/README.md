@@ -15,8 +15,10 @@ graph_fpath = sorted(
 )[-1]
 print(f"![Bear Participation]({Path('images') / graph_fpath.name})")
 ]]] -->
-<!-- [[[end]]] -->
 
+![Bear Participation](images/2025-11-08_hive_participation.png)
+
+<!-- [[[end]]] -->
 
 ## Summary
 
