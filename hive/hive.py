@@ -141,14 +141,14 @@ def plot_cities(ax, cities_locs1, cities_locs2):
             rect_kwargs = {"alpha": 1}
 
             if name in {  # Cities to move
-                "Briou",
-                "King of Dogs",
-                "Willow",
+                # "Briou",
+                # "King of Dogs",
+                # "Willow",
             }:
                 rect_kwargs["edgecolor"] = "black"
                 rect_kwargs["linewidth"] = 2
 
-            if name in {  # AFK
+            if name in {  # MIA
                 "rice baby",
                 "Ibra",
                 "MurderMittens",
