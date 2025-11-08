@@ -58,10 +58,10 @@ import re
 from pathlib import Path
 pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_bear1_damages\.png")
 imgs_dir = Path("bear_hunt", "images")
-graph_fpath = sorted(
+map_fpath = sorted(
   [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
 )[-1]
-print(f"![Bear 1 damages graph]({Path('images') / graph_fpath.name})")
+print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
 ![Bear 1 damages graph](images/2025-11-08_bear1_damages.png)
