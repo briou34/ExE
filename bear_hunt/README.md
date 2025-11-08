@@ -2,6 +2,22 @@
 
 Keeping only the last 7 records, which is the number of bear hunts in between two Castle Battles.
 
+## Participation
+
+<!-- [[[cog
+# Display the latest bear damages bar graph
+import re
+from pathlib import Path
+pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_hive_participation\.png")
+imgs_dir = Path("bear_hunt", "images")
+graph_fpath = sorted(
+  [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
+)[-1]
+print(f"![Bear Participation]({Path('images') / graph_fpath.name})")
+]]] -->
+<!-- [[[end]]] -->
+
+
 ## Summary
 
 **Bear 1:**
