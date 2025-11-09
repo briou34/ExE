@@ -54,12 +54,10 @@ def main():
     args = parser.parse_args()
     n_lasts = args.nlasts
 
-    log_bear1 = [
-        DAMAGES_LOG["bear1"][date] for date in sorted(list(DAMAGES_LOG["bear1"].keys()))[-n_lasts:]
-    ]
-    log_bear2 = [
-        DAMAGES_LOG["bear2"][date] for date in sorted(list(DAMAGES_LOG[f"bear2"].keys()))[-n_lasts:]
-    ]
+    dates1 = sorted(list(DAMAGES_LOG["bear1"].keys()))[-n_lasts:]
+    dates2 = sorted(list(DAMAGES_LOG["bear2"].keys()))[-n_lasts:]
+    log_bear1 = [DAMAGES_LOG["bear1"][date] for date in dates1]
+    log_bear2 = [DAMAGES_LOG["bear2"][date] for date in dates2]
 
     participations = defaultdict(lambda: [0, 0])  # bear1, bear2
     damages = defaultdict(lambda: [0, 0])  # bear1, bear2
@@ -112,8 +110,8 @@ def main():
         colors[player] = mcolors.to_hex(clr)
     fig = plot_cities_with_participation(ax, cities_locs, participations, colors, n_lasts)
 
-    start_date = sorted(list(DAMAGES_LOG["bear1"].keys()))[-n_lasts]
-    end_date = sorted(list(DAMAGES_LOG["bear1"].keys()))[-1]
+    start_date = sorted(dates1 + dates2)[0]
+    end_date = sorted(dates1 + dates2)[-1]
     ax.set_title(f"Bear Hunt Participation: {start_date} -- {end_date} ({n_lasts} Hunts)")
 
     # Draw legend
