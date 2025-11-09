@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-08_hive.png)
+![hive map](images/2025-11-09_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-08:
+Cities locations as of 2025-11-09:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
