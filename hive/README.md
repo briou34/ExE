@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-09_hive.png)
+![hive map](images/2025-11-10_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,28 +24,29 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-09:
+Cities locations as of 2025-11-10:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
 | Aziz             | 728 | 544 |
 | Azrael           | 735 | 553 |
+| BelalShash       | 722 | 539 |
 | BlackBebe        | 733 | 549 |
-| Brett Sinclair   | 713 | 553 |
+| Brett Sinclair   | 737 | 547 |
+| Brica            | 735 | 551 |
 | Briou            | 711 | 547 |
 | CHEN陈           | 730 | 545 |
 | Cery             | 712 | 545 |
 | CiusconUnchained | 717 | 552 |
 | Cloney Jr        | 738 | 551 |
 | Coma             | 719 | 550 |
-| DarkPanda        | 725 | 554 |
+| DarkPanda        | 719 | 552 |
 | Darth Porpoise   | 716 | 543 |
 | Diablo           | 738 | 545 |
 | DoRaeMi          | 726 | 546 |
 | Dossari          | 717 | 550 |
 | Dumblidore       | 713 | 551 |
-| EL MACHO         | 713 | 541 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
@@ -53,7 +54,6 @@ Cities locations as of 2025-11-09:
 | HasannEmree      | 723 | 548 |
 | HuiMin           | 732 | 543 |
 | I am your father | 711 | 554 |
-| Ibra             | 734 | 541 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 720 | 546 |
 | Kay_forshort     | 723 | 554 |
@@ -66,7 +66,7 @@ Cities locations as of 2025-11-09:
 | Llyod Frontera   | 712 | 543 |
 | LongBow3rd       | 709 | 541 |
 | Lord Adoniran    | 713 | 549 |
-| Lord Keith       | 708 | 545 |
+| Lord Keith       | 713 | 541 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
@@ -76,7 +76,6 @@ Cities locations as of 2025-11-09:
 | Mazzoni          | 726 | 544 |
 | Mill2y           | 718 | 544 |
 | Mk 21_03         | 739 | 549 |
-| Montanas         | 717 | 554 |
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
 | Nick             | 719 | 548 |
@@ -89,9 +88,9 @@ Cities locations as of 2025-11-09:
 | Queen of Hearts  | 721 | 548 |
 | ROSTR            | 731 | 553 |
 | Rage             | 726 | 548 |
-| RainbowMonkey    | 723 | 552 |
 | SARAH            | 722 | 541 |
 | SP1R1T           | 726 | 542 |
+| Saiint           | 723 | 552 |
 | Sensio           | 721 | 554 |
 | Shabazz          | 723 | 550 |
 | Shell            | 731 | 551 |
@@ -102,11 +101,11 @@ Cities locations as of 2025-11-09:
 | TIBBI            | 727 | 550 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
-| TheGuardiaN      | 735 | 551 |
+| The KING TUT     | 720 | 542 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
-| Willow           | 711 | 552 |
+| Willow           | 720 | 540 |
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | brfc             | 733 | 551 |
@@ -117,7 +116,7 @@ Cities locations as of 2025-11-09:
 | ابو فهد KW       | 728 | 541 |
 | 少量課金者       | 736 | 542 |
 | 屁屁俠           | 730 | 543 |
-| 是17呀           | 737 | 547 |
+| 是17呀           | 739 | 547 |
 | 熾星空           | 718 | 542 |
 | 球球仔           | 734 | 543 |
 | 趴懶大           | 729 | 550 |
