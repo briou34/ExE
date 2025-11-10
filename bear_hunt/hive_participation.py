@@ -25,6 +25,7 @@ from hive import (
     KOR_FONT_PATH,
     KOR_NAMES,
     LOCATIONS,
+    NAMES_SPLITTING,
     add_building,
     add_deltas,
     plot_base_map,
@@ -178,8 +179,11 @@ def plot_cities_with_participation(ax, locations, participations, colors, n):
             text_kwargs["fontproperties"] = kor_font
 
         label = name
-        if len(name) > 8:
-            label = "\n".join([label[:8], label[8:16]])
+        if len(label) > 8:
+            if label in NAMES_SPLITTING:
+                label = NAMES_SPLITTING[label]
+            else:
+                label = "\n".join([label[:8], label[8:16]])
 
         if name not in colors:  # No participation
             rect_kwargs["edgecolor"] = "red"
