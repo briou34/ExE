@@ -153,9 +153,6 @@ def plot_cities(ax, cities_locs1, cities_locs2):
                 rect_kwargs["linewidth"] = 2
 
             if name in {  # MIA
-                "rice baby",
-                "Ibra",
-                "MurderMittens",
                 "GUNNAR",
             }:
                 rect_kwargs["edgecolor"] = "red"
