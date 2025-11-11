@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-10_hive.png)
+![hive map](images/2025-11-11_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-10:
+Cities locations as of 2025-11-11:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -45,6 +45,7 @@ Cities locations as of 2025-11-10:
 | Darth Porpoise   | 716 | 543 |
 | Diablo           | 738 | 545 |
 | DoRaeMi          | 726 | 546 |
+| Doon             | 734 | 541 |
 | Dossari          | 717 | 550 |
 | Dumblidore       | 713 | 551 |
 | FallingRegrets   | 715 | 552 |
@@ -90,7 +91,7 @@ Cities locations as of 2025-11-10:
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 541 |
 | SP1R1T           | 726 | 542 |
-| Saiint           | 723 | 552 |
+| Saiint           | 734 | 555 |
 | Sensio           | 721 | 554 |
 | Shabazz          | 723 | 550 |
 | Shell            | 731 | 551 |

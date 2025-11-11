@@ -16,7 +16,7 @@ graph_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2025-11-10_hive_participation.png)
+![Bear Participation](images/2025-11-11_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -34,7 +34,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-11-10_bear1_damages.png)
+![Bear 1 damages graph](images/2025-11-11_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -153,7 +153,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-11-10_bear2_damages.png)
+![Bear 2 damages graph](images/2025-11-11_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
