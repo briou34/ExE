@@ -112,7 +112,7 @@ def main():
         )
         ax.set_title(f"Bear Hunt {bear_choice} - Total Damages")
         ax.tick_params("x", rotation=35)
-        plt.setp(ax.get_xticklabels(), rotation_mode='anchor', ha="right")
+        plt.setp(ax.get_xticklabels(), rotation_mode="anchor", ha="right")
         plt.tight_layout()
 
         if args.save:
