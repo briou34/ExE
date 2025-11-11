@@ -111,7 +111,8 @@ def main():
             ticker.FuncFormatter(lambda x, pos: score_to_str(int(x), precision=0))
         )
         ax.set_title(f"Bear Hunt {bear_choice} - Total Damages")
-        ax.tick_params("x", rotation=20)
+        ax.tick_params("x", rotation=35)
+        plt.setp(ax.get_xticklabels(), rotation_mode='anchor', ha="right")
         plt.tight_layout()
 
         if args.save:
