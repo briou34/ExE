@@ -69,6 +69,7 @@ print(
 | 2025-11-05 |        19 |       5.65B |
 | 2025-11-07 |        25 |       9.76B |
 | 2025-11-09 |        17 |       8.88B |
+| 2025-11-11 |        16 |       9.25B |
 
 <!-- [[[end]]] -->
 
@@ -90,50 +91,49 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | 達努巴克         |   5.11B |       7 |
-|   2 | Lyghtz           |   4.49B |       7 |
-|   3 | Troka            |   3.16B |       7 |
-|   4 | Llyod Frontera   |   2.94B |       7 |
-|   5 | Cery             |   2.93B |       4 |
-|   6 | IrotRiot         |   2.75B |       7 |
-|   7 | LadyLove         |   2.58B |       7 |
-|   8 | Briou            |   2.26B |       7 |
-|   9 | FallingRegrets   |   2.07B |       6 |
-|  10 | Coma             |   2.07B |       5 |
-|  11 | Sjefen           |   1.93B |       6 |
-|  12 | Darth Porpoise   |   1.54B |       6 |
-|  13 | BlackBebe        |   1.15B |       4 |
-|  14 | Mill2y           |   1.08B |       2 |
-|  15 | CiusconUnchained |   1.08B |       6 |
-|  16 | DarkPanda        | 905.49M |       7 |
-|  17 | Queen of Cats    | 852.06M |       5 |
-|  18 | Sir Bishop       | 604.80M |       6 |
-|  19 | Lord_DJ          | 587.78M |       3 |
-|  20 | Brett Sinclair   | 526.84M |       4 |
-|  21 | MOnsTruM224      | 506.25M |       6 |
+|   1 | Lyghtz           |   5.08B |       7 |
+|   2 | 達努巴克         |   4.82B |       6 |
+|   3 | Cery             |   3.82B |       5 |
+|   4 | Troka            |   3.73B |       7 |
+|   5 | Llyod Frontera   |   3.22B |       7 |
+|   6 | IrotRiot         |   3.19B |       7 |
+|   7 | LadyLove         |   2.78B |       7 |
+|   8 | Briou            |   2.67B |       7 |
+|   9 | Coma             |   2.45B |       5 |
+|  10 | Sjefen           |   2.43B |       6 |
+|  11 | FallingRegrets   |   2.33B |       6 |
+|  12 | Darth Porpoise   |   1.78B |       6 |
+|  13 | 遠努巴克         |   1.30B |       1 |
+|  14 | CiusconUnchained |   1.26B |       6 |
+|  15 | Mill2y           |   1.08B |       2 |
+|  16 | BlackBebe        |   1.06B |       3 |
+|  17 | DarkPanda        | 984.05M |       7 |
+|  18 | Lord_DJ          | 878.91M |       4 |
+|  19 | Queen of Cats    | 687.58M |       4 |
+|  20 | Sir Bishop       | 544.52M |       5 |
+|  21 | Brett Sinclair   | 526.84M |       4 |
 |  22 | Queen of Hearts  | 488.04M |       3 |
-|  23 | Professor        | 456.47M |       2 |
-|  24 | LEA              | 451.07M |       6 |
+|  23 | MOnsTruM224      | 483.95M |       5 |
+|  24 | Professor        | 456.47M |       2 |
 |  25 | Lord Adoniran    | 440.15M |       2 |
-|  26 | Thadeus          | 434.55M |       2 |
-|  27 | Azrael           | 411.80M |       2 |
+|  26 | Azrael           | 411.80M |       2 |
+|  27 | LEA              | 386.90M |       5 |
 |  28 | HasannEmree      | 352.14M |       2 |
 |  29 | Trimute          | 344.32M |       3 |
-|  30 | Dossari          | 296.95M |       2 |
-|  31 | King of Dogs     | 223.89M |       3 |
+|  30 | Thadeus          | 337.10M |       2 |
+|  31 | Dossari          | 296.95M |       2 |
 |  32 | Dumblidore       | 206.77M |       2 |
-|  33 | Supernova        | 158.14M |       1 |
-|  34 | SARAH            | 130.93M |       1 |
-|  35 | Morphose         | 128.51M |       2 |
+|  33 | King of Dogs     | 169.65M |       2 |
+|  34 | Supernova        | 158.14M |       1 |
+|  35 | SARAH            | 130.93M |       1 |
 |  36 | Diablo           | 118.18M |       1 |
 |  37 | XLR8R            |  69.74M |       1 |
-|  38 | sin6969          |  55.62M |       1 |
-|  39 | ROSTR            |  41.95M |       1 |
-|  40 | Teddix           |  27.49M |       1 |
-|  41 | 趴懶大           |  26.74M |       1 |
+|  38 | Morphose         |  69.26M |       1 |
+|  39 | sin6969          |  55.62M |       1 |
+|  40 | ROSTR            |  41.95M |       1 |
+|  41 | Teddix           |  27.49M |       1 |
 |  42 | Ukel             |  15.41M |       1 |
-|  43 | MAKO             |   3.38M |       1 |
-|  44 | sin666           |   2.93M |       1 |
+|  43 | sin666           |   2.93M |       1 |
 
 <!-- [[[end]]] -->
 

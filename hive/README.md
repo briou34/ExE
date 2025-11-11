@@ -56,7 +56,7 @@ Cities locations as of 2025-11-11:
 | HuiMin           | 732 | 543 |
 | I am your father | 711 | 554 |
 | IronFLS          | 736 | 545 |
-| IrotRiot         | 720 | 546 |
+| IrotRiot         | 718 | 546 |
 | Kay_forshort     | 723 | 554 |
 | King Koopa       | 724 | 544 |
 | King of Dogs     | 709 | 549 |
@@ -112,7 +112,7 @@ Cities locations as of 2025-11-11:
 | brfc             | 733 | 551 |
 | scorpion         | 730 | 541 |
 | sin666           | 728 | 556 |
-| sin6969          | 718 | 546 |
+| sin6969          | 720 | 546 |
 | tamere           | 727 | 554 |
 | ابو فهد KW       | 728 | 541 |
 | 少量課金者       | 736 | 542 |
