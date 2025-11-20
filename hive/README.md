@@ -57,6 +57,7 @@ Cities locations as of 2025-11-20:
 | I am your father | 711 | 554 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 718 | 546 |
+| KALON            | 720 | 546 |
 | Kay_forshort     | 723 | 554 |
 | Kenpachi         | 737 | 554 |
 | King Koopa       | 724 | 544 |
@@ -111,7 +112,6 @@ Cities locations as of 2025-11-20:
 | brfc             | 733 | 551 |
 | scorpion         | 730 | 541 |
 | sin666           | 728 | 556 |
-| sin6969          | 720 | 546 |
 | tamere           | 727 | 554 |
 | ابو فهد KW       | 728 | 541 |
 | 少量課金者       | 736 | 542 |
