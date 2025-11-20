@@ -95,52 +95,51 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | Lyghtz           |   5.61B |       6 |
-|   2 | Coma             |   4.17B |       6 |
-|   3 | Troka            |   4.10B |       6 |
-|   4 | Llyod Frontera   |   4.09B |       7 |
-|   5 | Cery             |   3.97B |       4 |
-|   6 | Sjefen           |   3.80B |       6 |
-|   7 | Briou            |   3.67B |       7 |
-|   8 | 遠努巴克         |   3.62B |       3 |
-|   9 | 達努巴克         |   3.45B |       3 |
-|  10 | LadyLove         |   3.42B |       7 |
-|  11 | FallingRegrets   |   2.84B |       6 |
-|  12 | IrotRiot         |   2.41B |       4 |
-|  13 | Darth Porpoise   |   1.95B |       6 |
-|  14 | CiusconUnchained |   1.65B |       5 |
-|  15 | DarkPanda        |   1.48B |       7 |
-|  16 | Mill2y           |   1.40B |       3 |
-|  17 | Queen of Hearts  |   1.12B |       5 |
-|  18 | Queen of Cats    | 996.06M |       4 |
-|  19 | LEA              | 879.56M |       5 |
-|  20 | Sir Bishop       | 783.10M |       6 |
-|  21 | KALON            | 674.66M |       3 |
-|  22 | Lord_DJ          | 459.33M |       2 |
-|  23 | MOnsTruM224      | 432.36M |       3 |
-|  24 | Azrael           | 411.80M |       2 |
-|  25 | Thadeus          | 337.10M |       2 |
-|  26 | Lord Adoniran    | 316.33M |       1 |
-|  27 | Supernova        | 261.98M |       2 |
-|  28 | Dumblidore       | 225.91M |       2 |
-|  29 | HasannEmree      | 188.80M |       1 |
-|  30 | Morphose         | 173.83M |       2 |
-|  31 | Professor        | 158.13M |       1 |
-|  32 | 屁屁俠           | 147.12M |       1 |
-|  33 | MOnsTrUM224      | 123.18M |       1 |
-|  34 | Kenpachi         | 113.76M |       1 |
-|  35 | Trimute          | 111.30M |       1 |
-|  36 | LongBow3rd       |  83.81M |       1 |
-|  37 | Monyahcat        |  83.32M |       1 |
-|  38 | BelalShash       |  61.95M |       1 |
-|  39 | King of Dogs     |  60.83M |       1 |
-|  40 | ROSTR            |  59.73M |       1 |
-|  41 | 趴懶大           |  51.04M |       1 |
-|  42 | Mazzoni          |  36.95M |       1 |
-|  43 | Dumbildore       |  31.47M |       1 |
-|  44 | Brett Sinclair   |  26.88M |       1 |
-|  45 | King Koopa       |  21.10M |       1 |
-|  46 | Mk 21_03         |   4.14M |       1 |
+|   1 | 達努巴克         |   7.07B |       6 |
+|   2 | Lyghtz           |   5.61B |       6 |
+|   3 | Coma             |   4.17B |       6 |
+|   4 | Troka            |   4.10B |       6 |
+|   5 | Llyod Frontera   |   4.09B |       7 |
+|   6 | Cery             |   3.97B |       4 |
+|   7 | Sjefen           |   3.80B |       6 |
+|   8 | Briou            |   3.67B |       7 |
+|   9 | LadyLove         |   3.42B |       7 |
+|  10 | FallingRegrets   |   2.84B |       6 |
+|  11 | IrotRiot         |   2.41B |       4 |
+|  12 | Darth Porpoise   |   1.95B |       6 |
+|  13 | CiusconUnchained |   1.65B |       5 |
+|  14 | DarkPanda        |   1.48B |       7 |
+|  15 | Mill2y           |   1.40B |       3 |
+|  16 | Queen of Hearts  |   1.12B |       5 |
+|  17 | Queen of Cats    | 996.06M |       4 |
+|  18 | LEA              | 879.56M |       5 |
+|  19 | Sir Bishop       | 783.10M |       6 |
+|  20 | KALON            | 674.66M |       3 |
+|  21 | Lord_DJ          | 459.33M |       2 |
+|  22 | MOnsTruM224      | 432.36M |       3 |
+|  23 | Azrael           | 411.80M |       2 |
+|  24 | Thadeus          | 337.10M |       2 |
+|  25 | Lord Adoniran    | 316.33M |       1 |
+|  26 | Supernova        | 261.98M |       2 |
+|  27 | Dumblidore       | 225.91M |       2 |
+|  28 | HasannEmree      | 188.80M |       1 |
+|  29 | Morphose         | 173.83M |       2 |
+|  30 | Professor        | 158.13M |       1 |
+|  31 | 屁屁俠           | 147.12M |       1 |
+|  32 | MOnsTrUM224      | 123.18M |       1 |
+|  33 | Kenpachi         | 113.76M |       1 |
+|  34 | Trimute          | 111.30M |       1 |
+|  35 | LongBow3rd       |  83.81M |       1 |
+|  36 | Monyahcat        |  83.32M |       1 |
+|  37 | BelalShash       |  61.95M |       1 |
+|  38 | King of Dogs     |  60.83M |       1 |
+|  39 | ROSTR            |  59.73M |       1 |
+|  40 | 趴懶大           |  51.04M |       1 |
+|  41 | Mazzoni          |  36.95M |       1 |
+|  42 | Dumbildore       |  31.47M |       1 |
+|  43 | Brett Sinclair   |  26.88M |       1 |
+|  44 | King Koopa       |  21.10M |       1 |
+|  45 | Mk 21_03         |   4.14M |       1 |
 
 <!-- [[[end]]] -->
 
