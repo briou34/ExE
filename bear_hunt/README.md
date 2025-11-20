@@ -26,7 +26,7 @@ import re
 from pathlib import Path
 import yaml
 
-MOVING = yaml.safe_load((Path("hive", "locations_moving.yml").open("r"))
+MOVING = yaml.safe_load(Path("hive", "locations_moving.yml").open("r"))
 if not MOVING["bear_1"] and not MOVING["bear_2"]:
     exit()  # No moving cities, skip
 

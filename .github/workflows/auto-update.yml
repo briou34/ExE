@@ -38,6 +38,7 @@ jobs:
 
     - name: Compute new bear hunt hive participation map
       run: uv run bear_hunt/hive_participation.py --save
+      run: uv run bear_hunt/hive_participation.py --moving --save
 
     - name: Update READMEs via cog
       run: |
