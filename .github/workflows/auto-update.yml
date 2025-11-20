@@ -37,8 +37,9 @@ jobs:
         uv run bear_hunt/analysis.py --graph --save --bear 2
 
     - name: Compute new bear hunt hive participation map
-      run: uv run bear_hunt/hive_participation.py --save
-      run: uv run bear_hunt/hive_participation.py --moving --save
+      run: |
+        uv run bear_hunt/hive_participation.py --save
+        uv run bear_hunt/hive_participation.py --moving --save
 
     - name: Update READMEs via cog
       run: |
