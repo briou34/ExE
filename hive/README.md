@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-12_hive.png)
+![hive map](images/2025-11-20_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-12:
+Cities locations as of 2025-11-20:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -39,7 +39,7 @@ Cities locations as of 2025-11-12:
 | CHEN陈           | 730 | 545 |
 | Cery             | 712 | 545 |
 | CiusconUnchained | 717 | 552 |
-| Cloney Jr        | 738 | 551 |
+| Cloney Jr        | 737 | 552 |
 | Coma             | 719 | 550 |
 | DarkPanda        | 719 | 552 |
 | Darth Porpoise   | 716 | 543 |
@@ -58,6 +58,7 @@ Cities locations as of 2025-11-12:
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 718 | 546 |
 | Kay_forshort     | 723 | 554 |
+| Kenpachi         | 737 | 554 |
 | King Koopa       | 724 | 544 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
@@ -71,8 +72,7 @@ Cities locations as of 2025-11-12:
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
-| MAKO             | 715 | 554 |
-| MIHAWK           | 726 | 540 |
+| MAKO             | 711 | 552 |
 | MOnsTruM224      | 719 | 554 |
 | Mazzoni          | 726 | 544 |
 | Mill2y           | 718 | 544 |
@@ -80,7 +80,6 @@ Cities locations as of 2025-11-12:
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
 | Nick             | 719 | 548 |
-| Nightmare Lune   | 732 | 541 |
 | Nubian King 13   | 725 | 552 |
 | Ocram            | 728 | 548 |
 | PangolaPapi      | 720 | 544 |
