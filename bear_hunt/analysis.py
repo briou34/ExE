@@ -96,13 +96,15 @@ def main():
         total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
         max_score = max(total_scores)
         for date, total_score in zip(sorted(list(log.keys())), total_scores):
+            color = "darkred" if total_score == max_score else "black"
             ax.text(
                 date,
                 total_score + total_score * 0.01,
-                score_to_str(total_score),
+                score_to_str(total_score, precision=1),
                 ha="center",
                 va="bottom",
-                fontsize=10,
+                fontsize=9,
+                color=color,
             )
         ax.set_ylim(0, max_score * 1.1)
         # Set the y-axis ticks in multiples of 2B
