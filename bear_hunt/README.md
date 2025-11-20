@@ -10,13 +10,37 @@ import re
 from pathlib import Path
 pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_hive_participation\.png")
 imgs_dir = Path("bear_hunt", "images")
-graph_fpath = sorted(
+map_fpath = sorted(
   [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
 )[-1]
-print(f"![Bear Participation]({Path('images') / graph_fpath.name})")
+print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
 ![Bear Participation](images/2025-11-20_hive_participation.png)
+
+<!-- [[[end]]] -->
+
+<!-- [[[cog
+# Display the latest bear damages bar graph
+import re
+from pathlib import Path
+import yaml
+
+MOVING = yaml.safe_load((Path("hive", "locations_moving.yml").open("r"))
+if not MOVING["bear_1"] and not MOVING["bear_2"]:
+    exit()  # No moving cities, skip
+
+pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_hive_participation_moving\.png")
+imgs_dir = Path("bear_hunt", "images")
+map_fpath = sorted(
+  [fpath for fpath in imgs_dir.iterdir() if pattern.match(fpath.name)]
+)[-1]
+
+print("\n## Future hive\n")
+print(f"![Bear Participation]({Path('images') / map_fpath.name})")
+]]] -->
+
+![Bear Participation](images/2025-11-20_hive_participation_moving.png)
 
 <!-- [[[end]]] -->
 

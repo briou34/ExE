@@ -25,6 +25,7 @@ from hive import (
     KOR_FONT_PATH,
     KOR_NAMES,
     LOCATIONS,
+    MOVING,
     NAMES_SPLITTING,
     add_building,
     add_deltas,
@@ -47,6 +48,12 @@ def main():
         help="Number of last hunts to consider. Default is 7.",
     )
     parser.add_argument(
+        "--moving",
+        action="store_true",
+        default=False,
+        help="Wether generate the map with future cities locations, highlighting them.",
+    )
+    parser.add_argument(
         "--save",
         action="store_true",
         default=False,
@@ -54,6 +61,12 @@ def main():
     )
     args = parser.parse_args()
     n_lasts = args.nlasts
+
+    # If moving asked, check that we have moving data, or exit
+    if args.moving:
+        if not MOVING["bear_1"] and not MOVING["bear_2"]:
+            print("No moving data available, cannot generate moving map.")
+            return
 
     dates1 = sorted(list(DAMAGES_LOG["bear1"].keys()))[-n_lasts:]
     dates2 = sorted(list(DAMAGES_LOG["bear2"].keys()))[-n_lasts:]
@@ -75,6 +88,12 @@ def main():
     cities_locs = add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]) | add_deltas(
         LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"]
     )
+    if args.moving:
+        cities_locs_moving = add_deltas(LOCATIONS["pitfall_1"], MOVING["bear_1"]) | add_deltas(
+            LOCATIONS["pitfall_2"], MOVING["bear_2"]
+        )
+    else:
+        cities_locs_moving = {}
 
     ax = setup_normal_ax()
     fig = plot_base_map(
@@ -109,7 +128,9 @@ def main():
                     cmap = cmap_both
             clr = cmap((part1 + part2) / n_lasts * 0.8)
         colors[player] = mcolors.to_hex(clr)
-    fig = plot_cities_with_participation(ax, cities_locs, participations, colors, n_lasts)
+    fig = plot_cities_with_participation(
+        ax, cities_locs, participations, colors, n_lasts, cities_locs_moving
+    )
 
     start_date = sorted(dates1 + dates2)[0]
     end_date = sorted(dates1 + dates2)[-1]
@@ -148,12 +169,18 @@ def main():
         imgs_dir = Path(__file__).parent / "images"
         imgs_dir.mkdir(exist_ok=True)
         today_str = datetime.now(tz=UTC).strftime("%Y-%m-%d")
-        fig.savefig(imgs_dir / f"{today_str}_hive_participation.png", dpi=200)
+        if args.moving:
+            fpath = imgs_dir / f"{today_str}_hive_participation_moving.png"
+        else:
+            fpath = imgs_dir / f"{today_str}_hive_participation.png"
+        fig.savefig(fpath, dpi=200)
     else:
         plt.show()
 
 
-def plot_cities_with_participation(ax, locations, participations, colors, n):
+def plot_cities_with_participation(
+    ax, locations, participations, colors, n, locations_moving=set()
+):
     from functools import partial
 
     import matplotlib.font_manager as fm
@@ -185,7 +212,12 @@ def plot_cities_with_participation(ax, locations, participations, colors, n):
             else:
                 label = "\n".join([label[:8], label[8:16]])
 
-        if name not in colors:  # No participation
+        if name in locations_moving:
+            rect_kwargs["edgecolor"] = "black"
+            rect_kwargs["linewidth"] = 2
+            text_kwargs["fontweight"] = "bold"
+            loc = locations_moving[name]
+        elif name not in colors:  # No participation
             rect_kwargs["edgecolor"] = "red"
             rect_kwargs["linewidth"] = 1
 
