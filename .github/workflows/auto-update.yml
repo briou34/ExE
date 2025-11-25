@@ -46,6 +46,7 @@ jobs:
         uvx --from cogapp cog -Pr README.md
         uvx --from cogapp --with pyyaml cog -Pr hive/README.md
         uvx --from cogapp --with pyyaml cog -Pr bear_hunt/README.md
+        uvx --from cogapp --with pyyaml cog -Pr triumph/README.md
 
     - name: Format Markdown files
       run: uvx --with mdformat-gfm mdformat --number .
