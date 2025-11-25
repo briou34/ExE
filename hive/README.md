@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-23_hive.png)
+![hive map](images/2025-11-25_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-23:
+Cities locations as of 2025-11-25:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -33,13 +33,13 @@ Cities locations as of 2025-11-23:
 | Aziz             | 728 | 544 |
 | Azrael           | 735 | 553 |
 | BelalShash       | 722 | 539 |
-| BlackBebe        | 733 | 549 |
+| BlackBebe        | 732 | 541 |
 | Brett Sinclair   | 735 | 547 |
 | Brica            | 735 | 551 |
 | Briou            | 711 | 547 |
 | BrutalB          | 738 | 559 |
 | CHEN陈           | 730 | 545 |
-| Cery             | 712 | 545 |
+| Cery             | 713 | 549 |
 | CiusconUnchained | 719 | 550 |
 | Cloney Jr        | 737 | 552 |
 | Coma             | 717 | 550 |
@@ -53,30 +53,30 @@ Cities locations as of 2025-11-23:
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
-| HasannEmree      | 736 | 559 |
-| HuiMin           | 732 | 543 |
+| HasannEmree      | 723 | 552 |
+| HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
 | IronFLS          | 736 | 545 |
 | IrotRiot         | 718 | 546 |
-| KALON            | 720 | 546 |
+| KALON            | 719 | 548 |
 | Kay_forshort     | 723 | 554 |
-| Kenpachi         | 737 | 554 |
+| Kenpachi         | 737 | 547 |
 | King Koopa       | 727 | 559 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
-| LEA              | 722 | 544 |
+| LEA              | 710 | 545 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
 | Llyod Frontera   | 712 | 545 |
 | LongBow3rd       | 709 | 541 |
-| Lord Adoniran    | 713 | 549 |
+| Lord Adoniran    | 712 | 543 |
 | Lord Keith       | 713 | 541 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
 | MAKO             | 711 | 552 |
 | MOnsTruM224      | 719 | 554 |
-| Mazzoni          | 726 | 544 |
+| Mazzoni          | 726 | 542 |
 | Mill2y           | 718 | 544 |
 | Mk 21_03         | 739 | 549 |
 | Monyahcat        | 733 | 553 |
@@ -88,17 +88,17 @@ Cities locations as of 2025-11-23:
 | Professor        | 735 | 549 |
 | Queen of Cats    | 711 | 549 |
 | Queen of Hearts  | 721 | 548 |
-| ROSTR            | 731 | 553 |
+| ROSTR            | 721 | 552 |
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 544 |
-| SP1R1T           | 726 | 542 |
+| SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
 | Sensio           | 721 | 554 |
 | Shabazz          | 723 | 550 |
 | Shell            | 731 | 551 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 713 | 547 |
-| Sked             | 737 | 549 |
+| Sked             | 726 | 544 |
 | Supernova        | 724 | 546 |
 | TIBBI            | 727 | 550 |
 | TW拍吉           | 732 | 545 |

@@ -16,7 +16,7 @@ map_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2025-11-23_hive_participation.png)
+![Bear Participation](images/2025-11-25_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -41,7 +41,7 @@ if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
 
 ## Future hive
 
-![Bear Participation](images/2025-11-23_hive_participation_moving.png)
+![Bear Participation](images/2025-11-25_hive_participation_moving.png)
 
 <!-- [[[end]]] -->
 
@@ -59,7 +59,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-11-23_bear1_damages.png)
+![Bear 1 damages graph](images/2025-11-25_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -100,6 +100,7 @@ print(
 | 2025-11-17 |        15 |       6.54B |
 | 2025-11-19 |        23 |       7.79B |
 | 2025-11-21 |        19 |       7.99B |
+| 2025-11-23 |        21 |      10.99B |
 
 <!-- [[[end]]] -->
 
@@ -121,50 +122,51 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | 達努巴克         |   6.81B |       6 |
-|   2 | Lyghtz           |   5.73B |       6 |
-|   3 | Llyod Frontera   |   4.11B |       7 |
-|   4 | Cery             |   3.89B |       4 |
-|   5 | Briou            |   3.75B |       7 |
-|   6 | Sjefen           |   3.56B |       5 |
-|   7 | Troka            |   3.55B |       6 |
-|   8 | LadyLove         |   3.47B |       7 |
-|   9 | Coma             |   3.45B |       5 |
-|  10 | IrotRiot         |   2.85B |       4 |
-|  11 | FallingRegrets   |   2.42B |       5 |
-|  12 | CiusconUnchained |   2.08B |       6 |
-|  13 | Darth Porpoise   |   1.75B |       6 |
-|  14 | DarkPanda        |   1.59B |       7 |
-|  15 | Mill2y           |   1.40B |       3 |
+|   1 | 達努巴克         |   6.59B |       6 |
+|   2 | Lyghtz           |   6.06B |       6 |
+|   3 | Coma             |   4.48B |       6 |
+|   4 | Cery             |   4.20B |       4 |
+|   5 | Llyod Frontera   |   4.19B |       7 |
+|   6 | Briou            |   3.79B |       7 |
+|   7 | Troka            |   3.49B |       6 |
+|   8 | Sjefen           |   3.38B |       5 |
+|   9 | LadyLove         |   3.33B |       7 |
+|  10 | FallingRegrets   |   2.57B |       6 |
+|  11 | CiusconUnchained |   2.18B |       6 |
+|  12 | IrotRiot         |   2.16B |       3 |
+|  13 | DarkPanda        |   1.85B |       7 |
+|  14 | Darth Porpoise   |   1.45B |       5 |
+|  15 | LEA              |   1.27B |       6 |
 |  16 | Queen of Cats    |   1.14B |       4 |
-|  17 | LEA              |   1.01B |       5 |
-|  18 | Sir Bishop       | 915.75M |       6 |
-|  19 | Queen of Hearts  | 768.66M |       4 |
-|  20 | KALON            | 674.66M |       3 |
-|  21 | Lord_DJ          | 660.10M |       2 |
-|  22 | Aziz             | 430.38M |       1 |
-|  23 | MOnsTruM224      | 321.23M |       2 |
-|  24 | Lord Adoniran    | 316.33M |       1 |
-|  25 | Morphose         | 173.83M |       2 |
-|  26 | Azrael           | 161.45M |       1 |
-|  27 | Professor        | 158.13M |       1 |
-|  28 | 屁屁俠           | 147.12M |       1 |
-|  29 | MOnsTrUM224      | 123.18M |       1 |
-|  30 | Supernova        | 116.03M |       2 |
-|  31 | Kenpachi         | 113.76M |       1 |
-|  32 | Trimute          | 111.30M |       1 |
-|  33 | LongBow3rd       |  83.81M |       1 |
-|  34 | Monyahcat        |  83.32M |       1 |
-|  35 | Dumblidore       |  64.56M |       2 |
-|  36 | ROSTR            |  63.41M |       2 |
-|  37 | BelalShash       |  61.95M |       1 |
-|  38 | King of Dogs     |  60.83M |       1 |
-|  39 | 趴懶大           |  51.04M |       1 |
-|  40 | Mazzoni          |  36.95M |       1 |
-|  41 | 차은아           |  21.18M |       1 |
-|  42 | King Koopa       |  21.10M |       1 |
-|  43 | Thadeus          |   6.69M |       1 |
-|  44 | Mk 21_03         |   4.14M |       1 |
+|  17 | Queen of Hearts  |   1.11B |       4 |
+|  18 | Lord_DJ          |   1.09B |       3 |
+|  19 | Sir Bishop       | 871.29M |       6 |
+|  20 | Mill2y           | 845.46M |       2 |
+|  21 | KALON            | 674.66M |       3 |
+|  22 | Azrael           | 450.05M |       1 |
+|  23 | Brica            | 435.64M |       1 |
+|  24 | Aziz             | 430.38M |       1 |
+|  25 | MOnsTrUM224      | 334.47M |       2 |
+|  26 | MOnsTruM224      | 321.23M |       2 |
+|  27 | Lord Adoniran    | 316.33M |       1 |
+|  28 | Morphose         | 173.83M |       2 |
+|  29 | Professor        | 158.13M |       1 |
+|  30 | 屁屁俠           | 147.12M |       1 |
+|  31 | Supernova        | 116.03M |       2 |
+|  32 | Kay_forshort     | 115.21M |       1 |
+|  33 | Kenpachi         | 113.76M |       1 |
+|  34 | LongBow3rd       |  83.81M |       1 |
+|  35 | Monyahcat        |  83.32M |       1 |
+|  36 | ROSTR            |  79.67M |       3 |
+|  37 | Dumblidore       |  64.56M |       2 |
+|  38 | BelalShash       |  61.95M |       1 |
+|  39 | King of Dogs     |  60.83M |       1 |
+|  40 | 趴懶大           |  51.04M |       1 |
+|  41 | Mazzoni          |  36.95M |       1 |
+|  42 | 차은아           |  21.18M |       1 |
+|  43 | King Koopa       |  21.10M |       1 |
+|  44 | Thadeus          |   6.69M |       1 |
+|  45 | Mk 21_03         |   4.14M |       1 |
 
 <!-- [[[end]]] -->
 
@@ -184,7 +186,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-11-23_bear2_damages.png)
+![Bear 2 damages graph](images/2025-11-25_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
