@@ -26,15 +26,17 @@ def make_timeline():
         ["Today", today],
         # Heroes
         ["✨ Gen 3 Heroes", day0 + timedelta(days=113)],
-        ["✨ Gen 4 Heroes early start", day0 + timedelta(days=190)],
-        ["✨ Gen 4 Heroes late start", day0 + timedelta(days=200)],
+        # ["✨ Gen 4 Heroes early start", day0 + timedelta(days=190)],
+        # ["✨ Gen 4 Heroes late start", day0 + timedelta(days=200)],
+        ["✨ Gen 4 Heroes", day0 + timedelta(days=197)],
         # Pets
         ["🐶 Gen 3 Pets", day0 + timedelta(days=113)],
-        ["🐶 Gen 4 Pets early start", day0 + timedelta(days=190)],
-        ["🐶 Gen 4 Pets late start", day0 + timedelta(days=200)],
+        # ["🐶 Gen 4 Pets early start", day0 + timedelta(days=190)],
+        # ["🐶 Gen 4 Pets late start", day0 + timedelta(days=200)],
+        ["🐶 Gen 4 Pets", day0 + timedelta(days=197)],
         # True Gold
         ["📦 True Gold 5", day0 + timedelta(days=155)],
-        ["🏫 War Academy", day0 + timedelta(days=220)],
+        ["🏫 War Academy", day0 + timedelta(days=225)],  # ~ day 220
     ]
 
     # KvKs up until next 4 months
