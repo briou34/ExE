@@ -100,7 +100,7 @@ def main():
             ax.text(
                 date,
                 total_score + total_score * 0.01,
-                score_to_str(total_score, precision=1),
+                score_to_str(total_score, precision=1)[:-1],
                 ha="center",
                 va="bottom",
                 fontsize=9,
