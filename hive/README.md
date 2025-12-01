@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-11-27_hive.png)
+![hive map](images/2025-12-01_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,17 +24,17 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-11-27:
+Cities locations as of 2025-12-01:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
-| Abdelrahman Ouda | 740 | 559 |
+| Abdelrahman Ouda | 734 | 559 |
 | Aziz             | 728 | 544 |
 | Azrael           | 735 | 553 |
 | BelalShash       | 722 | 539 |
-| BlackBebe        | 732 | 541 |
-| Brett Sinclair   | 735 | 547 |
+| BlackBebe        | 713 | 553 |
+| Brett Sinclair   | 736 | 559 |
 | Brica            | 735 | 551 |
 | Briou            | 711 | 547 |
 | BrutalB          | 738 | 559 |
@@ -60,7 +60,7 @@ Cities locations as of 2025-11-27:
 | IrotRiot         | 718 | 546 |
 | KALON            | 719 | 548 |
 | Kay_forshort     | 723 | 554 |
-| Kenpachi         | 737 | 547 |
+| Kenpachi         | 735 | 547 |
 | King Koopa       | 727 | 559 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
@@ -78,10 +78,9 @@ Cities locations as of 2025-11-27:
 | MOnsTruM224      | 719 | 554 |
 | Mazzoni          | 726 | 542 |
 | Mill2y           | 718 | 544 |
-| Mk 21_03         | 739 | 549 |
+| Mk 21_03         | 740 | 559 |
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
-| Nick             | 715 | 554 |
 | Nubian King 13   | 725 | 552 |
 | Ocram            | 728 | 548 |
 | PangolaPapi      | 720 | 544 |
@@ -95,7 +94,9 @@ Cities locations as of 2025-11-27:
 | Saiint           | 731 | 553 |
 | Sensio           | 721 | 554 |
 | Shabazz          | 723 | 550 |
-| Shell            | 731 | 551 |
+| Shakieee         | 731 | 551 |
+| Shell            | 734 | 555 |
+| Shellybobs       | 717 | 552 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 713 | 547 |
 | Sked             | 726 | 544 |
@@ -107,7 +108,7 @@ Cities locations as of 2025-11-27:
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
-| Willow           | 735 | 555 |
+| Willow           | 736 | 555 |
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | brfc             | 733 | 551 |
