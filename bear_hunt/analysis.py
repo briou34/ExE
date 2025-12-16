@@ -13,6 +13,8 @@ Usage: analysis.py [--bear {1,2}]
 
 import argparse
 from collections import defaultdict
+from datetime import datetime, timedelta, UTC
+from itertools import groupby
 from pathlib import Path
 
 import yaml
@@ -76,29 +78,36 @@ def main():
     console.print(players_table)
 
     if args.graph:
+        import matplotlib.dates as mdates
         import matplotlib.pyplot as plt
         import matplotlib.ticker as ticker
         from itertools import accumulate
 
         fig, ax = plt.subplots(figsize=(9, 5))
+        ax.set_title(f"Bear Hunt {bear_choice} - Total Damages")
+
         log = DAMAGES_LOG[f"bear{bear_choice}"]
         # Bar graph
         for date in sorted(list(log.keys())):
             records = sorted(log[date].items(), key=lambda item: item[1], reverse=True)
             players, scores = zip(*records)
+            date = datetime.strptime(date, "%Y-%m-%d")
             ax.bar(
                 [date] * len(players),
                 scores,
                 bottom=list(accumulate([0] + list(scores[:-1]))),
                 color=["#104956" if i % 2 == 0 else "#1C849B" for i in range(len(players))],
+                width=timedelta(days=1.6),
             )
+
         # Values on top of the bars
         total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
         max_score = max(total_scores)
+        ax.set_ylim(0, max_score * 1.1)
         for date, total_score in zip(sorted(list(log.keys())), total_scores):
             color = "darkred" if total_score == max_score else "black"
             ax.text(
-                date,
+                datetime.strptime(date, "%Y-%m-%d"),
                 total_score + total_score * 0.01,
                 score_to_str(total_score, precision=1)[:-1],
                 ha="center",
@@ -106,20 +115,52 @@ def main():
                 fontsize=9,
                 color=color,
             )
-        ax.set_ylim(0, max_score * 1.1)
+
         # Set the y-axis ticks in multiples of 2B
         ax.yaxis.set_major_locator(ticker.MultipleLocator(2_000_000_000))
         ax.yaxis.set_major_formatter(
             ticker.FuncFormatter(lambda x, pos: score_to_str(int(x), precision=0))
         )
-        ax.set_title(f"Bear Hunt {bear_choice} - Total Damages")
-        ax.tick_params("x", rotation=35)
-        plt.setp(ax.get_xticklabels(), rotation_mode="anchor", ha="right")
+
+        # X-axis formatting
+        tick_dates = [  # all dates
+            datetime.strptime(date, "%Y-%m-%d") for date in sorted(list(log.keys()))
+        ]
+
+        # Find the middle date for each month to center the label
+        month_centers = []
+        month_labels = []
+
+        for _, group in groupby(tick_dates, key=lambda d: (d.year, d.month)):
+            group = list(group)
+            center_date = group[0] + (group[-1] - group[0]) / 2
+            month_centers.append(center_date)
+            month_labels.append(center_date.strftime("%b %Y"))
+
+        # Add the month labels as a second row of text
+        for center, label in zip(month_centers, month_labels):
+            ax.annotate(
+                label,
+                xy=(center, 0),
+                xycoords=("data", "axes fraction"),
+                xytext=(0, -35),
+                textcoords="offset points",
+                va="top",
+                ha="center",
+                fontsize=10,
+                fontweight="bold",
+            )
+
+        ax.set_xticks(tick_dates)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%d"))
+        # ax.tick_params("x", rotation=35)
+        # plt.setp(ax.get_xticklabels(), rotation_mode="anchor", ha="right")
+        for tick in ax.get_xticklabels():
+            tick.set_fontsize(9)
+
         plt.tight_layout()
 
         if args.save:
-            from datetime import datetime, UTC
-
             today_str = datetime.now(tz=UTC).strftime("%Y-%m-%d")
             imgs_dir = Path(__file__).parent / "images"
             imgs_dir.mkdir(exist_ok=True)
