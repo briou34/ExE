@@ -16,7 +16,7 @@ map_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2025-12-17_hive_participation.png)
+![Bear Participation](images/2025-12-18_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -41,7 +41,7 @@ if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
 
 ## Future hive
 
-![Bear Participation](images/2025-12-17_hive_participation_moving.png)
+![Bear Participation](images/2025-12-18_hive_participation_moving.png)
 
 <!-- [[[end]]] -->
 
@@ -59,7 +59,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-12-17_bear1_damages.png)
+![Bear 1 damages graph](images/2025-12-18_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -112,6 +112,7 @@ print(
 | 2025-12-11 |        19 |       6.97B |
 | 2025-12-13 |        23 |      16.67B |
 | 2025-12-15 |        14 |       7.89B |
+| 2025-12-17 |        22 |      15.84B |
 
 <!-- [[[end]]] -->
 
@@ -133,49 +134,48 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | Cery             |   5.98B |       6 |
-|   2 | Sjefen           |   5.39B |       6 |
-|   3 | Llyod Frontera   |   5.31B |       7 |
-|   4 | Lyghtz           |   4.89B |       5 |
-|   5 | Troka            |   4.76B |       6 |
-|   6 | Briou            |   4.54B |       7 |
-|   7 | Coma             |   4.46B |       5 |
-|   8 | FallingRegrets   |   4.15B |       7 |
-|   9 | 達努巴克         |   4.08B |       3 |
-|  10 | LadyLove         |   3.72B |       6 |
-|  11 | Azrael           |   3.00B |       6 |
-|  12 | Ocram            |   2.99B |       2 |
-|  13 | IrotRiot         |   2.89B |       4 |
-|  14 | Darth Porpoise   |   2.69B |       5 |
-|  15 | Queen of Hearts  |   2.37B |       7 |
-|  16 | LEA              |   2.13B |       7 |
-|  17 | Lord_DJ          |   1.95B |       5 |
-|  18 | DarkPanda        |   1.72B |       5 |
-|  19 | Sir Bishop       |   1.37B |       7 |
-|  20 | CiusconUnchained |   1.27B |       5 |
-|  21 | 趴懶大           |   1.12B |       5 |
-|  22 | Aziz             | 872.93M |       1 |
-|  23 | Queen of Cats    | 827.18M |       2 |
-|  24 | Lord Adoniran    | 714.81M |       2 |
-|  25 | BlackBebe        | 670.94M |       3 |
-|  26 | Kay_forshort     | 637.59M |       3 |
-|  27 | Professor        | 560.21M |       1 |
-|  28 | Shellybobs       | 512.78M |       1 |
-|  29 | Brica            | 417.05M |       1 |
-|  30 | MOnsTruM224      | 342.63M |       2 |
-|  31 | Cloney Jr        | 336.21M |       2 |
-|  32 | Supernova        | 301.91M |       2 |
-|  33 | XLR8R            | 288.90M |       1 |
-|  34 | Kenpachi         | 284.01M |       1 |
-|  35 | tamere           | 279.80M |       1 |
-|  36 | Dumblidore       | 206.61M |       1 |
+|   1 | Lyghtz           |   6.19B |       6 |
+|   2 | Troka            |   5.62B |       6 |
+|   3 | Llyod Frontera   |   5.58B |       7 |
+|   4 | Sjefen           |   5.57B |       6 |
+|   5 | Cery             |   4.99B |       6 |
+|   6 | Briou            |   4.82B |       7 |
+|   7 | Coma             |   4.65B |       5 |
+|   8 | Ocram            |   4.41B |       3 |
+|   9 | 達努巴克         |   4.24B |       3 |
+|  10 | FallingRegrets   |   4.20B |       7 |
+|  11 | LadyLove         |   3.99B |       6 |
+|  12 | Azrael           |   3.12B |       6 |
+|  13 | IrotRiot         |   2.93B |       4 |
+|  14 | Darth Porpoise   |   2.42B |       4 |
+|  15 | LEA              |   2.13B |       7 |
+|  16 | DarkPanda        |   1.99B |       6 |
+|  17 | CiusconUnchained |   1.98B |       6 |
+|  18 | Queen of Hearts  |   1.96B |       6 |
+|  19 | Lord_DJ          |   1.94B |       5 |
+|  20 | Sir Bishop       |   1.32B |       7 |
+|  21 | 趴懶大           |   1.07B |       5 |
+|  22 | Queen of Cats    | 827.18M |       2 |
+|  23 | Kay_forshort     | 637.59M |       3 |
+|  24 | Professor        | 560.21M |       1 |
+|  25 | Shellybobs       | 512.78M |       1 |
+|  26 | Brica            | 417.05M |       1 |
+|  27 | Diablo           | 355.20M |       1 |
+|  28 | MOnsTruM224      | 342.63M |       2 |
+|  29 | Cloney Jr        | 336.21M |       2 |
+|  30 | Lord Adoniran    | 324.18M |       1 |
+|  31 | Supernova        | 301.91M |       2 |
+|  32 | XLR8R            | 288.90M |       1 |
+|  33 | Kenpachi         | 284.01M |       1 |
+|  34 | tamere           | 279.80M |       1 |
+|  35 | Dumblidore       | 206.61M |       1 |
+|  36 | The KING TUT     | 143.53M |       2 |
 |  37 | scorpion         | 132.54M |       1 |
 |  38 | Trimute          |  99.30M |       1 |
-|  39 | HasannEmree      |  97.92M |       1 |
-|  40 | The KING TUT     |  77.08M |       1 |
-|  41 | ROSTR            |  29.01M |       1 |
-|  42 | Mazzoni          |  26.81M |       1 |
-|  43 | Nubian King 13   |  25.27M |       1 |
+|  39 | Lady Emily       |  66.83M |       1 |
+|  40 | BlackBebe        |  64.06M |       2 |
+|  41 | Mazzoni          |  26.81M |       1 |
+|  42 | Nubian King 13   |  25.27M |       1 |
 
 <!-- [[[end]]] -->
 
@@ -195,7 +195,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-12-17_bear2_damages.png)
+![Bear 2 damages graph](images/2025-12-18_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -247,6 +247,7 @@ print(
 | 2025-12-11 |        20 |      19.59B |
 | 2025-12-13 |        19 |       4.30B |
 | 2025-12-15 |        21 |      10.91B |
+| 2025-12-17 |        18 |       7.20B |
 
 <!-- [[[end]]] -->
 
@@ -268,47 +269,49 @@ print(
 
 |   # | Player       |   Score | # Hunts |
 | --: | :----------- | ------: | ------: |
-|   1 | CHEN陈       |   9.18B |       7 |
-|   2 | Ocram        |   6.58B |       5 |
-|   3 | Frinkley     |   6.47B |       4 |
-|   4 | TW拍吉       |   6.03B |       7 |
-|   5 | 球球仔       |   5.83B |       7 |
-|   6 | AZIZ         |   5.45B |       5 |
-|   7 | HuiMin       |   5.42B |       7 |
-|   8 | Fear         |   5.09B |       6 |
-|   9 | Brica        |   4.30B |       6 |
-|  10 | Rage         |   4.19B |       6 |
-|  11 | SP1R1T       |   3.95B |       6 |
-|  12 | 屁屁俠       |   3.61B |       6 |
-|  13 | DoRaeMi      |   3.27B |       4 |
-|  14 | 少量課金者   |   2.92B |       5 |
-|  15 | Shakieee     |   2.54B |       6 |
-|  16 | Sked         |   2.45B |       6 |
-|  17 | scorpion     |   1.52B |       5 |
-|  18 | Aziz         |   1.42B |       1 |
-|  19 | Lord_DJ      |   1.41B |       2 |
+|   1 | CHEN陈       |   8.11B |       6 |
+|   2 | Frinkley     |   6.47B |       4 |
+|   3 | AZIZ         |   6.08B |       6 |
+|   4 | Ocram        |   5.95B |       4 |
+|   5 | HuiMin       |   5.76B |       7 |
+|   6 | Fear         |   5.61B |       6 |
+|   7 | TW拍吉       |   5.50B |       7 |
+|   8 | 球球仔       |   5.28B |       7 |
+|   9 | Rage         |   4.70B |       6 |
+|  10 | Brica        |   4.19B |       6 |
+|  11 | SP1R1T       |   3.80B |       6 |
+|  12 | 屁屁俠       |   3.69B |       6 |
+|  13 | DoRaeMi      |   2.98B |       4 |
+|  14 | 少量課金者   |   2.95B |       5 |
+|  15 | Sked         |   2.76B |       6 |
+|  16 | Shakieee     |   2.54B |       6 |
+|  17 | Aziz         |   1.42B |       1 |
+|  18 | Lord_DJ      |   1.41B |       2 |
+|  19 | scorpion     |   1.31B |       4 |
 |  20 | DoraeMi      |   1.10B |       1 |
-|  21 | Professor    | 952.10M |       2 |
-|  22 | Kenpachi     | 900.32M |       2 |
+|  21 | Kenpachi     | 900.32M |       2 |
+|  22 | CHEN         | 861.03M |       1 |
 |  23 | Cloney Jr    | 786.98M |       2 |
 |  24 | 趴懶大       | 753.84M |       2 |
-|  25 | LordGiga     | 621.02M |       4 |
-|  26 | Azrael       | 607.42M |       1 |
-|  27 | brfc         | 573.85M |       1 |
-|  28 | Pikachu      | 472.67M |       2 |
-|  29 | Trimute      | 421.21M |       3 |
+|  25 | Azrael       | 607.42M |       1 |
+|  26 | LordGiga     | 579.99M |       3 |
+|  27 | Pikachu      | 472.67M |       2 |
+|  28 | Kay_forshort | 403.62M |       2 |
+|  29 | Trimute      | 401.58M |       3 |
 |  30 | Ukel         | 377.78M |       2 |
-|  31 | 차은아       | 360.37M |       4 |
+|  31 | Morphose     | 359.04M |       1 |
 |  32 | Shabazz      | 351.52M |       2 |
-|  33 | King Koopa   | 223.74M |       2 |
-|  34 | Lord Keith   | 200.80M |       1 |
-|  35 | Kay_forshort | 193.20M |       1 |
-|  36 | The KING TUT | 164.43M |       2 |
-|  37 | XLR8R        | 115.52M |       1 |
-|  38 | Doon         |  84.96M |       2 |
-|  39 | BelalShash   |  29.15M |       1 |
-|  40 | Supernova    |  26.73M |       1 |
-|  41 | 熾星空       |  14.12M |       1 |
+|  33 | Professor    | 282.96M |       1 |
+|  34 | Jacob salamh | 267.22M |       1 |
+|  35 | King Koopa   | 223.74M |       2 |
+|  36 | Lord Keith   | 200.80M |       1 |
+|  37 | 차은아       | 187.32M |       3 |
+|  38 | The KING TUT | 164.43M |       2 |
+|  39 | XLR8R        | 115.52M |       1 |
+|  40 | Doon         |  84.96M |       2 |
+|  41 | Shell        |  78.88M |       1 |
+|  42 | BelalShash   |  29.15M |       1 |
+|  43 | 熾星空       |  14.12M |       1 |
 
 <!-- [[[end]]] -->
 
