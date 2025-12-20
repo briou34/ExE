@@ -33,10 +33,13 @@ Cities locations as of 2025-12-20:
 | Azrael           | 735 | 553 |
 | BelalShash       | 738 | 559 |
 | BlackBebe        | 713 | 553 |
+| BlockBoy         | 709 | 543 |
+| Bob              | 739 | 549 |
 | Brica            | 733 | 551 |
-| Briou            | 711 | 547 |
+| Briou            | 718 | 544 |
 | BrutalB          | 740 | 559 |
 | CHEN陈           | 730 | 545 |
+| Cavendish        | 708 | 545 |
 | Cery             | 713 | 549 |
 | CiusconUnchained | 719 | 550 |
 | Cloney Jr        | 737 | 552 |
@@ -52,6 +55,7 @@ Cities locations as of 2025-12-20:
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
 | HasannEmree      | 723 | 552 |
+| Hawkeye          | 713 | 541 |
 | HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
 | IrotRiot         | 718 | 546 |
@@ -61,7 +65,7 @@ Cities locations as of 2025-12-20:
 | King Koopa       | 722 | 557 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
-| LEA              | 710 | 545 |
+| LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
 | Llyod Frontera   | 712 | 545 |
@@ -70,15 +74,18 @@ Cities locations as of 2025-12-20:
 | Lord Keith       | 720 | 542 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
+| Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
 | MOnsTruM224      | 719 | 554 |
+| MasterkinG32     | 725 | 554 |
 | Mazzoni          | 726 | 542 |
-| Mill2y           | 718 | 544 |
+| Mill2y           | 715 | 554 |
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
 | Nubian King 13   | 725 | 552 |
 | Ocram            | 728 | 548 |
 | PangolaPapi      | 720 | 544 |
+| Persian Gulf     | 726 | 556 |
 | Professor        | 735 | 547 |
 | Queen of Cats    | 711 | 549 |
 | Queen of Hearts  | 719 | 548 |
@@ -100,6 +107,7 @@ Cities locations as of 2025-12-20:
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
 | The KING TUT     | 723 | 548 |
+| TrillBill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
@@ -107,7 +115,6 @@ Cities locations as of 2025-12-20:
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | scorpion         | 730 | 541 |
-| sin666           | 728 | 556 |
 | tamere           | 727 | 554 |
 | ابو فهد KW       | 728 | 541 |
 | 少量課金者       | 735 | 549 |
