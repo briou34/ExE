@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-12-18_hive.png)
+![hive map](images/2025-12-20_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,17 +24,18 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-12-18:
+Cities locations as of 2025-12-20:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
 | Aziz             | 728 | 544 |
 | Azrael           | 735 | 553 |
-| BelalShash       | 722 | 539 |
+| BelalShash       | 738 | 559 |
 | BlackBebe        | 713 | 553 |
 | Brica            | 733 | 551 |
 | Briou            | 711 | 547 |
+| BrutalB          | 740 | 559 |
 | CHEN陈           | 730 | 545 |
 | Cery             | 713 | 549 |
 | CiusconUnchained | 719 | 550 |
@@ -56,8 +57,8 @@ Cities locations as of 2025-12-18:
 | IrotRiot         | 718 | 546 |
 | Jacob salamh     | 737 | 547 |
 | Kay_forshort     | 723 | 554 |
-| Kenpachi         | 735 | 551 |
-| King Koopa       | 722 | 556 |
+| Kenpachi         | 723 | 550 |
+| King Koopa       | 722 | 557 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
 | LEA              | 710 | 545 |
@@ -86,7 +87,7 @@ Cities locations as of 2025-12-18:
 | SARAH            | 722 | 544 |
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
-| Shabazz          | 723 | 550 |
+| Shabazz          | 737 | 543 |
 | Shakieee         | 729 | 550 |
 | Shell            | 734 | 555 |
 | Shellybobs       | 717 | 552 |
@@ -103,7 +104,7 @@ Cities locations as of 2025-12-18:
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
 | Willow           | 711 | 552 |
-| XLR8R            | 713 | 541 |
+| XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | scorpion         | 730 | 541 |
 | sin666           | 728 | 556 |
@@ -116,6 +117,6 @@ Cities locations as of 2025-12-18:
 | 球球仔           | 734 | 543 |
 | 趴懶大           | 731 | 551 |
 | 達努巴克         | 716 | 545 |
-| 차은아           | 730 | 556 |
+| 차은아           | 736 | 545 |
 
 <!-- [[[end]]] -->

@@ -16,7 +16,7 @@ map_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2025-12-18_hive_participation.png)
+![Bear Participation](images/2025-12-20_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -39,10 +39,6 @@ if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
   print()
 ]]] -->
 
-## Future hive
-
-![Bear Participation](images/2025-12-18_hive_participation_moving.png)
-
 <!-- [[[end]]] -->
 
 ## Bear 1
@@ -59,7 +55,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-12-18_bear1_damages.png)
+![Bear 1 damages graph](images/2025-12-20_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -195,7 +191,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-12-18_bear2_damages.png)
+![Bear 2 damages graph](images/2025-12-20_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
