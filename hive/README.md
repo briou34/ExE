@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-12-20_hive.png)
+![hive map](images/2025-12-21_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-12-20:
+Cities locations as of 2025-12-21:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -55,16 +55,15 @@ Cities locations as of 2025-12-20:
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
 | HasannEmree      | 723 | 552 |
-| Hawkeye          | 713 | 541 |
+| Hawkeye          | 728 | 556 |
 | HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
 | IrotRiot         | 718 | 546 |
-| Jacob salamh     | 737 | 547 |
 | Kay_forshort     | 723 | 554 |
 | Kenpachi         | 723 | 550 |
-| King Koopa       | 722 | 557 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
+| Kjs722           | 721 | 554 |
 | LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
@@ -76,10 +75,12 @@ Cities locations as of 2025-12-20:
 | Lord_DJ          | 725 | 550 |
 | Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
+| MOMO2005         | 739 | 553 |
 | MOnsTruM224      | 719 | 554 |
 | MasterkinG32     | 725 | 554 |
 | Mazzoni          | 726 | 542 |
 | Mill2y           | 715 | 554 |
+| Mini Frinkley    | 737 | 549 |
 | Monyahcat        | 733 | 553 |
 | Morphose         | 727 | 552 |
 | Nubian King 13   | 725 | 552 |
@@ -95,6 +96,7 @@ Cities locations as of 2025-12-20:
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
 | Shabazz          | 737 | 543 |
+| Shadow2TheBone   | 732 | 541 |
 | Shakieee         | 729 | 550 |
 | Shell            | 734 | 555 |
 | Shellybobs       | 717 | 552 |
@@ -114,8 +116,10 @@ Cities locations as of 2025-12-20:
 | Willow           | 711 | 552 |
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
+| alusia           | 736 | 541 |
 | scorpion         | 730 | 541 |
 | tamere           | 727 | 554 |
+| yacob            | 737 | 547 |
 | ابو فهد KW       | 728 | 541 |
 | 少量課金者       | 735 | 549 |
 | 屁屁俠           | 730 | 543 |
