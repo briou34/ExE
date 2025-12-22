@@ -18,7 +18,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({hive_map_fpath})")
 ]]] -->
 
-![hive map](hive/images/2025-12-21_hive.png)
+![hive map](hive/images/2025-12-22_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -41,7 +41,7 @@ for line in timeline:
 
 ______________________________________________________________________
 
-- Sun 21 Dec - Today (Day 168)
+- Mon 22 Dec - Today (Day 169)
 
 ______________________________________________________________________
 

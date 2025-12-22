@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2025-12-21_hive.png)
+![hive map](images/2025-12-22_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2025-12-21:
+Cities locations as of 2025-12-22:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -35,6 +35,7 @@ Cities locations as of 2025-12-21:
 | BlackBebe        | 713 | 553 |
 | BlockBoy         | 709 | 543 |
 | Bob              | 739 | 549 |
+| Bori             | 726 | 546 |
 | Brica            | 733 | 551 |
 | Briou            | 718 | 544 |
 | BrutalB          | 740 | 559 |
@@ -47,7 +48,6 @@ Cities locations as of 2025-12-21:
 | DarkPanda        | 719 | 552 |
 | Darth Porpoise   | 716 | 543 |
 | Diablo           | 724 | 544 |
-| DoRaeMi          | 726 | 546 |
 | Doon             | 734 | 541 |
 | Dossari          | 717 | 554 |
 | Dumblidore       | 713 | 551 |
@@ -71,6 +71,7 @@ Cities locations as of 2025-12-21:
 | LongBow3rd       | 709 | 541 |
 | Lord Adoniran    | 712 | 543 |
 | Lord Keith       | 720 | 542 |
+| Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Luo              | 722 | 540 |
@@ -96,16 +97,14 @@ Cities locations as of 2025-12-21:
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
 | Shabazz          | 737 | 543 |
-| Shadow2TheBone   | 732 | 541 |
+| Shadow2TheBone   | 727 | 550 |
 | Shakieee         | 729 | 550 |
-| Shell            | 734 | 555 |
-| Shellybobs       | 717 | 552 |
+| Shellybobs       | 721 | 548 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 713 | 547 |
 | Sked             | 726 | 544 |
 | Supernova        | 724 | 546 |
 | Sweapin          | 720 | 540 |
-| TIBBI            | 727 | 550 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
 | The KING TUT     | 723 | 548 |
@@ -113,10 +112,11 @@ Cities locations as of 2025-12-21:
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 724 | 557 |
-| Willow           | 711 | 552 |
+| Willow           | 717 | 552 |
 | XLR8R            | 713 | 539 |
 | Yaaak            | 733 | 547 |
 | alusia           | 736 | 541 |
+| maxee            | 734 | 555 |
 | scorpion         | 730 | 541 |
 | tamere           | 727 | 554 |
 | yacob            | 737 | 547 |
