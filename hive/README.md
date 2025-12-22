@@ -60,6 +60,7 @@ Cities locations as of 2025-12-22:
 | I am your father | 711 | 554 |
 | IrotRiot         | 718 | 546 |
 | Kay_forshort     | 723 | 554 |
+| Ken Wai          | 735 | 549 |
 | Kenpachi         | 723 | 550 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
@@ -121,7 +122,6 @@ Cities locations as of 2025-12-22:
 | tamere           | 727 | 554 |
 | yacob            | 737 | 547 |
 | ابو فهد KW       | 728 | 541 |
-| 少量課金者       | 735 | 549 |
 | 屁屁俠           | 730 | 543 |
 | 是17呀           | 739 | 551 |
 | 熾星空           | 718 | 542 |
