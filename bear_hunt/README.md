@@ -16,7 +16,7 @@ map_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2025-12-22_hive_participation.png)
+![Bear Participation](images/2025-12-23_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -55,7 +55,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2025-12-22_bear1_damages.png)
+![Bear 1 damages graph](images/2025-12-23_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -198,7 +198,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2025-12-22_bear2_damages.png)
+![Bear 2 damages graph](images/2025-12-23_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -253,6 +253,7 @@ print(
 | 2025-12-17 |        18 |       7.20B |
 | 2025-12-19 |        23 |      13.82B |
 | 2025-12-21 |        20 |      14.52B |
+| 2025-12-23 |        25 |      16.45B |
 
 <!-- [[[end]]] -->
 
@@ -274,57 +275,57 @@ print(
 
 |   # | Player          |   Score | # Hunts |
 | --: | :-------------- | ------: | ------: |
-|   1 | CHEN陈          |   8.17B |       7 |
-|   2 | AZIZ            |   6.94B |       7 |
-|   3 | Fear            |   6.48B |       7 |
-|   4 | HuiMin          |   5.51B |       7 |
-|   5 | Ocram           |   5.30B |       4 |
-|   6 | 球球仔          |   4.86B |       7 |
-|   7 | Bori            |   4.28B |       6 |
-|   8 | TW拍吉          |   4.28B |       7 |
-|   9 | Rage            |   3.83B |       5 |
-|  10 | SP1R1T          |   3.63B |       7 |
-|  11 | Frinkley        |   3.34B |       2 |
-|  12 | Brica           |   2.74B |       5 |
-|  13 | Sked            |   2.69B |       6 |
-|  14 | 屁屁俠          |   2.54B |       5 |
-|  15 | Ken Wai         |   2.54B |       5 |
-|  16 | Shakieee        |   2.12B |       5 |
-|  17 | Azrael          |   1.52B |       2 |
-|  18 | scorpion        |   1.40B |       4 |
-|  19 | 趴懶大          |   1.35B |       4 |
-|  20 | Shadow2TheBone  |   1.10B |       1 |
-|  21 | Sjefen          |   1.09B |       1 |
-|  22 | Lord_DJ         |   1.02B |       2 |
-|  23 | Bad2TheBone     | 992.94M |       1 |
-|  24 | Kenpachi        | 900.32M |       2 |
-|  25 | 帕殿咚          | 880.54M |       1 |
-|  26 | Queen of Hearts | 816.53M |       1 |
-|  27 | Cloney Jr       | 786.98M |       2 |
+|   1 | CHEN陈          |   8.31B |       7 |
+|   2 | AZIZ            |   5.68B |       6 |
+|   3 | HuiMin          |   5.37B |       7 |
+|   4 | Ocram           |   5.30B |       4 |
+|   5 | Fear            |   5.18B |       6 |
+|   6 | 球球仔          |   4.54B |       7 |
+|   7 | Bori            |   4.42B |       6 |
+|   8 | TW拍吉          |   4.41B |       7 |
+|   9 | Rage            |   3.76B |       5 |
+|  10 | Frinkley        |   3.39B |       2 |
+|  11 | SP1R1T          |   3.15B |       7 |
+|  12 | Brica           |   3.07B |       5 |
+|  13 | Sked            |   2.42B |       6 |
+|  14 | 屁屁俠          |   2.33B |       4 |
+|  15 | Shadow2TheBone  |   2.28B |       2 |
+|  16 | scorpion        |   2.09B |       5 |
+|  17 | Shakieee        |   1.98B |       5 |
+|  18 | Ken Wai         |   1.83B |       4 |
+|  19 | 帕殿咚          |   1.57B |       2 |
+|  20 | 趴懶大          |   1.54B |       5 |
+|  21 | Azrael          |   1.52B |       2 |
+|  22 | Professor       |   1.47B |       2 |
+|  23 | Sjefen          |   1.39B |       2 |
+|  24 | Lord_DJ         |   1.16B |       2 |
+|  25 | Bad2TheBone     | 992.94M |       1 |
+|  26 | Hawkeye         | 893.19M |       2 |
+|  27 | Queen of Hearts | 816.53M |       1 |
 |  28 | Mill2y          | 687.68M |       1 |
-|  29 | Professor       | 610.99M |       1 |
-|  30 | Pikachu         | 472.67M |       2 |
-|  31 | Kay_forshort    | 403.62M |       2 |
-|  32 | Hawkeye         | 395.18M |       1 |
-|  33 | alusia          | 381.60M |       1 |
-|  34 | Morphose        | 359.04M |       1 |
-|  35 | Shabazz         | 351.52M |       2 |
-|  36 | Jacob salamh    | 267.22M |       1 |
-|  37 | LordGiga        | 205.50M |       2 |
-|  38 | Doon            | 205.06M |       3 |
-|  39 | Lord Keith      | 200.80M |       1 |
-|  40 | King Koopa      | 190.13M |       1 |
-|  41 | Nubian King 13  | 164.49M |       1 |
-|  42 | Ukel            | 153.51M |       1 |
-|  43 | 차은아          | 124.79M |       2 |
-|  44 | XLR8R           | 115.52M |       1 |
-|  45 | Trimute         | 114.47M |       2 |
-|  46 | Kjs722          |  94.99M |       1 |
-|  47 | Shell           |  78.88M |       1 |
-|  48 | The KING TUT    |  56.30M |       1 |
-|  49 | BelalShash      |  29.15M |       1 |
-|  50 | 熾星空          |  14.12M |       1 |
-|  51 | Luo             |   4.83M |       1 |
+|  29 | Cloney Jr       | 504.17M |       1 |
+|  30 | Kay_forshort    | 403.62M |       2 |
+|  31 | alusia          | 381.60M |       1 |
+|  32 | Morphose        | 359.04M |       1 |
+|  33 | Shabazz         | 351.52M |       2 |
+|  34 | Pikachu         | 342.70M |       1 |
+|  35 | Kenpachi        | 339.86M |       1 |
+|  36 | yacob           | 331.82M |       1 |
+|  37 | Persian Gulf    | 298.13M |       1 |
+|  38 | Jacob salamh    | 267.22M |       1 |
+|  39 | LordGiga        | 205.50M |       2 |
+|  40 | Lord Keith      | 200.80M |       1 |
+|  41 | Nubian King 13  | 188.67M |       2 |
+|  42 | Kjs722          | 181.84M |       2 |
+|  43 | Doon            | 172.63M |       2 |
+|  44 | Ukel            | 153.51M |       1 |
+|  45 | Willow          | 144.06M |       1 |
+|  46 | XLR8R           | 115.52M |       1 |
+|  47 | Trimute         | 114.47M |       2 |
+|  48 | The KING TUT    |  87.05M |       2 |
+|  49 | Shell           |  78.88M |       1 |
+|  50 | Luo             |   4.83M |       1 |
+|  51 | 차은아          |   4.28M |       1 |
 
 <!-- [[[end]]] -->
 
