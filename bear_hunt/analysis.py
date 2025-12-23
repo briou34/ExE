@@ -19,7 +19,7 @@ from pathlib import Path
 
 import yaml
 
-DAMAGES_LOG = yaml.safe_load((Path(__file__).parent / "damages_log.yml").open("r"))
+DAMAGES_LOG = yaml.safe_load((Path(__file__).parent / "damages_log.yml").read_text())
 
 
 def main():

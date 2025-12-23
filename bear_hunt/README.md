@@ -26,7 +26,7 @@ import re
 from pathlib import Path
 import yaml
 
-MOVING = yaml.safe_load(Path("hive", "locations_moving.yml").open("r"))
+MOVING = yaml.safe_load(Path("hive", "locations_moving.yml").read_text())
 if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
   pattern = re.compile(r"(\d{4}-\d{2}-\d{2})_hive_participation_moving\.png")
   imgs_dir = Path("bear_hunt", "images")

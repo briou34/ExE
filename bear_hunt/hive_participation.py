@@ -34,7 +34,7 @@ from hive import (
 )
 
 DAMAGES_LOG = yaml.safe_load(
-    (Path(__file__).parent / ".." / "bear_hunt" / "damages_log.yml").open("r")
+    (Path(__file__).parent / ".." / "bear_hunt" / "damages_log.yml").read_text()
 )
 
 

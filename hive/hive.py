@@ -18,13 +18,13 @@ from pathlib import Path
 
 import yaml
 
-LOCATIONS = yaml.safe_load((Path(__file__).parent / "locations.yml").open("r"))
-MOVING = yaml.safe_load((Path(__file__).parent / "locations_moving.yml").open("r"))
+LOCATIONS = yaml.safe_load((Path(__file__).parent / "locations.yml").read_text())
+MOVING = yaml.safe_load((Path(__file__).parent / "locations_moving.yml").read_text())
 if not MOVING["bear_1"]:
     MOVING["bear_1"] = {}
 if not MOVING["bear_2"]:
     MOVING["bear_2"] = {}
-NAMES_SPLITTING = yaml.safe_load((Path(__file__).parent / "names_splitting.yml").open("r"))
+NAMES_SPLITTING = yaml.safe_load((Path(__file__).parent / "names_splitting.yml").read_text())
 
 COLORS = {
     "pitfall": "#E95DCD",
