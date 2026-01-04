@@ -67,6 +67,7 @@ HEITI_NAMES = {
 KOR_NAMES = {
     "차은아",
     "흐림없는눈",
+    "KOREA장태욱",
 }
 
 
@@ -169,11 +170,10 @@ def plot_cities(ax, cities_locs1, cities_locs2):
                 text_kwargs["fontproperties"] = kor_font
 
             label = name
-            if len(label) > 8:
-                if label in NAMES_SPLITTING:
-                    label = NAMES_SPLITTING[label]
-                else:
-                    label = "\n".join([label[:8], label[8:16]])
+            if label in NAMES_SPLITTING:
+                label = NAMES_SPLITTING[label]
+            elif len(label) > 8:
+                label = "\n".join([label[:8], label[8:16]])
 
             add_city(
                 loc,
