@@ -206,11 +206,10 @@ def plot_cities_with_participation(
             text_kwargs["fontproperties"] = kor_font
 
         label = name
-        if len(label) > 8:
-            if label in NAMES_SPLITTING:
-                label = NAMES_SPLITTING[label]
-            else:
-                label = "\n".join([label[:8], label[8:16]])
+        if label in NAMES_SPLITTING:
+            label = NAMES_SPLITTING[label]
+        elif len(label) > 8:
+            label = "\n".join([label[:8], label[8:16]])
 
         if name in locations_moving:
             rect_kwargs["edgecolor"] = "black"
