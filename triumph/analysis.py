@@ -8,12 +8,19 @@
 # ///
 
 import argparse
+import sys
 from pathlib import Path
 
 import yaml
 
 TRIUMPH_LOG = yaml.safe_load((Path(__file__).parent / "triumph_log.yml").open("r"))
 TRIUMPH_LOG = dict(sorted(TRIUMPH_LOG.items()))
+
+sys.path.append(str(Path(__file__).parent.parent / "hive"))
+
+from hive import LOCATIONS
+
+MEMBERS = set(LOCATIONS["cities"]["bear_1"]) | set(LOCATIONS["cities"]["bear_2"])
 
 
 def main():
@@ -24,6 +31,13 @@ def main():
         type=int,
         default=4,
         help="Number of weeks to consider for player rankings. Default is 4.",
+    )
+    parser.add_argument(
+        "--members-only",
+        "-mo",
+        action="store_true",
+        default=False,
+        help="Consider only members currently in the alliance for the rankings.",
     )
     group_fmt = parser.add_mutually_exclusive_group()
     group_fmt.add_argument(
@@ -37,7 +51,7 @@ def main():
 
     # Keep only the last n weeks
     n_lasts = args.nlasts
-    table_columns, table_rows = summary(n_lasts)
+    table_columns, table_rows = summary(n_lasts, members_only=args.members_only)
     table_justifys = [None] + ["right"] * len(table_columns[1:])
 
     if args.markdown:
@@ -53,9 +67,16 @@ def main():
         console.print(summary_table)
 
 
-def summary(n_lasts):
+def summary(n_lasts, members_only=False):
     weeks = list(TRIUMPH_LOG.keys())[-n_lasts:]
     log = {week: TRIUMPH_LOG[week] for week in weeks}
+
+    # If members_only, filter players to include only members from LOCATIONS
+    if members_only:
+        for week in log:
+            log[week] = {
+                player: points for player, points in log[week].items() if player in MEMBERS
+            }
 
     # Sum the total points per player
     total_points = {}
