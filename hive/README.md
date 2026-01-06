@@ -70,7 +70,7 @@ Cities locations as of 2026-01-06:
 | LadyLove         | 714 | 543 |
 | Llyod Frontera   | 712 | 545 |
 | Lord Adoniran    | 712 | 543 |
-| Lord Keith       | 706 | 559 |
+| Lord Keith       | 727 | 554 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
