@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-04_hive.png)
+![hive map](images/2026-01-06_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,19 +24,18 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-04:
+Cities locations as of 2026-01-06:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
-| Aziz             | 728 | 544 |
+| AZIZ             | 728 | 544 |
 | Azrael           | 735 | 553 |
 | BelalShash       | 738 | 559 |
 | Big Poppa 24     | 739 | 549 |
 | BlackBebe        | 713 | 553 |
 | BlockZ           | 709 | 543 |
 | Blossom          | 711 | 552 |
-| Bob              | 734 | 559 |
 | Bori             | 726 | 546 |
 | Brica            | 733 | 551 |
 | Briou            | 718 | 544 |
@@ -44,13 +43,12 @@ Cities locations as of 2026-01-04:
 | CHEN陈           | 730 | 545 |
 | Cavendish        | 708 | 545 |
 | Cery             | 713 | 549 |
-| CiusconUnchained | 719 | 550 |
+| CiusconSlug      | 719 | 550 |
 | Cloney Jr        | 737 | 552 |
 | Coma             | 717 | 550 |
 | DarkPanda        | 719 | 552 |
 | Darth Porpoise   | 716 | 543 |
 | Diablo           | 724 | 544 |
-| Doon             | 734 | 541 |
 | Dossari          | 717 | 554 |
 | Dumblidore       | 713 | 551 |
 | FallingRegrets   | 715 | 552 |
@@ -72,10 +70,10 @@ Cities locations as of 2026-01-04:
 | LadyLove         | 714 | 543 |
 | Llyod Frontera   | 712 | 545 |
 | Lord Adoniran    | 712 | 543 |
+| Lord Keith       | 706 | 559 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
-| Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
 | MOMO2005         | 732 | 541 |
 | MOnsTruM224      | 719 | 554 |
@@ -104,8 +102,9 @@ Cities locations as of 2026-01-04:
 | Sweapin          | 720 | 540 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
+| The Bob          | 734 | 559 |
 | The KING TUT     | 723 | 548 |
-| TrillBill        | 710 | 545 |
+| Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
 | Ukel             | 721 | 548 |
@@ -117,7 +116,7 @@ Cities locations as of 2026-01-04:
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
 | yacob            | 737 | 547 |
-| 屁屁俠           | 730 | 543 |
+| 帕殿咚           | 730 | 543 |
 | 熾星空           | 718 | 542 |
 | 球球仔           | 734 | 543 |
 | 趴懶大           | 731 | 551 |
