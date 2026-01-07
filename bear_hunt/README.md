@@ -16,7 +16,7 @@ map_fpath = sorted(
 print(f"![Bear Participation]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear Participation](images/2026-01-06_hive_participation.png)
+![Bear Participation](images/2026-01-07_hive_participation.png)
 
 <!-- [[[end]]] -->
 
@@ -55,7 +55,7 @@ map_fpath = sorted(
 print(f"![Bear 1 damages graph]({Path('images') / map_fpath.name})")
 ]]] -->
 
-![Bear 1 damages graph](images/2026-01-06_bear1_damages.png)
+![Bear 1 damages graph](images/2026-01-07_bear1_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -208,7 +208,7 @@ graph_fpath = sorted(
 print(f"![Bear 2 damages graph]({Path('images') / graph_fpath.name})")
 ]]] -->
 
-![Bear 2 damages graph](images/2026-01-06_bear2_damages.png)
+![Bear 2 damages graph](images/2026-01-07_bear2_damages.png)
 
 <!-- [[[end]]] -->
 
@@ -311,7 +311,7 @@ print(
 |  17 | scorpion         |   2.67B |       4 |
 |  18 | Hawkeye          |   2.59B |       4 |
 |  19 | Cery             |   2.51B |       2 |
-|  20 | MOMO2005         |   2.44B |       6 |
+|  20 | momo&하루        |   2.44B |       6 |
 |  21 | Fear             |   2.30B |       3 |
 |  22 | Lord_DJ          |   2.14B |       3 |
 |  23 | Persian Gulf     |   1.96B |       5 |

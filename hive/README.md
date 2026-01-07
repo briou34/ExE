@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-06_hive.png)
+![hive map](images/2026-01-07_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-06:
+Cities locations as of 2026-01-07:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -48,23 +48,27 @@ Cities locations as of 2026-01-06:
 | Coma             | 717 | 550 |
 | DarkPanda        | 719 | 552 |
 | Darth Porpoise   | 716 | 543 |
+| DeathAmongstUs   | 712 | 556 |
 | Diablo           | 724 | 544 |
 | Dossari          | 717 | 554 |
 | Dumblidore       | 713 | 551 |
+| Emmy             | 714 | 556 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
+| GodOfWhores      | 707 | 543 |
 | HasannEmree      | 723 | 552 |
 | Hawkeye          | 728 | 556 |
 | HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
 | IrotRiot         | 718 | 546 |
 | KOREA장태욱      | 720 | 544 |
+| KR4VEN           | 735 | 551 |
 | Kay_forshort     | 721 | 556 |
 | Kenpachi         | 723 | 550 |
+| Kenz             | 736 | 559 |
 | King of Dogs     | 709 | 549 |
 | Kings Scooby     | 729 | 552 |
-| Kjs722           | 721 | 554 |
 | LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
@@ -75,13 +79,14 @@ Cities locations as of 2026-01-06:
 | LordGiga         | 729 | 554 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
-| MOMO2005         | 732 | 541 |
+| M E D U S A      | 707 | 541 |
 | MOnsTruM224      | 719 | 554 |
 | MasterkinG32     | 725 | 554 |
 | Mazzoni          | 726 | 542 |
 | Morphose         | 727 | 552 |
 | Nubian King 13   | 725 | 552 |
 | Ocram            | 728 | 548 |
+| PapiChurro       | 716 | 556 |
 | Persian Gulf     | 726 | 556 |
 | Ppap             | 729 | 550 |
 | Queen of Cats    | 711 | 549 |
@@ -91,19 +96,19 @@ Cities locations as of 2026-01-06:
 | SARAH            | 722 | 544 |
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
+| Señor Bootie     | 709 | 541 |
 | Shabazz          | 737 | 543 |
 | Shadow           | 733 | 547 |
-| Shakieee         | 736 | 559 |
 | Shell2y          | 713 | 547 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 739 | 547 |
 | Sked             | 726 | 544 |
 | Supernova        | 724 | 546 |
-| Sweapin          | 720 | 540 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
 | The Bob          | 734 | 559 |
 | The KING TUT     | 723 | 548 |
+| TheGlizzinator   | 717 | 558 |
 | Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
@@ -112,7 +117,8 @@ Cities locations as of 2026-01-06:
 | XLR8R            | 713 | 539 |
 | alusia           | 736 | 541 |
 | mary             | 713 | 541 |
-| maxee            | 734 | 555 |
+| maxee            | 737 | 557 |
+| momo&하루        | 732 | 541 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
 | yacob            | 737 | 547 |
