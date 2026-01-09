@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-07_hive.png)
+![hive map](images/2026-01-09_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,14 +24,15 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-07:
+Cities locations as of 2026-01-09:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
 | AZIZ             | 728 | 544 |
+| AussieJosh       | 739 | 551 |
 | Azrael           | 735 | 553 |
-| BelalShash       | 738 | 559 |
+| BadCiuSpencer    | 719 | 550 |
 | Big Poppa 24     | 739 | 549 |
 | BlackBebe        | 713 | 553 |
 | BlockZ           | 709 | 543 |
@@ -39,11 +40,9 @@ Cities locations as of 2026-01-07:
 | Bori             | 726 | 546 |
 | Brica            | 733 | 551 |
 | Briou            | 718 | 544 |
-| BrutalB          | 740 | 559 |
 | CHEN陈           | 730 | 545 |
 | Cavendish        | 708 | 545 |
 | Cery             | 713 | 549 |
-| CiusconSlug      | 719 | 550 |
 | Cloney Jr        | 737 | 552 |
 | Coma             | 717 | 550 |
 | DarkPanda        | 719 | 552 |
@@ -51,12 +50,12 @@ Cities locations as of 2026-01-07:
 | DeathAmongstUs   | 712 | 556 |
 | Diablo           | 724 | 544 |
 | Dossari          | 717 | 554 |
-| Dumblidore       | 713 | 551 |
-| Emmy             | 714 | 556 |
+| Dunndertaker     | 713 | 551 |
+| EmmyLou          | 714 | 556 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
-| GodOfWhores      | 707 | 543 |
+| GodOfWhores      | 735 | 549 |
 | HasannEmree      | 723 | 552 |
 | Hawkeye          | 728 | 556 |
 | HuiMin           | 733 | 549 |
@@ -66,9 +65,9 @@ Cities locations as of 2026-01-07:
 | KR4VEN           | 735 | 551 |
 | Kay_forshort     | 721 | 556 |
 | Kenpachi         | 723 | 550 |
-| Kenz             | 736 | 559 |
-| King of Dogs     | 709 | 549 |
+| Kenz             | 715 | 554 |
 | Kings Scooby     | 729 | 552 |
+| Kjs722           | 721 | 554 |
 | LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
@@ -77,9 +76,11 @@ Cities locations as of 2026-01-07:
 | Lord Keith       | 727 | 554 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
+| LordOfTheKinguin | 728 | 541 |
 | Lord_DJ          | 725 | 550 |
+| Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
-| M E D U S A      | 707 | 541 |
+| M E D U S A      | 709 | 551 |
 | MOnsTruM224      | 719 | 554 |
 | MasterkinG32     | 725 | 554 |
 | Mazzoni          | 726 | 542 |
@@ -89,26 +90,28 @@ Cities locations as of 2026-01-07:
 | PapiChurro       | 716 | 556 |
 | Persian Gulf     | 726 | 556 |
 | Ppap             | 729 | 550 |
-| Queen of Cats    | 711 | 549 |
+| Professor        | 735 | 547 |
 | Queen of Hearts  | 719 | 548 |
 | ROSTR            | 723 | 554 |
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 544 |
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
-| Señor Bootie     | 709 | 541 |
+| Senor Bootie     | 717 | 552 |
 | Shabazz          | 737 | 543 |
 | Shadow           | 733 | 547 |
 | Shell2y          | 713 | 547 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 739 | 547 |
 | Sked             | 726 | 544 |
+| StepMothers Milk | 709 | 541 |
 | Supernova        | 724 | 546 |
+| Sweapin          | 720 | 540 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
-| The Bob          | 734 | 559 |
+| The Bob          | 734 | 541 |
 | The KING TUT     | 723 | 548 |
-| TheGlizzinator   | 717 | 558 |
+| TheGlizzinator   | 721 | 552 |
 | Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
@@ -121,6 +124,7 @@ Cities locations as of 2026-01-07:
 | momo&하루        | 732 | 541 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
+| vinfinity        | 727 | 550 |
 | yacob            | 737 | 547 |
 | 帕殿咚           | 730 | 543 |
 | 熾星空           | 718 | 542 |
