@@ -149,22 +149,17 @@ def plot_cities(ax, cities_locs1, cities_locs2):
             text_kwargs = {"fontsize": 7}
             rect_kwargs = {"alpha": 1}
 
-            if (
-                name
-                in {  # Cities to move
-                    # "Briou",
-                    # "King of Dogs",
-                    # "Willow",
-                }
-            ):
-                rect_kwargs["edgecolor"] = "black"
-                rect_kwargs["linewidth"] = 2
-
-            if name in {  # MIA
-                "GUNNAR",
+            # Out of alliance cities
+            if name in {
+                "King of Dogs",
+                "Queen of Cats",
+                "Professor",
+                "Sweapin",
+                "Luo",
+                "Kjs722",
             }:
-                rect_kwargs["edgecolor"] = "red"
-                rect_kwargs["linewidth"] = 2
+                rect_kwargs["facecolor"] = "black"
+                text_kwargs["color"] = "white"
 
             if name in HEITI_NAMES:
                 text_kwargs["fontproperties"] = heiti_font

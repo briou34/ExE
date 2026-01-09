@@ -200,6 +200,20 @@ def plot_cities_with_participation(
 
         text_kwargs = {"fontsize": 7, "color": text_color}
         rect_kwargs = {"alpha": 1}
+
+        # Out of alliance cities
+        if name in {
+            "King of Dogs",
+            "Queen of Cats",
+            "Professor",
+            "Sweapin",
+            "Luo",
+            "Kjs722",
+        }:
+            rect_kwargs["facecolor"] = "black"
+            text_kwargs["color"] = "white"
+            text_color = "white"
+
         if name in HEITI_NAMES:
             text_kwargs["fontproperties"] = heiti_font
         elif name in KOR_NAMES:
