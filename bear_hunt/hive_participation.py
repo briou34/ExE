@@ -36,6 +36,7 @@ from hive import (
 DAMAGES_LOG = yaml.safe_load(
     (Path(__file__).parent / ".." / "bear_hunt" / "damages_log.yml").read_text()
 )
+POWER = yaml.safe_load((Path(__file__).parent.parent / "power" / "power.yml").read_text())
 
 
 def main():
@@ -128,8 +129,14 @@ def main():
                     cmap = cmap_both
             clr = cmap((part1 + part2) / n_lasts * 0.8)
         colors[player] = mcolors.to_hex(clr)
-    fig = plot_cities_with_participation(
-        ax, cities_locs, participations, colors, n_lasts, cities_locs_moving
+    fig = plot_cities_with_participation_and_power(
+        ax,
+        cities_locs,
+        participations,
+        colors,
+        n_lasts,
+        POWER[sorted(POWER.keys())[-1]],
+        cities_locs_moving,
     )
 
     start_date = sorted(dates1 + dates2)[0]
@@ -178,8 +185,8 @@ def main():
         plt.show()
 
 
-def plot_cities_with_participation(
-    ax, locations, participations, colors, n, locations_moving=set()
+def plot_cities_with_participation_and_power(
+    ax, locations, participations, colors, n, power=None, locations_moving=set()
 ):
     from functools import partial
 
@@ -267,7 +274,28 @@ def plot_cities_with_participation(
                 **participation_kwargs,
             )
 
+        # Add power level if available, bottom right
+        if power and name in power:
+            ax.text(
+                loc[0] + 1.7,
+                loc[1] + 0.3,
+                simplify_power(power[name]),
+                ha="right",
+                color=text_color,
+                fontsize=6,
+                va="bottom",
+            )
+
     return ax.figure
+
+
+def simplify_power(n):
+    if n >= 1_000_000:
+        return f"{n // 1_000_000}M"
+    elif n >= 1_000:
+        return f"{n // 1_000}K"
+    else:
+        return str(n)
 
 
 if __name__ == "__main__":
