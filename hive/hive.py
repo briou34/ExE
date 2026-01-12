@@ -151,12 +151,12 @@ def plot_cities(ax, cities_locs1, cities_locs2):
 
             # Out of alliance cities
             if name in {
-                "King of Dogs",
-                "Queen of Cats",
                 "Professor",
                 "Sweapin",
                 "Luo",
                 "Kjs722",
+                "Lord Keith",
+                "Persian Gulf",
             }:
                 rect_kwargs["facecolor"] = "black"
                 text_kwargs["color"] = "white"
