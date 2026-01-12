@@ -1,5 +1,35 @@
 ---
 bear1:
+  '2026-01-10':
+    Paerdekop: 1_838_976_908
+    Ocram: 1_757_044_671
+    Lyghtz: 1_692_154_760
+    Troka: 1_604_846_132
+    Coma: 1_412_082_463
+    Cery: 1_393_467_205
+    Llyod Frontera: 1_376_047_027
+    LadyLove: 1_283_198_977
+    Briou: 1_154_629_256
+    Kenz: 1_108_244_448
+    Queen of Hearts: 970_466_459
+    Darth Porpoise: 948_913_875
+    LEA: 854_116_433
+    EmmyLou: 778_155_550
+    帕殿咚: 744_349_537
+    Kenpachi: 740_437_433
+    DarkPanda: 700_615_447
+    PapiChurro: 698_325_613
+    Señor Bootie: 666_087_590
+    M E D U S A: 568_247_401
+    TheGlizzinator: 541_281_110
+    Sir Bishop: 482_681_021
+    DeathAmongstUs: 374_966_590
+    Hawkeye: 350_307_811
+    yacob: 236_368_248
+    scorpion: 171_433_212
+    BadCiuSpencer: 138_880_212
+    IrotRiot: 70_279_783
+    Morphose: 29_895_820
   '2026-01-08':
     Lyghtz: 1_208_213_894
     Coma: 1_190_233_614
@@ -9,7 +39,7 @@ bear1:
     Briou: 915_577_761
     LadyLove: 854_951_526
     BadCiuSpencer: 765_191_779
-    Senor Bootie: 747_971_799
+    Señor Bootie: 747_971_799
     Troka: 649_525_942
     IrotRiot: 610_107_722
     Kenpachi: 609_324_464
@@ -195,7 +225,7 @@ bear1:
     AZIZ: 144_016_990
     Darth Porpoise: 122_530_489
     Morphose: 111_809_574
-    HasannEmree: 66_586_296
+    HASANN EMREE: 66_586_296
     BadCiuSpencer: 50_695_335
     Ukel: 32_126_411
   '2025-12-21':
@@ -422,7 +452,7 @@ bear1:
     Darth Porpoise: 268_745_632
     Sir Bishop: 224_496_776
     趴懶大: 144_474_942
-    HasannEmree: 97_924_096
+    HASANN EMREE: 97_924_096
     ROSTR: 29_007_217
   '2025-12-01':
     Cery: 1_012_238_023
@@ -692,7 +722,7 @@ bear1:
     IrotRiot: 230_922_767
     Dumblidore: 192_817_486
     DarkPanda: 190_387_033
-    HasannEmree: 188_799_998
+    HASANN EMREE: 188_799_998
     LEA: 180_588_653
     Lord_DJ: 168_201_747
     Supernova: 158_135_670
@@ -711,7 +741,7 @@ bear1:
     LadyLove: 373_032_280
     Darth Porpoise: 321_267_841
     Briou: 231_850_791
-    HasannEmree: 163_335_644
+    HASANN EMREE: 163_335_644
     Queen of Cats: 152_149_366
     Brett Sinclair: 146_709_123
     BadCiuSpencer: 132_591_188
@@ -965,7 +995,7 @@ bear1:
     FallingRegrets: 122_563_024
     TheGuardiaN: 94_616_119
     Sked: 91_340_563
-    HasannEmree: 90_721_088
+    HASANN EMREE: 90_721_088
     Thadeus: 78_764_197
     Brett Sinclair: 78_115_657
     Sir Bishop: 41_503_393
@@ -1029,12 +1059,31 @@ bear1:
     MOnsTruM224: 77_990_047
     Sked: 74_524_979
     Sir Bishop: 54_887_094
-    HasannEmree: 31_351_334
+    HASANN EMREE: 31_351_334
     Supernova: 16_723_032
     MikeE2005: 11_351_661
     BelalShash: 11_282_445
     LEA: 324_729
 bear2:
+  '2026-01-10':
+    AZIZ: 914_977_282
+    CHEN陈: 896_450_845
+    Azrael: 870_198_855
+    Shadow: 852_350_766
+    Fear: 781_758_981
+    Sjefen: 778_858_743
+    HuiMin: 753_013_243
+    KR4VEN: 738_476_605
+    Bori: 721_455_269
+    SP1R1T: 713_044_241
+    球球仔: 516_915_319
+    momo&하루: 450_092_803
+    Sked: 426_545_623
+    Lord_DJ: 401_926_145
+    Brica: 368_736_413
+    tamere: 197_055_614
+    TW拍吉: 148_482_642
+    KOREA장태욱: 83_345_409
   '2026-01-08':
     Ocram: 2_433_067_315
     Frinkley: 2_395_720_046
@@ -1154,7 +1203,7 @@ bear2:
     momo&하루: 496_748_709
     The KING TUT: 225_093_650
     TW拍吉: 210_115_960
-    HasannEmree: 87_570_892
+    HASANN EMREE: 87_570_892
     Ukel: 83_444_458
   '2025-12-29':
     CHEN陈: 1_815_285_642
@@ -1201,7 +1250,7 @@ bear2:
     Persian Gulf: 190_839_776
     ROSTR: 116_333_006
     Nubian King 13: 72_596_036
-    HasannEmree: 61_378_671
+    HASANN EMREE: 61_378_671
   '2025-12-25':
     CHEN陈: 1_202_161_458
     Cery: 1_141_736_781
@@ -1218,7 +1267,7 @@ bear2:
     Hawkeye: 583_749_137
     Morphose: 409_629_352
     Sked: 368_149_005
-    HasannEmree: 328_932_009
+    HASANN EMREE: 328_932_009
     momo&하루: 229_418_594
     趴懶大: 124_801_544
     Kjs722: 84_765_310
@@ -1673,7 +1722,7 @@ bear2:
     Ukel: 17_553_311
     球球仔: 11_625_003
     Nubian King 13: 9_559_907
-    HasannEmree: 8_671_768
+    HASANN EMREE: 8_671_768
     LordGiga: 2_205_328
   '2025-11-13':
     Ocram: 1_688_838_199
@@ -1917,7 +1966,7 @@ bear2:
     Rage: 265_813_202
     Cloney Jr: 220_459_428
     帕殿咚: 105_141_031
-    HasannEmree: 96_550_364
+    HASANN EMREE: 96_550_364
     scorpion: 75_657_673
     LordGiga: 59_765_295
     supernova: 37_076_961
