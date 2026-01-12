@@ -108,12 +108,13 @@ def main():
             color = "darkred" if total_score == max_score else "black"
             ax.text(
                 datetime.strptime(date, "%Y-%m-%d"),
-                total_score + total_score * 0.01,
+                total_score + max_score * 0.015,
                 score_to_str(total_score, precision=1)[:-1],
                 ha="center",
                 va="bottom",
                 fontsize=9,
                 color=color,
+                rotation=90,
             )
 
         # Set the y-axis ticks in multiples of 2B
@@ -125,7 +126,7 @@ def main():
         # X-axis formatting
         tick_dates = [  # all dates
             datetime.strptime(date, "%Y-%m-%d") for date in sorted(list(log.keys()))
-        ]
+        ][::-1][::2][::-1]
 
         # Find the middle date for each month to center the label
         month_centers = []
