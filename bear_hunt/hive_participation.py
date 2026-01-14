@@ -210,12 +210,13 @@ def plot_cities_with_participation_and_power(
 
         # Out of alliance cities
         if name in {
-            "King of Dogs",
-            "Queen of Cats",
-            "Professor",
-            "Sweapin",
-            "Luo",
             "Kjs722",
+            "Lord Keith",
+            "Luo",
+            "Persian Gulf",
+            "Professor",
+            "Saiint",
+            "Sweapin",
         }:
             rect_kwargs["facecolor"] = "black"
             text_kwargs["color"] = "white"
