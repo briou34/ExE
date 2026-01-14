@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-09_hive.png)
+![hive map](images/2026-01-14_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,13 +24,13 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-09:
+Cities locations as of 2026-01-14:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
 | AZIZ             | 728 | 544 |
-| AussieJosh       | 739 | 551 |
+| AussieJosh       | 735 | 547 |
 | Azrael           | 735 | 553 |
 | BadCiuSpencer    | 719 | 550 |
 | Big Poppa 24     | 739 | 549 |
@@ -56,7 +56,7 @@ Cities locations as of 2026-01-09:
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
 | GodOfWhores      | 735 | 549 |
-| HasannEmree      | 723 | 552 |
+| HASANN EMREE     | 723 | 552 |
 | Hawkeye          | 728 | 556 |
 | HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
@@ -72,11 +72,11 @@ Cities locations as of 2026-01-09:
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
 | Llyod Frontera   | 712 | 545 |
+| Loading          | 738 | 545 |
 | Lord Adoniran    | 712 | 543 |
-| Lord Keith       | 727 | 554 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
-| LordOfTheKinguin | 728 | 541 |
+| LordOfTheKinguin | 709 | 549 |
 | Lord_DJ          | 725 | 550 |
 | Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
@@ -86,23 +86,24 @@ Cities locations as of 2026-01-09:
 | Mazzoni          | 726 | 542 |
 | Morphose         | 727 | 552 |
 | Nubian King 13   | 725 | 552 |
+| O D I N          | 718 | 542 |
 | Ocram            | 728 | 548 |
+| Paerdekop        | 711 | 549 |
 | PapiChurro       | 716 | 556 |
 | Persian Gulf     | 726 | 556 |
 | Ppap             | 729 | 550 |
-| Professor        | 735 | 547 |
 | Queen of Hearts  | 719 | 548 |
 | ROSTR            | 723 | 554 |
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 544 |
 | SP1R1T           | 732 | 543 |
 | Saiint           | 731 | 553 |
-| Senor Bootie     | 717 | 552 |
+| Señor Bootie     | 717 | 552 |
 | Shabazz          | 737 | 543 |
 | Shadow           | 733 | 547 |
 | Shell2y          | 713 | 547 |
 | Sir Bishop       | 720 | 546 |
-| Sjefen           | 739 | 547 |
+| Sjefen           | 716 | 545 |
 | Sked             | 726 | 544 |
 | StepMothers Milk | 709 | 541 |
 | Supernova        | 724 | 546 |
@@ -110,8 +111,8 @@ Cities locations as of 2026-01-09:
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
 | The Bob          | 734 | 541 |
-| The KING TUT     | 723 | 548 |
 | TheGlizzinator   | 721 | 552 |
+| Tiffany          | 718 | 540 |
 | Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
@@ -127,10 +128,10 @@ Cities locations as of 2026-01-09:
 | vinfinity        | 727 | 550 |
 | yacob            | 737 | 547 |
 | 帕殿咚           | 730 | 543 |
-| 熾星空           | 718 | 542 |
+| 熾星空           | 720 | 542 |
 | 球球仔           | 734 | 543 |
 | 趴懶大           | 731 | 551 |
-| 達努巴克         | 716 | 545 |
+| 達努巴克         | 725 | 559 |
 | 차은아           | 736 | 545 |
 
 <!-- [[[end]]] -->
