@@ -212,11 +212,12 @@ def plot_cities_with_participation_and_power(
         if name in {
             "Kjs722",
             "Lord Keith",
-            "Luo",
             "Persian Gulf",
             "Professor",
             "Saiint",
-            "Sweapin",
+            "Big Poppa 24",
+            "XLR8R",
+            "BlackBebe",
         }:
             rect_kwargs["facecolor"] = "black"
             text_kwargs["color"] = "white"

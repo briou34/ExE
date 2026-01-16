@@ -153,11 +153,12 @@ def plot_cities(ax, cities_locs1, cities_locs2):
             if name in {
                 "Kjs722",
                 "Lord Keith",
-                "Luo",
                 "Persian Gulf",
                 "Professor",
                 "Saiint",
-                "Sweapin",
+                "Big Poppa 24",
+                "XLR8R",
+                "BlackBebe",
             }:
                 rect_kwargs["facecolor"] = "black"
                 text_kwargs["color"] = "white"
