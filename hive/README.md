@@ -67,7 +67,7 @@ Cities locations as of 2026-01-16:
 | Kenpachi         | 723 | 550 |
 | Kenz             | 715 | 554 |
 | Kings Scooby     | 729 | 552 |
-| Kjs722           | 721 | 554 |
+| KittyRamone      | 737 | 549 |
 | LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
@@ -78,7 +78,6 @@ Cities locations as of 2026-01-16:
 | LordGiga         | 729 | 554 |
 | LordOfTheKinguin | 709 | 549 |
 | Lord_DJ          | 725 | 550 |
-| Luo              | 722 | 540 |
 | Lyghtz           | 714 | 545 |
 | M E D U S A      | 709 | 551 |
 | MOnsTruM224      | 719 | 554 |
@@ -89,6 +88,7 @@ Cities locations as of 2026-01-16:
 | O D I N          | 718 | 542 |
 | Ocram            | 728 | 548 |
 | Paerdekop        | 711 | 549 |
+| Pain             | 728 | 541 |
 | PapiChurro       | 716 | 556 |
 | Persian Gulf     | 726 | 556 |
 | Ppap             | 729 | 550 |
@@ -107,7 +107,6 @@ Cities locations as of 2026-01-16:
 | Sked             | 726 | 544 |
 | StepMothers Milk | 709 | 541 |
 | Supernova        | 724 | 546 |
-| Sweapin          | 720 | 540 |
 | TW拍吉           | 732 | 545 |
 | Thadeus          | 709 | 547 |
 | The Bob          | 734 | 541 |
@@ -131,7 +130,7 @@ Cities locations as of 2026-01-16:
 | 熾星空           | 720 | 542 |
 | 球球仔           | 734 | 543 |
 | 趴懶大           | 731 | 551 |
-| 達努巴克         | 725 | 559 |
+| 達努巴克         | 740 | 559 |
 | 차은아           | 736 | 545 |
 
 <!-- [[[end]]] -->

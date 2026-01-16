@@ -39,6 +39,10 @@ if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
   print()
 ]]] -->
 
+## Future hive
+
+![Bear Participation](images/2026-01-16_hive_participation_moving.png)
+
 <!-- [[[end]]] -->
 
 ## Bear 1
@@ -123,6 +127,7 @@ print(
 | 2026-01-10 |        29 |      24.69B |
 | 2026-01-12 |        29 |      21.75B |
 | 2026-01-14 |        34 |      19.80B |
+| 2026-01-16 |        24 |      22.52B |
 
 <!-- [[[end]]] -->
 
@@ -144,59 +149,59 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | Coma             |   9.06B |       7 |
-|   2 | Lyghtz           |   8.01B |       6 |
-|   3 | Troka            |   7.53B |       6 |
-|   4 | LadyLove         |   7.38B |       7 |
-|   5 | Llyod Frontera   |   6.93B |       7 |
-|   6 | Briou            |   6.68B |       7 |
-|   7 | Cery             |   5.46B |       5 |
-|   8 | Shell2y          |   5.00B |       6 |
-|   9 | FallingRegrets   |   4.97B |       5 |
-|  10 | DarkPanda        |   4.77B |       7 |
-|  11 | Paerdekop        |   4.45B |       3 |
-|  12 | LEA              |   4.38B |       7 |
-|  13 | BadCiuSpencer    |   4.23B |       6 |
+|   1 | Coma             |   9.12B |       7 |
+|   2 | Lyghtz           |   8.82B |       6 |
+|   3 | Troka            |   7.83B |       6 |
+|   4 | LadyLove         |   7.51B |       7 |
+|   5 | Llyod Frontera   |   7.02B |       7 |
+|   6 | Briou            |   6.78B |       7 |
+|   7 | Paerdekop        |   6.26B |       4 |
+|   8 | Cery             |   4.98B |       5 |
+|   9 | DarkPanda        |   4.97B |       7 |
+|  10 | Shell2y          |   4.86B |       6 |
+|  11 | LEA              |   4.56B |       7 |
+|  12 | BadCiuSpencer    |   4.46B |       6 |
+|  13 | Kenz             |   4.35B |       4 |
 |  14 | IrotRiot         |   4.01B |       6 |
-|  15 | Darth Porpoise   |   3.71B |       6 |
-|  16 | Ocram            |   3.44B |       2 |
-|  17 | Sir Bishop       |   3.00B |       7 |
+|  15 | Ocram            |   3.79B |       3 |
+|  16 | FallingRegrets   |   3.77B |       4 |
+|  17 | EmmyLou          |   3.68B |       5 |
 |  18 | Queen of Hearts  |   2.95B |       4 |
-|  19 | Kenz             |   2.86B |       3 |
-|  20 | EmmyLou          |   2.68B |       4 |
+|  19 | Darth Porpoise   |   2.93B |       5 |
+|  20 | Sir Bishop       |   2.66B |       7 |
 |  21 | M E D U S A      |   2.65B |       4 |
 |  22 | Sjefen           |   2.39B |       2 |
-|  23 | Lord_DJ          |   2.33B |       5 |
+|  23 | TheGlizzinator   |   2.36B |       4 |
 |  24 | Kenpachi         |   2.24B |       3 |
 |  25 | Señor Bootie     |   2.20B |       3 |
-|  26 | mary             |   1.87B |       5 |
-|  27 | TheGlizzinator   |   1.48B |       3 |
-|  28 | Kay_forshort     |   1.44B |       3 |
-|  29 | Shadow           |   1.42B |       2 |
-|  30 | Trillbill        |   1.42B |       3 |
-|  31 | scorpion         |   1.35B |       4 |
-|  32 | PapiChurro       |   1.23B |       3 |
-|  33 | AZIZ             |   1.10B |       1 |
-|  34 | DeathAmongstUs   | 922.63M |       3 |
-|  35 | MasterkinG32     | 794.07M |       2 |
-|  36 | O D I N          | 756.91M |       2 |
-|  37 | MOnsTruM224      | 754.32M |       2 |
+|  26 | PapiChurro       |   1.90B |       4 |
+|  27 | Lord_DJ          |   1.90B |       4 |
+|  28 | mary             |   1.87B |       5 |
+|  29 | DeathAmongstUs   |   1.52B |       4 |
+|  30 | Kay_forshort     |   1.44B |       3 |
+|  31 | Trillbill        |   1.37B |       3 |
+|  32 | scorpion         |   1.35B |       4 |
+|  33 | Tiffany          |   1.29B |       3 |
+|  34 | MOnsTruM224      |   1.15B |       3 |
+|  35 | AZIZ             |   1.10B |       1 |
+|  36 | O D I N          |   1.08B |       3 |
+|  37 | MasterkinG32     | 794.07M |       2 |
 |  38 | 帕殿咚           | 744.35M |       1 |
-|  39 | Tiffany          | 623.85M |       2 |
-|  40 | JoeyBootzz       | 576.84M |       1 |
-|  41 | Morphose         | 564.59M |       2 |
-|  42 | 趴懶大           | 538.82M |       1 |
-|  43 | Cavendish        | 514.91M |       2 |
-|  44 | BlockZ           | 477.75M |       1 |
-|  45 | yacob            | 414.01M |       3 |
-|  46 | Hawkeye          | 350.31M |       1 |
-|  47 | Lord Adoniran    | 337.91M |       2 |
-|  48 | Dunndertaker     | 301.96M |       1 |
-|  49 | Supernova        | 273.93M |       1 |
-|  50 | MOnSTruM224      | 273.41M |       1 |
-|  51 | Lady Emily       | 261.85M |       2 |
-|  52 | StepMothers Milk | 222.71M |       1 |
-|  53 | ROSTR            | 153.07M |       1 |
+|  39 | JoeyBootzz       | 576.84M |       1 |
+|  40 | Morphose         | 564.59M |       2 |
+|  41 | 趴懶大           | 538.82M |       1 |
+|  42 | Cavendish        | 514.91M |       2 |
+|  43 | BlockZ           | 477.75M |       1 |
+|  44 | Hawkeye          | 350.31M |       1 |
+|  45 | Lord Adoniran    | 337.91M |       2 |
+|  46 | yacob            | 333.20M |       2 |
+|  47 | Dunndertaker     | 301.96M |       1 |
+|  48 | MOnSTruM224      | 273.41M |       1 |
+|  49 | StepMothers Milk | 222.71M |       1 |
+|  50 | Lady Emily       | 182.58M |       1 |
+|  51 | ROSTR            | 153.07M |       1 |
+|  52 | Shadow           | 127.20M |       1 |
+|  53 | SARAH            |  88.52M |       1 |
 |  54 | Diablo           |  48.86M |       1 |
 |  55 | BelalShash       |  47.41M |       1 |
 |  56 | BlackBebe        |  20.25M |       1 |
@@ -287,6 +292,7 @@ print(
 | 2026-01-10 |        18 |      10.61B |
 | 2026-01-12 |        28 |      30.00B |
 | 2026-01-14 |        29 |      28.27B |
+| 2026-01-16 |        26 |      19.90B |
 
 <!-- [[[end]]] -->
 
@@ -308,60 +314,57 @@ print(
 
 |   # | Player           |   Score | # Hunts |
 | --: | :--------------- | ------: | ------: |
-|   1 | CHEN陈           |  12.22B |       7 |
-|   2 | Ocram            |  10.25B |       5 |
-|   3 | Frinkley         |   7.83B |       4 |
-|   4 | AZIZ             |   7.59B |       6 |
-|   5 | HuiMin           |   7.42B |       7 |
-|   6 | Azrael           |   7.12B |       6 |
-|   7 | Bori             |   6.98B |       6 |
-|   8 | SP1R1T           |   6.83B |       7 |
-|   9 | 球球仔           |   6.18B |       7 |
-|  10 | Brica            |   6.14B |       7 |
-|  11 | KR4VEN           |   5.60B |       4 |
-|  12 | 帕殿咚           |   5.47B |       6 |
-|  13 | Shadow           |   5.46B |       5 |
-|  14 | Fear             |   5.36B |       5 |
-|  15 | Sjefen           |   4.56B |       4 |
-|  16 | TW拍吉           |   4.33B |       6 |
-|  17 | Rage             |   4.03B |       4 |
-|  18 | AussieJosh       |   3.12B |       2 |
-|  19 | Sked             |   2.41B |       4 |
-|  20 | momo&하루        |   2.39B |       7 |
-|  21 | Persian Gulf     |   2.38B |       4 |
-|  22 | Hawkeye          |   2.14B |       3 |
-|  23 | scorpion         |   2.09B |       3 |
-|  24 | vinfinity        |   1.90B |       3 |
-|  25 | GodOfWhores      |   1.72B |       2 |
-|  26 | Loading          |   1.52B |       2 |
-|  27 | The Bob          |   1.46B |       2 |
-|  28 | Kai              |   1.46B |       1 |
-|  29 | Queen of Hearts  |   1.39B |       1 |
-|  30 | Lord_DJ          |   1.25B |       2 |
-|  31 | Kenpachi         |   1.11B |       1 |
-|  32 | 趴懶大           | 869.75M |       4 |
-|  33 | Kay_forshort     | 834.99M |       1 |
-|  34 | MasterkinG32     | 831.17M |       1 |
-|  35 | Trimute          | 720.55M |       3 |
-|  36 | tamere           | 684.72M |       2 |
-|  37 | 차은아           | 616.55M |       2 |
-|  38 | Ppap             | 498.42M |       1 |
-|  39 | KOREA장태욱      | 281.76M |       3 |
-|  40 | Ukel             | 246.14M |       2 |
-|  41 | yacob            | 245.41M |       2 |
-|  42 | LordGiga         | 201.98M |       2 |
-|  43 | XLR8R            | 196.05M |       1 |
-|  44 | 熾星空           | 164.59M |       1 |
-|  45 | HASANNEMREE      | 116.77M |       1 |
-|  46 | Willow           | 115.86M |       1 |
-|  47 | Kings Scooby     | 100.88M |       1 |
-|  48 | The KING TUT     |  97.11M |       1 |
-|  49 | Lord Keith       |  58.87M |       1 |
-|  50 | ROSTR            |  54.22M |       1 |
-|  51 | Mazzoni          |  51.90M |       1 |
-|  52 | Supernova        |  45.67M |       1 |
-|  53 | maxee            |   4.35M |       1 |
-|  54 | I am your father |   3.69M |       1 |
+|   1 | CHEN陈           |  11.56B |       7 |
+|   2 | AZIZ             |   8.43B |       6 |
+|   3 | Ocram            |   8.30B |       4 |
+|   4 | Azrael           |   7.98B |       7 |
+|   5 | Brica            |   6.97B |       7 |
+|   6 | Shadow           |   6.77B |       6 |
+|   7 | Bori             |   6.73B |       6 |
+|   8 | Frinkley         |   6.68B |       4 |
+|   9 | SP1R1T           |   6.39B |       7 |
+|  10 | Fear             |   6.38B |       6 |
+|  11 | HuiMin           |   6.29B |       6 |
+|  12 | 球球仔           |   5.63B |       7 |
+|  13 | KR4VEN           |   5.60B |       4 |
+|  14 | 帕殿咚           |   5.11B |       6 |
+|  15 | Rage             |   5.04B |       5 |
+|  16 | TW拍吉           |   4.55B |       7 |
+|  17 | Sjefen           |   4.52B |       4 |
+|  18 | AussieJosh       |   4.16B |       3 |
+|  19 | Sked             |   2.86B |       5 |
+|  20 | vinfinity        |   2.63B |       4 |
+|  21 | The Bob          |   2.21B |       3 |
+|  22 | momo&하루        |   2.19B |       7 |
+|  23 | Loading          |   2.18B |       3 |
+|  24 | Hawkeye          |   1.99B |       3 |
+|  25 | Persian Gulf     |   1.89B |       3 |
+|  26 | Lord_DJ          |   1.73B |       3 |
+|  27 | GodOfWhores      |   1.72B |       2 |
+|  28 | scorpion         |   1.62B |       3 |
+|  29 | 趴懶大           |   1.30B |       5 |
+|  30 | Kenpachi         |   1.11B |       1 |
+|  31 | Queen of Hearts  | 805.72M |       1 |
+|  32 | Trimute          | 720.55M |       3 |
+|  33 | tamere           | 684.72M |       2 |
+|  34 | Ukel             | 517.24M |       3 |
+|  35 | Ppap             | 498.42M |       1 |
+|  36 | yacob            | 245.41M |       2 |
+|  37 | KOREA장태욱      | 233.31M |       2 |
+|  38 | LordGiga         | 201.98M |       2 |
+|  39 | XLR8R            | 196.05M |       1 |
+|  40 | 차은아           | 193.40M |       1 |
+|  41 | 熾星空           | 164.59M |       1 |
+|  42 | HASANNEMREE      | 116.77M |       1 |
+|  43 | Willow           | 115.86M |       1 |
+|  44 | Kings Scooby     | 100.88M |       1 |
+|  45 | The KING TUT     |  97.11M |       1 |
+|  46 | Lord Keith       |  58.87M |       1 |
+|  47 | ROSTR            |  54.22M |       1 |
+|  48 | Mazzoni          |  51.90M |       1 |
+|  49 | Supernova        |  45.67M |       1 |
+|  50 | maxee            |   4.35M |       1 |
+|  51 | I am your father |   3.69M |       1 |
 
 <!-- [[[end]]] -->
 
