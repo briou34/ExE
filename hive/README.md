@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-16_hive.png)
+![hive map](images/2026-01-17_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-16:
+Cities locations as of 2026-01-17:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -34,7 +34,6 @@ Cities locations as of 2026-01-16:
 | Azrael           | 735 | 553 |
 | BadCiuSpencer    | 719 | 550 |
 | Big Poppa 24     | 739 | 549 |
-| BlackBebe        | 713 | 553 |
 | BlockZ           | 709 | 543 |
 | Blossom          | 711 | 552 |
 | Bori             | 726 | 546 |
@@ -45,13 +44,13 @@ Cities locations as of 2026-01-16:
 | Cery             | 713 | 549 |
 | Cloney Jr        | 737 | 552 |
 | Coma             | 717 | 550 |
-| DarkPanda        | 719 | 552 |
+| DarkPanda        | 711 | 549 |
 | Darth Porpoise   | 716 | 543 |
-| DeathAmongstUs   | 712 | 556 |
+| DeathAmongstUs   | 715 | 554 |
 | Diablo           | 724 | 544 |
 | Dossari          | 717 | 554 |
-| Dunndertaker     | 713 | 551 |
-| EmmyLou          | 714 | 556 |
+| Dunndertaker     | 713 | 559 |
+| EmmyLou          | 719 | 552 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 734 | 545 |
 | Frinkley         | 728 | 546 |
@@ -65,12 +64,13 @@ Cities locations as of 2026-01-16:
 | KR4VEN           | 735 | 551 |
 | Kay_forshort     | 721 | 556 |
 | Kenpachi         | 723 | 550 |
-| Kenz             | 715 | 554 |
+| Kenz             | 713 | 551 |
 | Kings Scooby     | 729 | 552 |
-| KittyRamone      | 737 | 549 |
+| KittyRamone      | 720 | 540 |
 | LEA              | 711 | 547 |
 | Lady Emily       | 716 | 541 |
 | LadyLove         | 714 | 543 |
+| LightsOutL       | 707 | 541 |
 | Llyod Frontera   | 712 | 545 |
 | Loading          | 738 | 545 |
 | Lord Adoniran    | 712 | 543 |
@@ -87,12 +87,12 @@ Cities locations as of 2026-01-16:
 | Nubian King 13   | 725 | 552 |
 | O D I N          | 718 | 542 |
 | Ocram            | 728 | 548 |
-| Paerdekop        | 711 | 549 |
+| Paerdekop        | 713 | 547 |
 | Pain             | 728 | 541 |
-| PapiChurro       | 716 | 556 |
+| PapiChurro       | 713 | 553 |
 | Persian Gulf     | 726 | 556 |
 | Ppap             | 729 | 550 |
-| Queen of Hearts  | 719 | 548 |
+| Queen of Hearts  | 721 | 548 |
 | ROSTR            | 723 | 554 |
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 544 |
@@ -101,7 +101,7 @@ Cities locations as of 2026-01-16:
 | Señor Bootie     | 717 | 552 |
 | Shabazz          | 737 | 543 |
 | Shadow           | 733 | 547 |
-| Shell2y          | 713 | 547 |
+| Shell2y          | 719 | 548 |
 | Sir Bishop       | 720 | 546 |
 | Sjefen           | 716 | 545 |
 | Sked             | 726 | 544 |
@@ -115,12 +115,12 @@ Cities locations as of 2026-01-16:
 | Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
-| Ukel             | 721 | 548 |
-| Willow           | 719 | 556 |
+| Ukel             | 738 | 559 |
+| Willow           | 734 | 555 |
 | XLR8R            | 713 | 539 |
 | alusia           | 736 | 541 |
 | mary             | 713 | 541 |
-| maxee            | 737 | 557 |
+| maxee            | 736 | 555 |
 | momo&하루        | 732 | 541 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |

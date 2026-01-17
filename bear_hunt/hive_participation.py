@@ -188,7 +188,6 @@ def main():
 def plot_cities_with_participation_and_power(
     ax, locations, participations, colors, n, power=None, locations_moving=None
 ):
-
     from functools import partial
 
     import matplotlib.font_manager as fm
