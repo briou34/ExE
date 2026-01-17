@@ -86,9 +86,26 @@ def main():
     parser.add_argument(
         "--print", action="store_true", default=False, help="Print cities locations table"
     )
+    parser.add_argument(
+        "--moving",
+        action="store_true",
+        default=False,
+        help="Wether generate the map with future cities locations, highlighting them.",
+    )
     args = parser.parse_args()
 
+    # Cities locations
+    cities_locs1 = add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"])
+    cities_locs2 = add_deltas(LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"])
+    if args.moving:
+        cities_locs_moving = add_deltas(LOCATIONS["pitfall_1"], MOVING["bear_1"]) | add_deltas(
+            LOCATIONS["pitfall_2"], MOVING["bear_2"]
+        )
+    else:
+        cities_locs_moving = {}
+
     if args.print:
+        # TODO FIX not taking into account the moving cities
         from rich.console import Console
 
         console = Console()
@@ -107,10 +124,12 @@ def main():
             pit1_loc=LOCATIONS["pitfall_1"],
             pit2_loc=LOCATIONS["pitfall_2"],
         )
+
         fig = plot_cities(
             ax=ax,
-            cities_locs1=add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]),
-            cities_locs2=add_deltas(LOCATIONS["pitfall_2"], LOCATIONS["cities"]["bear_2"]),
+            cities_locs1=cities_locs1,
+            cities_locs2=cities_locs2,
+            locations_moving=cities_locs_moving,
         )
         if args.show:
             plt.show()
@@ -133,8 +152,11 @@ def get_cities_locations_table():
     return cities_locs_table
 
 
-def plot_cities(ax, cities_locs1, cities_locs2):
+def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
     import matplotlib.font_manager as fm
+
+    if locations_moving is None:
+        locations_moving = {}
 
     add_build = partial(add_building, ax=ax)
     add_city = partial(
@@ -173,6 +195,32 @@ def plot_cities(ax, cities_locs1, cities_locs2):
                 label = NAMES_SPLITTING[label]
             elif len(label) > 8:
                 label = "\n".join([label[:8], label[8:16]])
+
+            if name in locations_moving:
+                rect_kwargs["edgecolor"] = "black"
+                rect_kwargs["linewidth"] = 2
+                text_kwargs["fontweight"] = "bold"
+
+                # Add an arrow from previous location to new location
+                new_loc = locations_moving[name]
+                dx, dy, dx_new, dy_new = 1, 1, 1, 1
+                if new_loc[0] > loc[0]:
+                    dx, dx_new = 1.7, 0.3
+                elif new_loc[0] < loc[0]:
+                    dx, dx_new = 0.3, 1.7
+                if new_loc[1] > loc[1]:
+                    dy, dy_new = 1.7, 0.3
+                elif new_loc[1] < loc[1]:
+                    dy, dy_new = 0.3, 1.7
+                ax.annotate(
+                    "",
+                    xytext=(loc[0] + dx, loc[1] + dy),
+                    xy=(new_loc[0] + dx_new, new_loc[1] + dy_new),
+                    arrowprops=dict(arrowstyle="->", color="black"),
+                )
+
+                # Use new location
+                loc = locations_moving[name]
 
             add_city(
                 loc,

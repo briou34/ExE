@@ -186,11 +186,15 @@ def main():
 
 
 def plot_cities_with_participation_and_power(
-    ax, locations, participations, colors, n, power=None, locations_moving=set()
+    ax, locations, participations, colors, n, power=None, locations_moving=None
 ):
+
     from functools import partial
 
     import matplotlib.font_manager as fm
+
+    if locations_moving is None:
+        locations_moving = {}
 
     add_build = partial(add_building, ax=ax)
     add_city = partial(add_build, width=2, height=2, text_kwargs={"fontsize": 8})
