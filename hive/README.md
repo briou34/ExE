@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-01-17_hive.png)
+![hive map](images/2026-01-20_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,13 +24,13 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-01-17:
+Cities locations as of 2026-01-20:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 721 | 550 |
 | AZIZ             | 728 | 544 |
-| AussieJosh       | 735 | 547 |
+| AussieJosh       | 729 | 550 |
 | Azrael           | 735 | 553 |
 | BadCiuSpencer    | 719 | 550 |
 | Big Poppa 24     | 739 | 549 |
@@ -52,7 +52,7 @@ Cities locations as of 2026-01-17:
 | Dunndertaker     | 713 | 559 |
 | EmmyLou          | 719 | 552 |
 | FallingRegrets   | 715 | 552 |
-| Fear             | 734 | 545 |
+| Fear             | 735 | 547 |
 | Frinkley         | 728 | 546 |
 | GodOfWhores      | 735 | 549 |
 | HASANN EMREE     | 723 | 552 |
@@ -72,7 +72,7 @@ Cities locations as of 2026-01-17:
 | LadyLove         | 714 | 543 |
 | LightsOutL       | 707 | 541 |
 | Llyod Frontera   | 712 | 545 |
-| Loading          | 738 | 545 |
+| Loading          | 739 | 547 |
 | Lord Adoniran    | 712 | 543 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
@@ -88,10 +88,10 @@ Cities locations as of 2026-01-17:
 | O D I N          | 718 | 542 |
 | Ocram            | 728 | 548 |
 | Paerdekop        | 713 | 547 |
-| Pain             | 728 | 541 |
+| Pain             | 706 | 545 |
 | PapiChurro       | 713 | 553 |
 | Persian Gulf     | 726 | 556 |
-| Ppap             | 729 | 550 |
+| Ppap             | 737 | 549 |
 | Queen of Hearts  | 721 | 548 |
 | ROSTR            | 723 | 554 |
 | Rage             | 726 | 548 |
@@ -115,20 +115,20 @@ Cities locations as of 2026-01-17:
 | Trillbill        | 710 | 545 |
 | Trimute          | 722 | 546 |
 | Troka            | 715 | 550 |
-| Ukel             | 738 | 559 |
+| Ukel             | 727 | 554 |
 | Willow           | 734 | 555 |
 | XLR8R            | 713 | 539 |
 | alusia           | 736 | 541 |
 | mary             | 713 | 541 |
-| maxee            | 736 | 555 |
-| momo&하루        | 732 | 541 |
+| maxee            | 737 | 554 |
+| momo&하루        | 734 | 539 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
 | vinfinity        | 727 | 550 |
 | yacob            | 737 | 547 |
 | 帕殿咚           | 730 | 543 |
 | 熾星空           | 720 | 542 |
-| 球球仔           | 734 | 543 |
+| 球球仔           | 734 | 545 |
 | 趴懶大           | 731 | 551 |
 | 達努巴克         | 740 | 559 |
 | 차은아           | 736 | 545 |
