@@ -56,6 +56,7 @@ ______________________________________________________________________
 - Mon 23 Feb - ⚔ KvK VI (Day 232)
 - Tue 24 Feb - 🍀 Roulette #3 (Day 233)
 - Sat 28 Feb - 🏰 Castle Fight (Day 237)
+- Sun 01 Mar - 🔄 Transfer #2 (Day 238)
 - Mon 09 Mar - 🏆 Strongest Governor VI (Day 246)
 - Tue 10 Mar - 🍀 Roulette #4 (Day 247)
 - Mon 23 Mar - ⚔ KvK VII (Day 260)
