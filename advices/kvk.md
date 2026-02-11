@@ -22,18 +22,18 @@ Reminder of what to save for KvK
 ```
 1 |2 |3 |4 |5 | Upgrades
 ✅|🆗|⛔|⛔|🆗| TrueGold
-⛔|✅|✅|⛔|⛔| Hero Shards
-⛔|⛔|⛔|✅|✅| Hero gear
 ✅|🆗|⛔|⛔|🆗| Const Speed
+✅|⛔|✅|✅|⛔| Charms
 🆗|✅|⛔|⛔|🆗| Rsrch Speed
+⛔|✅|✅|⛔|⛔| Hero Shards
+⛔|⛔|✅|⛔|✅| Pet adv./Refine
 ⛔|⛔|⛔|✅|⛔| Train speed
 ⛔|⛔|⛔|✅|⛔| Train troops
-✅|⛔|✅|✅|⛔| Charms
+⛔|⛔|⛔|✅|✅| Hero gear
 ⛔|⛔|⛔|⛔|✅| Gov gear
-⛔|⛔|✅|⛔|✅| Pet adv./Refine
+✅|⛔|✅|⛔|✅| Intel mission
+⛔|✅|⛔|✅|✅| Gathering
 ```
-
--- Azrael
 
 Day I
 
