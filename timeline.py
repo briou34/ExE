@@ -53,6 +53,8 @@ def create_events_timeline():
         # True Gold
         ["📦 True Gold 5", DAY0 + timedelta(days=155)],
         ["🏫 War Academy", DAY0 + timedelta(days=225)],  # ~ day 220
+        # Transfer event on March 1st, 2026
+        ["🔄 Transfer #2", datetime(2026, 3, 1, tzinfo=UTC)],
     ]
 
     # KvKs up until next 4 months
