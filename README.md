@@ -18,7 +18,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({hive_map_fpath})")
 ]]] -->
 
-![hive map](hive/images/2026-01-24_hive.png)
+![hive map](hive/images/2026-02-11_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -38,23 +38,32 @@ for line in timeline:
 - Mon 03 Nov - ⚔ KvK II (Day 120)
 - Mon 01 Dec - ⚔ KvK III (Day 148)
 - Mon 08 Dec - 📦 True Gold 5 (Day 155)
+- Mon 22 Dec - 🎭 Season 4 (Day 169)
 - Mon 29 Dec - ⚔ KvK IV (Day 176)
 - Mon 19 Jan - ✨ Gen 4 Heroes (Day 197)
 - Mon 19 Jan - 🐶 Gen 4 Pets (Day 197)
-
-______________________________________________________________________
-
-- Sat 24 Jan - Today (Day 202)
-
-______________________________________________________________________
-
 - Mon 26 Jan - ⚔ KvK V (Day 204)
-- Sat 31 Jan - 🏰 Castle Fight (Day 209)
-- Mon 09 Feb - 🏆 Strongest Governor V (Day 218)
+
+______________________________________________________________________
+
+- Wed 11 Feb - Today (Day 220)
+
+______________________________________________________________________
+
 - Sat 14 Feb - 🏰 Castle Fight (Day 223)
+- Mon 16 Feb - 🎭 Season 5 (Day 225)
 - Mon 16 Feb - 🏫 War Academy (Day 225)
 - Mon 23 Feb - ⚔ KvK VI (Day 232)
+- Tue 24 Feb - 🍀 Roulette #3 (Day 233)
+- Sat 28 Feb - 🏰 Castle Fight (Day 237)
+- Mon 09 Mar - 🏆 Strongest Governor VI (Day 246)
+- Tue 10 Mar - 🍀 Roulette #4 (Day 247)
 - Mon 23 Mar - ⚔ KvK VII (Day 260)
+- Tue 24 Mar - 🍀 Roulette #5 (Day 261)
+- Tue 07 Apr - 🍀 Roulette #6 (Day 275)
+- Mon 13 Apr - ✨ Gen 5 Heroes (Day 281)
+- Mon 13 Apr - 🐶 Gen 5 Pets (Day 281)
 - Mon 20 Apr - ⚔ KvK VIII (Day 288)
+- Mon 18 May - ⚔ KvK IX (Day 316)
 
 <!-- [[[end]]] -->

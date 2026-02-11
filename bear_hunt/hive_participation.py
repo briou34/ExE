@@ -212,8 +212,7 @@ def plot_cities_with_participation_and_power(
         rect_kwargs = {"alpha": 1}
 
         # Out of alliance cities
-        if name in {
-        }:
+        if name in {}:
             rect_kwargs["facecolor"] = "black"
             text_kwargs["color"] = "white"
             text_color = "white"

@@ -173,8 +173,7 @@ def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
             rect_kwargs = {"alpha": 1}
 
             # Out of alliance cities
-            if name in {
-            }:
+            if name in {}:
                 rect_kwargs["facecolor"] = "black"
                 text_kwargs["color"] = "white"
 
