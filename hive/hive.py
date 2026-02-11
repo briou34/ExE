@@ -70,6 +70,7 @@ KOR_NAMES = {
     "흐림없는눈",
     "KOREA장태욱",
     "momo&하루",
+    "하루&까망",
 }
 
 
@@ -173,14 +174,6 @@ def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
 
             # Out of alliance cities
             if name in {
-                "Kjs722",
-                "Lord Keith",
-                "Persian Gulf",
-                "Professor",
-                "Saiint",
-                "Big Poppa 24",
-                "XLR8R",
-                "BlackBebe",
             }:
                 rect_kwargs["facecolor"] = "black"
                 text_kwargs["color"] = "white"
