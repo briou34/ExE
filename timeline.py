@@ -16,6 +16,11 @@ def main():
     print("\n".join(timeline))
 
 
+def make_timeline():
+    events = create_events_timeline()
+    return format_timeline(events)
+
+
 def format_timeline(events):
     timeline = []
     for event, date in events:
