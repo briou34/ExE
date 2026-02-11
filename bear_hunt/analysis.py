@@ -100,6 +100,23 @@ def main():
                 width=timedelta(days=1.6),
             )
 
+        # Running mean
+        n_mean = 5
+        dates = [datetime.strptime(date, "%Y-%m-%d") for date in sorted(list(log.keys()))]
+        total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
+        running_mean = [
+            sum(total_scores[max(0, i - n_mean + 1) : i + 1]) / min(i + 1, n_mean)
+            for i in range(len(total_scores))
+        ]
+        ax.plot(
+            dates,
+            running_mean,
+            color="red",
+            linestyle="--",
+            label=f"Running Mean ({n_mean} hunts)",
+        )
+        ax.legend(loc="upper left")
+
         # Values on top of the bars
         total_scores = [sum(log[date].values()) for date in sorted(list(log.keys()))]
         max_score = max(total_scores)
