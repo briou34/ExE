@@ -18,7 +18,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({hive_map_fpath})")
 ]]] -->
 
-![hive map](hive/images/2026-02-14_hive.png)
+![hive map](hive/images/2026-02-21_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -38,20 +38,20 @@ for line in timeline:
 - Mon 03 Nov - ⚔ KvK II (Day 120)
 - Mon 01 Dec - ⚔ KvK III (Day 148)
 - Mon 08 Dec - 📦 True Gold 5 (Day 155)
-- Mon 22 Dec - 🎭 Season 4 (Day 169)
 - Mon 29 Dec - ⚔ KvK IV (Day 176)
+- Sun 04 Jan - 🔄 Transfer #1 (Day 182)
 - Mon 19 Jan - ✨ Gen 4 Heroes (Day 197)
 - Mon 19 Jan - 🐶 Gen 4 Pets (Day 197)
 - Mon 26 Jan - ⚔ KvK V (Day 204)
-
-______________________________________________________________________
-
-- Sat 14 Feb - Today (Day 223)
-
-______________________________________________________________________
-
 - Mon 16 Feb - 🎭 Season 5 (Day 225)
 - Mon 16 Feb - 🏫 War Academy (Day 225)
+
+______________________________________________________________________
+
+- Sat 21 Feb - Today (Day 230)
+
+______________________________________________________________________
+
 - Mon 23 Feb - ⚔ KvK VI (Day 232)
 - Tue 24 Feb - 🍀 Roulette #3 (Day 233)
 - Sat 28 Feb - 🏰 Castle Fight (Day 237)
@@ -62,9 +62,16 @@ ______________________________________________________________________
 - Mon 23 Mar - ⚔ KvK VII (Day 260)
 - Tue 24 Mar - 🍀 Roulette #5 (Day 261)
 - Tue 07 Apr - 🍀 Roulette #6 (Day 275)
+- Mon 13 Apr - 🎭 Season 6 (Day 281)
 - Mon 13 Apr - ✨ Gen 5 Heroes (Day 281)
 - Mon 13 Apr - 🐶 Gen 5 Pets (Day 281)
 - Mon 20 Apr - ⚔ KvK VIII (Day 288)
+- Sun 26 Apr - 🔄 Transfer #3 (Day 294)
+- Mon 18 May - 🦸 True Gold 8 (Day 316)
 - Mon 18 May - ⚔ KvK IX (Day 316)
+- Sun 21 Jun - 🔄 Transfer #4 (Day 350)
+- Mon 22 Jun - ✨ Gen 6 Heroes (Day 351)
+- Mon 22 Jun - 🐶 Gen 6 Pets (Day 351)
+- Sun 16 Aug - 🔄 Transfer #5 (Day 406)
 
 <!-- [[[end]]] -->

@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-02-14_hive.png)
+![hive map](images/2026-02-21_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,16 +24,16 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-02-14:
+Cities locations as of 2026-02-21:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
 | ALFADHLI         | 713 | 553 |
-| AZIZ             | 728 | 544 |
+| AZIZ             | 716 | 543 |
 | AussieJosh       | 729 | 550 |
 | Azrael           | 735 | 553 |
 | BlockZ           | 709 | 543 |
-| Blossom          | 711 | 552 |
+| Blossom          | 738 | 559 |
 | Bori             | 726 | 546 |
 | Brica            | 733 | 551 |
 | Briou            | 718 | 544 |
@@ -46,7 +46,7 @@ Cities locations as of 2026-02-14:
 | DarkPanda        | 711 | 549 |
 | DeathAmongstUs   | 715 | 554 |
 | Diablo           | 724 | 544 |
-| Donald Porpoise  | 716 | 543 |
+| Donald Porpoise  | 720 | 538 |
 | Dossari          | 717 | 554 |
 | Dunndertaker     | 709 | 552 |
 | EmmyLou          | 719 | 552 |
@@ -63,25 +63,26 @@ Cities locations as of 2026-02-14:
 | IrotRiot         | 718 | 546 |
 | JoeyBootzz       | 717 | 552 |
 | KOREA장태욱      | 722 | 544 |
-| KR4V3N           | 735 | 551 |
-| Kay_forshort     | 721 | 556 |
+| KR4V3N           | 728 | 544 |
+| Kay_forshort     | 711 | 552 |
 | Kenpachi         | 723 | 550 |
 | Kenz             | 713 | 551 |
+| King Koopa       | 719 | 554 |
 | Kings Scooby     | 729 | 552 |
 | KittyCopia       | 726 | 542 |
 | LEA              | 711 | 547 |
 | LadyLove         | 714 | 543 |
 | LightsOutL       | 715 | 539 |
 | Llyod Frontera   | 712 | 545 |
-| Loading          | 737 | 547 |
+| Loading          | 734 | 543 |
 | Lord Adoniran    | 712 | 543 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
-| LordOfTheKinguin | 709 | 549 |
+| LordOfTheKinguin | 720 | 540 |
 | Lord_DJ          | 725 | 550 |
 | Lyghtz           | 714 | 545 |
-| M E D U S A      | 721 | 550 |
-| MOnsTruM224      | 719 | 554 |
+| M E D U S A      | 709 | 549 |
+| MOnsTruM224      | 721 | 550 |
 | MasterkinG32     | 725 | 554 |
 | Morphose         | 727 | 552 |
 | Nubian King 13   | 725 | 552 |
@@ -106,7 +107,7 @@ Cities locations as of 2026-02-14:
 | Soraaa           | 736 | 545 |
 | Supernova        | 724 | 546 |
 | TW拍吉           | 732 | 545 |
-| Thadeus          | 709 | 547 |
+| Thadeus          | 722 | 539 |
 | The Bob          | 734 | 541 |
 | Tiffany          | 716 | 541 |
 | Trillbill        | 721 | 554 |
@@ -126,7 +127,6 @@ Cities locations as of 2026-02-14:
 | 球球仔           | 734 | 545 |
 | 趴懶大           | 731 | 551 |
 | 達努巴克         | 740 | 559 |
-| 차은아           | 738 | 559 |
 | 하루&까망        | 732 | 541 |
 
 <!-- [[[end]]] -->
