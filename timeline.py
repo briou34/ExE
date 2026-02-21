@@ -46,15 +46,22 @@ def create_events_timeline():
         ["✨ Gen 3 Heroes", DAY0 + timedelta(days=113)],
         ["✨ Gen 4 Heroes", DAY0 + timedelta(days=197)],
         ["✨ Gen 5 Heroes", DAY0 + timedelta(days=281)],
+        ["✨ Gen 6 Heroes", DAY0 + timedelta(days=351)],  # 350-360
         # Pets
         ["🐶 Gen 3 Pets", DAY0 + timedelta(days=113)],
         ["🐶 Gen 4 Pets", DAY0 + timedelta(days=197)],
         ["🐶 Gen 5 Pets", DAY0 + timedelta(days=281)],
+        ["🐶 Gen 6 Pets", DAY0 + timedelta(days=351)],
         # True Gold
         ["📦 True Gold 5", DAY0 + timedelta(days=155)],
         ["🏫 War Academy", DAY0 + timedelta(days=225)],  # ~ day 220
-        # Transfer event on March 1st, 2026
+        ["🦸 True Gold 8", DAY0 + timedelta(days=316)],  # ~ day 310-320
+        # Transfer event on March 1st, 2026, every 56 days (8 weeks)
+        ["🔄 Transfer #1", datetime(2026, 1, 4, tzinfo=UTC)],
         ["🔄 Transfer #2", datetime(2026, 3, 1, tzinfo=UTC)],
+        ["🔄 Transfer #3", datetime(2026, 4, 26, tzinfo=UTC)],
+        ["🔄 Transfer #4", datetime(2026, 6, 21, tzinfo=UTC)],
+        ["🔄 Transfer #5", datetime(2026, 8, 16, tzinfo=UTC)],
     ]
 
     # KvKs up until next 4 months
@@ -92,7 +99,7 @@ def create_events_timeline():
         events.append([f"🍀 Roulette #{i}", roulette_day])
     print()
 
-    # Add current and next season, one season each 8 weeks
+    # Add current and next season, one season each 8 weeks, starts on Wednesdays
     first_monday = DAY0 + timedelta(days=1)
     season_length = 56  # 8 weeks
     current_season = ((TODAY - first_monday).days // season_length) + 1
