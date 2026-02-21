@@ -39,10 +39,6 @@ if MOVING["bear_1"] or MOVING["bear_2"]: # Else, no moving cities, skip
   print()
 ]]] -->
 
-## Future hive
-
-![Bear Participation](images/2026-02-21_hive_participation_moving.png)
-
 <!-- [[[end]]] -->
 
 ## Bear 1
