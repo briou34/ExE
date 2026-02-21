@@ -57,7 +57,6 @@ Cities locations as of 2026-02-21:
 | George Floyd     | 709 | 554 |
 | HASANNEMREE      | 723 | 552 |
 | Hawkeye          | 728 | 556 |
-| Hugh_Janus       | 721 | 552 |
 | HuiMin           | 733 | 549 |
 | I am your father | 711 | 554 |
 | IrotRiot         | 718 | 546 |
@@ -80,6 +79,7 @@ Cities locations as of 2026-02-21:
 | LordGiga         | 729 | 554 |
 | LordOfTheKinguin | 720 | 540 |
 | Lord_DJ          | 725 | 550 |
+| Lou_Scunt        | 721 | 552 |
 | Lyghtz           | 714 | 545 |
 | M E D U S A      | 709 | 549 |
 | MOnsTruM224      | 721 | 550 |
