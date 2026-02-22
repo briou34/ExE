@@ -141,6 +141,7 @@ print(
 | 2026-02-15 |        34 |      35.47B |
 | 2026-02-17 |        30 |      30.10B |
 | 2026-02-19 |        21 |      25.60B |
+| 2026-02-21 |        29 |      31.13B |
 
 <!-- [[[end]]] -->
 
@@ -162,58 +163,58 @@ print(
 
 |   # | Player          |   Score | # Hunts |
 | --: | :-------------- | ------: | ------: |
-|   1 | Sjefen          |  12.54B |       7 |
-|   2 | Paerdekop       |  11.08B |       6 |
-|   3 | JoeyBootzz      |  10.79B |       7 |
-|   4 | Shell2y         |  10.62B |       6 |
-|   5 | Llyod Frontera  |  10.28B |       7 |
-|   6 | Briou           |   9.22B |       7 |
-|   7 | Coma            |   9.04B |       6 |
-|   8 | Troka           |   8.65B |       6 |
-|   9 | LadyLove        |   8.56B |       6 |
-|  10 | Kenz            |   8.27B |       5 |
-|  11 | LEA             |   8.01B |       7 |
-|  12 | IrotRiot        |   7.90B |       6 |
-|  13 | FallingRegrets  |   7.15B |       6 |
-|  14 | EmmyLou         |   6.40B |       7 |
-|  15 | Cery            |   6.27B |       7 |
-|  16 | DarkPanda       |   4.00B |       3 |
-|  17 | Kenpachi        |   3.83B |       4 |
-|  18 | PapiChurro      |   3.77B |       4 |
-|  19 | AZIZ            |   3.66B |       3 |
-|  20 | Sir Bishop      |   3.65B |       6 |
-|  21 | Lyghtz          |   3.59B |       2 |
-|  22 | MasterkinG32    |   3.57B |       4 |
-|  23 | Lou_Scunt       |   2.96B |       4 |
-|  24 | Kay_forshort    |   2.81B |       5 |
-|  25 | DeathAmongstUs  |   2.55B |       3 |
-|  26 | scorpion        |   2.42B |       3 |
-|  27 | Lord_DJ         |   2.38B |       4 |
-|  28 | M E D U S A     |   1.92B |       2 |
-|  29 | O D I N         |   1.82B |       3 |
-|  30 | Tiffany         |   1.81B |       3 |
-|  31 | Persian Gulf    |   1.61B |       2 |
-|  32 | Shadow          |   1.39B |       1 |
-|  33 | Morphose        |   1.38B |       2 |
-|  34 | Queen of Hearts |   1.24B |       1 |
-|  35 | Hawkeye         |   1.21B |       3 |
-|  36 | MOnsTruM224     |   1.20B |       2 |
-|  37 | LightsOutL      |   1.13B |       2 |
-|  38 | 帕殿咚          |   1.10B |       2 |
-|  39 | Trillbill       |   1.03B |       2 |
-|  40 | Donald Porpoise |   1.02B |       2 |
-|  41 | mary            | 905.22M |       2 |
+|   1 | Paerdekop       |  13.09B |       7 |
+|   2 | Shell2y         |  10.59B |       6 |
+|   3 | Sjefen          |  10.54B |       6 |
+|   4 | Troka           |  10.21B |       7 |
+|   5 | Kenz            |  10.11B |       6 |
+|   6 | JoeyBootzz      |   9.89B |       7 |
+|   7 | Briou           |   9.23B |       7 |
+|   8 | Coma            |   8.95B |       6 |
+|   9 | Llyod Frontera  |   8.76B |       6 |
+|  10 | LadyLove        |   8.69B |       6 |
+|  11 | LEA             |   8.16B |       7 |
+|  12 | IrotRiot        |   7.89B |       6 |
+|  13 | FallingRegrets  |   7.01B |       6 |
+|  14 | EmmyLou         |   6.02B |       7 |
+|  15 | Lyghtz          |   5.77B |       3 |
+|  16 | DarkPanda       |   5.62B |       4 |
+|  17 | PapiChurro      |   5.18B |       5 |
+|  18 | AZIZ            |   4.49B |       3 |
+|  19 | Sir Bishop      |   4.36B |       6 |
+|  20 | Cery            |   4.19B |       6 |
+|  21 | Kenpachi        |   3.83B |       4 |
+|  22 | MasterkinG32    |   3.61B |       4 |
+|  23 | Kay_forshort    |   2.73B |       5 |
+|  24 | Persian Gulf    |   2.39B |       3 |
+|  25 | Lord_DJ         |   2.38B |       4 |
+|  26 | DeathAmongstUs  |   2.25B |       3 |
+|  27 | Lou_Scunt       |   2.22B |       3 |
+|  28 | Hawkeye         |   2.06B |       4 |
+|  29 | Queen of Hearts |   2.00B |       2 |
+|  30 | O D I N         |   1.82B |       3 |
+|  31 | scorpion        |   1.56B |       2 |
+|  32 | Donald Porpoise |   1.41B |       3 |
+|  33 | Shadow          |   1.39B |       1 |
+|  34 | Morphose        |   1.38B |       2 |
+|  35 | Tiffany         |   1.37B |       2 |
+|  36 | LightsOutL      |   1.13B |       2 |
+|  37 | M E D U S A     |   1.08B |       2 |
+|  38 | Trillbill       |   1.03B |       2 |
+|  39 | CiusPorpoise    | 957.33M |       7 |
+|  40 | mary            | 905.22M |       2 |
+|  41 | MOnsTruM224     | 828.01M |       1 |
 |  42 | Loading         | 668.34M |       1 |
-|  43 | CiusPorpoise    | 616.87M |       6 |
-|  44 | Lord Adoniran   | 557.32M |       1 |
-|  45 | Azrael          | 424.43M |       1 |
-|  46 | Trimute         | 392.66M |       2 |
-|  47 | Ocram           | 382.53M |       1 |
-|  48 | Pain            | 346.73M |       1 |
-|  49 | KittyCopia      | 341.07M |       1 |
-|  50 | 趴懶大          | 249.91M |       2 |
+|  43 | Lord Adoniran   | 557.32M |       1 |
+|  44 | KittyCopia      | 525.24M |       1 |
+|  45 | SARAH           | 445.31M |       1 |
+|  46 | 趴懶大          | 435.71M |       3 |
+|  47 | Azrael          | 424.43M |       1 |
+|  48 | 帕殿咚          | 386.78M |       1 |
+|  49 | Ocram           | 382.53M |       1 |
+|  50 | Pain            | 346.73M |       1 |
 |  51 | Ukel            | 204.29M |       1 |
-|  52 | yacob           | 129.46M |       1 |
+|  52 | Trimute         | 148.32M |       1 |
 |  53 | George Floyd    |  64.52M |       2 |
 
 <!-- [[[end]]] -->
