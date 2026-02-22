@@ -20,9 +20,7 @@ import yaml
 from rich.console import Console
 
 console = Console()
-DAMAGES_LOG = yaml.safe_load(
-    (Path(__file__).parent.parent / "bear_hunt" / "damages_log.yml").read_text()
-)
+DAMAGES_LOG = yaml.safe_load((Path(__file__).parent / "damages_log.yml").read_text())
 
 
 def main():
