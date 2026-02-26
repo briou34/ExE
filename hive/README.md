@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-02-22_hive.png)
+![hive map](images/2026-02-26_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-02-22:
+Cities locations as of 2026-02-26:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -68,7 +68,7 @@ Cities locations as of 2026-02-22:
 | Kenz             | 713 | 551 |
 | King Koopa       | 719 | 554 |
 | Kings Scooby     | 729 | 552 |
-| KittyCopia       | 726 | 542 |
+| KittyCopia       | 735 | 551 |
 | LEA              | 711 | 547 |
 | LadyLove         | 714 | 543 |
 | LightsOutL       | 715 | 539 |
