@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-02-26_hive.png)
+![hive map](images/2026-03-02_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-02-26:
+Cities locations as of 2026-03-02:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -48,7 +48,6 @@ Cities locations as of 2026-02-26:
 | Diablo           | 724 | 544 |
 | Donald Porpoise  | 720 | 538 |
 | Dossari          | 717 | 554 |
-| Dunndertaker     | 709 | 552 |
 | EmmyLou          | 719 | 552 |
 | FallingRegrets   | 715 | 552 |
 | Fear             | 735 | 547 |
@@ -73,7 +72,6 @@ Cities locations as of 2026-02-26:
 | LadyLove         | 714 | 543 |
 | LightsOutL       | 715 | 539 |
 | Llyod Frontera   | 712 | 545 |
-| Loading          | 734 | 543 |
 | Lord Adoniran    | 712 | 543 |
 | Lord Morpheus    | 730 | 556 |
 | LordGiga         | 729 | 554 |
@@ -117,7 +115,6 @@ Cities locations as of 2026-02-26:
 | Willow           | 734 | 555 |
 | alusia           | 736 | 541 |
 | mary             | 713 | 541 |
-| maxee            | 737 | 554 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
 | vinfinity        | 727 | 550 |
