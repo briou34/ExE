@@ -39,7 +39,7 @@ After that, flip only a few more if there are worthy rewards left or if the 4th 
 
 This is a monthly event, you will get ~45 free tokens during the event.
 At 20 and 100 tokens used, you will get back 5 and 12 tokens in chests.
-So you might aim to do 100 flips (e g. ~16\*6) in a single event to save 17% of your tokens.
+So you might aim to use 100 tokens (e g. ~4\*4 flips = 96 tokens) in a single event to save 17% of your tokens.
 It means that you may want to skip the event if you don't already have 55 tokens in your backpack before it starts.
 
 -- Briou
