@@ -24,15 +24,18 @@ Reminder of what to save for KvK
 ✅|🆗|⛔|⛔|🆗| TrueGold
 ✅|🆗|⛔|⛔|🆗| Const Speed
 ✅|⛔|✅|✅|⛔| Charms
-🆗|✅|⛔|⛔|🆗| Rsrch Speed
+⬜|✅|⛔|⛔|🆗| Rsrch Speed
+⬜|✅|⛔|⛔|🆗| TG Dust
+⛔|✅|🆗|⛔|⛔| Roulette
 ⛔|✅|✅|⛔|⛔| Hero Shards
 ⛔|⛔|✅|⛔|✅| Pet adv./Refine
-⛔|⛔|⛔|✅|⛔| Train speed
-⛔|⛔|⛔|✅|⛔| Train troops
-⛔|⛔|⛔|✅|✅| Hero gear
+⛔|⛔|⛔|✅|⬛| Train speed
+⛔|⛔|⛔|✅|✅| Forgehammers
+⛔|⛔|⛔|✅|✅| Widgets
+⛔|⛔|⛔|✅|✅| Mithril
 ⛔|⛔|⛔|⛔|✅| Gov gear
-✅|⛔|✅|⛔|✅| Intel mission
-⛔|✅|⛔|✅|✅| Gathering
+✅|🔜|✅|🔜|✅| Intel mission
+🔜|✅|🔜|✅|✅| Gathering
 ```
 
 Day I
