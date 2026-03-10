@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-03-08_hive.png)
+![hive map](images/2026-03-10_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,17 +24,16 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-03-08:
+Cities locations as of 2026-03-10:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
-| ALFADHLI         | 713 | 553 |
 | AZIZ             | 716 | 543 |
 | Aqua             | 727 | 554 |
 | Aqua_Too         | 722 | 556 |
 | AussieJosh       | 731 | 553 |
 | Azrael           | 735 | 553 |
-| Batas            | 739 | 551 |
+| Batas            | 735 | 551 |
 | Bori             | 726 | 546 |
 | Brgy TIBAY       | 723 | 548 |
 | Brica            | 733 | 551 |
@@ -62,7 +61,6 @@ Cities locations as of 2026-03-08:
 | Helzu            | 721 | 554 |
 | Heney            | 733 | 547 |
 | HuiMin           | 733 | 549 |
-| I am your father | 712 | 555 |
 | JoeyBootzz       | 719 | 550 |
 | KESHKERES        | 716 | 541 |
 | KR4V3N           | 728 | 544 |
@@ -88,8 +86,8 @@ Cities locations as of 2026-03-08:
 | MOnsTruM224      | 721 | 550 |
 | Malideiter       | 727 | 558 |
 | MasterkinG32     | 725 | 554 |
-| Meow             | 734 | 555 |
-| MeowsDaddy       | 734 | 557 |
+| Meow             | 737 | 552 |
+| MeowAndOnly      | 737 | 554 |
 | Morphose         | 727 | 552 |
 | Mr Bean          | 738 | 541 |
 | Ocram            | 728 | 548 |
@@ -97,7 +95,6 @@ Cities locations as of 2026-03-08:
 | PapiChurro       | 720 | 544 |
 | Persian Gulf     | 726 | 556 |
 | Queen of Hearts  | 721 | 548 |
-| ROSTR            | 737 | 554 |
 | Rage             | 726 | 548 |
 | SARAH            | 722 | 540 |
 | SP1R1T           | 732 | 543 |
