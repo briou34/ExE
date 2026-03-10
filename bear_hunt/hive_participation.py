@@ -8,6 +8,7 @@
 
 import argparse
 import sys
+from bisect import bisect_right
 from collections import defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
@@ -38,6 +39,36 @@ DAMAGES_LOG = yaml.safe_load(
 )
 POWER = yaml.safe_load((Path(__file__).parent.parent / "power" / "power.yml").read_text())
 
+HAMMERS_THRESHOLDS_REWARDS = [
+    (0, 0),
+    (1, 1),
+    (2_500, 1),
+    (5_000, 1),
+    (8_000, 1),
+    (12_000, 1),
+    (27_500, 1),
+    (62_500, 2),
+    (145_000, 2),
+    (325_000, 3),
+    (745_000, 3),
+    (1_700_000, 4),
+    (3_900_000, 5),
+    (8_900_000, 6),
+    (20_500_000, 7),
+    (47_000_000, 8),
+    (90_000_000, 9),
+    (175_000_000, 10),
+    (330_000_000, 11),
+    (635_000_000, 12),
+    (1_200_000_000, 13),
+    (2_400_000_000, 14),
+    (4_800_000_000, 15),
+    (9_600_000_000, 16),
+    (19_200_000_000, 17),
+    (38_400_000_000, 18),
+]
+HAMMERS_THRESHOLDS, HAMMERS_REWARDS = zip(*HAMMERS_THRESHOLDS_REWARDS)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze bear hunt damages.")
@@ -60,6 +91,13 @@ def main():
         default=False,
         help="Save the figure instead of showing it.",
     )
+    # Argument color in {'participation', 'hammers'}, default 'participation', help 'Whether to color the cities according to participation or hammers obtained.'
+    parser.add_argument(
+        "--color",
+        choices=["participation", "hammers"],
+        default="participation",
+        help="Whether to color the cities according to participation or hammers obtained. Default is 'participation'.",
+    )
     args = parser.parse_args()
     n_lasts = args.nlasts
 
@@ -76,14 +114,17 @@ def main():
 
     participations = defaultdict(lambda: [0, 0])  # bear1, bear2
     damages = defaultdict(lambda: [0, 0])  # bear1, bear2
+    hammers = defaultdict(lambda: [0, 0])  # bear1, bear2
     for hunt in log_bear1:
         for player, score in hunt.items():
             participations[player][0] += 1
             damages[player][0] += score
+            hammers[player][0] += hammers_reward(score)
     for hunt in log_bear2:
         for player, score in hunt.items():
             participations[player][1] += 1
             damages[player][1] += score
+            hammers[player][1] += hammers_reward(score)
 
     # Map
     cities_locs = add_deltas(LOCATIONS["pitfall_1"], LOCATIONS["cities"]["bear_1"]) | add_deltas(
@@ -108,27 +149,66 @@ def main():
     cmap_bear2 = plt.get_cmap("Greens")
     cmap_both = plt.get_cmap("Oranges")
 
-    # Colors according to participation
-    colors = {}
-    for player in damages.keys():
-        part1, part2 = participations[player]
-        if part1 == 0 and part2 == 0:
-            # Should never happen, if no participation then not in the logs
-            clr = mcolors.to_rgb("#FF0000")
-        else:
-            if part1 != 0 and part2 == 0:
-                cmap = cmap_bear1
-            elif part2 != 0 and part1 == 0:
-                cmap = cmap_bear2
-            else:  # Both bears
-                if part1 >= 2.5 * part2:  # Still mostly bear 1
+    if args.color == "participation":
+        # Colors according to participation
+        colors = {}
+        text_colors = {}
+        for player in damages.keys():
+            part1, part2 = participations[player]
+            if part1 == 0 and part2 == 0:
+                # Should never happen, if no participation then not in the logs
+                clr = mcolors.to_rgb("#FF0000")
+                text_colors[player] = "white"
+            else:
+                if part1 != 0 and part2 == 0:
                     cmap = cmap_bear1
-                elif part2 >= 2.5 * part1:  # Still mostly bear 2
+                elif part2 != 0 and part1 == 0:
                     cmap = cmap_bear2
+                else:  # Both bears
+                    if part1 >= 2.5 * part2:  # Still mostly bear 1
+                        cmap = cmap_bear1
+                    elif part2 >= 2.5 * part1:  # Still mostly bear 2
+                        cmap = cmap_bear2
+                    else:
+                        cmap = cmap_both
+
+                clr_value = (part1 + part2) / n_lasts
+                if clr_value >= 0.75:
+                    text_colors[player] = "white"
                 else:
-                    cmap = cmap_both
-            clr = cmap((part1 + part2) / n_lasts * 0.8)
-        colors[player] = mcolors.to_hex(clr)
+                    text_colors[player] = "black"
+                clr = cmap(clr_value * 0.8)
+            colors[player] = mcolors.to_hex(clr)
+
+    elif args.color == "hammers":
+        # Colors according to hammers obtained
+        colors = {}
+        text_colors = {}
+        hammers_max = 0
+        for player in damages.keys():
+            hammers_total = sum(hammers[player])
+            if hammers_total > hammers_max:
+                hammers_max = hammers_total
+        for player in damages.keys():
+            hammers_1, hammers_2 = hammers[player]
+            hammers_total = hammers_1 + hammers_2
+            hammers_total = sum(hammers[player])
+            if hammers_total == 0:
+                clr = mcolors.to_rgb("#FFFFFF")
+            elif hammers_1 >= 2.5 * hammers_2:
+                cmap = cmap_bear1
+            elif hammers_2 >= 2.5 * hammers_1:
+                cmap = cmap_bear2
+            else:
+                cmap = cmap_both
+            clr_value = hammers_total / hammers_max if hammers_max > 0 else 0
+            if clr_value >= 0.75:
+                text_colors[player] = "white"
+            else:
+                text_colors[player] = "black"
+            clr = cmap(clr_value * 0.8)
+            colors[player] = mcolors.to_hex(clr)
+
     fig = plot_cities_with_participation_and_power(
         ax,
         cities_locs,
@@ -136,7 +216,9 @@ def main():
         colors,
         n_lasts,
         POWER[sorted(POWER.keys())[-1]],
+        hammers,
         cities_locs_moving,
+        text_colors,
     )
 
     start_date = sorted(dates1 + dates2)[0]
@@ -185,8 +267,20 @@ def main():
         plt.show()
 
 
+def hammers_reward(damage):
+    return HAMMERS_REWARDS[bisect_right(HAMMERS_THRESHOLDS, damage) - 1]
+
+
 def plot_cities_with_participation_and_power(
-    ax, locations, participations, colors, n, power=None, locations_moving=None
+    ax,
+    locations,
+    participations,
+    colors,
+    n,
+    power=None,
+    hammers=None,
+    locations_moving=None,
+    text_colors=None,
 ):
     from functools import partial
 
@@ -203,10 +297,11 @@ def plot_cities_with_participation_and_power(
 
     for name, loc in locations.items():
         part1, part2 = participations.get(name, (0, 0))
-        if (part1 + part2) >= 0.75 * n:
-            text_color = "white"
-        else:
-            text_color = "black"
+        # if (part1 + part2) >= 0.75 * n:
+        #     text_color = "white"
+        # else:
+        #     text_color = "black"
+        text_color = text_colors.get(name, "black")
 
         text_kwargs = {"fontsize": 7, "color": text_color}
         rect_kwargs = {"alpha": 1}
@@ -284,6 +379,18 @@ def plot_cities_with_participation_and_power(
                 loc[1] + 0.3,
                 simplify_power(power[name]),
                 ha="right",
+                color=text_color,
+                fontsize=6,
+                va="bottom",
+            )
+
+        # Add hammers obtained if available, bottom left
+        if hammers and name in hammers:
+            ax.text(
+                loc[0] + 0.3,
+                loc[1] + 0.3,
+                f"{hammers[name][0]}/{hammers[name][1]}",
+                ha="left",
                 color=text_color,
                 fontsize=6,
                 va="bottom",
