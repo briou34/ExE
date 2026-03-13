@@ -200,23 +200,23 @@ def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
                 rect_kwargs["linewidth"] = 2
                 text_kwargs["fontweight"] = "bold"
 
-                # Add an arrow from previous location to new location
-                new_loc = locations_moving[name]
-                dx, dy, dx_new, dy_new = 1, 1, 1, 1
-                if new_loc[0] > loc[0]:
-                    dx, dx_new = 1.7, 0.3
-                elif new_loc[0] < loc[0]:
-                    dx, dx_new = 0.3, 1.7
-                if new_loc[1] > loc[1]:
-                    dy, dy_new = 1.7, 0.3
-                elif new_loc[1] < loc[1]:
-                    dy, dy_new = 0.3, 1.7
-                ax.annotate(
-                    "",
-                    xytext=(loc[0] + dx, loc[1] + dy),
-                    xy=(new_loc[0] + dx_new, new_loc[1] + dy_new),
-                    arrowprops=dict(arrowstyle="->", color="black"),
-                )
+                # # Add an arrow from previous location to new location
+                # new_loc = locations_moving[name]
+                # dx, dy, dx_new, dy_new = 1, 1, 1, 1
+                # if new_loc[0] > loc[0]:
+                #     dx, dx_new = 1.7, 0.3
+                # elif new_loc[0] < loc[0]:
+                #     dx, dx_new = 0.3, 1.7
+                # if new_loc[1] > loc[1]:
+                #     dy, dy_new = 1.7, 0.3
+                # elif new_loc[1] < loc[1]:
+                #     dy, dy_new = 0.3, 1.7
+                # ax.annotate(
+                #     "",
+                #     xytext=(loc[0] + dx, loc[1] + dy),
+                #     xy=(new_loc[0] + dx_new, new_loc[1] + dy_new),
+                #     arrowprops=dict(arrowstyle="->", color="black"),
+                # )
 
                 # Use new location
                 loc = locations_moving[name]
