@@ -372,29 +372,53 @@ def plot_cities_with_participation_and_power(
                 **participation_kwargs,
             )
 
-        # Add power level if available, bottom right
-        if power and name in power:
-            ax.text(
-                loc[0] + 1.7,
-                loc[1] + 0.3,
-                simplify_power(power[name]),
-                ha="right",
-                color=text_color,
-                fontsize=6,
-                va="bottom",
-            )
+        # # Add power level if available, bottom right
+        # if power and name in power:
+        #     ax.text(
+        #         loc[0] + 1.7,
+        #         loc[1] + 0.3,
+        #         simplify_power(power[name]),
+        #         ha="right",
+        #         color=text_color,
+        #         fontsize=6,
+        #         va="bottom",
+        #     )
 
-        # Add hammers obtained if available, bottom left
+        # # Add hammers obtained if available, bottom left
+        # if hammers and name in hammers:
+        #     ax.text(
+        #         loc[0] + 0.3,
+        #         loc[1] + 0.3,
+        #         f"{hammers[name][0]}/{hammers[name][1]}",
+        #         ha="left",
+        #         color=text_color,
+        #         fontsize=6,
+        #         va="bottom",
+        #     )
+
+        # Add hammers obtained if available, bottom left and bottom right
         if hammers and name in hammers:
-            ax.text(
-                loc[0] + 0.3,
-                loc[1] + 0.3,
-                f"{hammers[name][0]}/{hammers[name][1]}",
-                ha="left",
-                color=text_color,
-                fontsize=6,
-                va="bottom",
-            )
+            hammers_1, hammers_2 = hammers[name]
+            if hammers_1 > 0:
+                ax.text(
+                    loc[0] + 0.3,
+                    loc[1] + 0.3,
+                    str(hammers_1),
+                    ha="left",
+                    color=text_color,
+                    fontsize=6,
+                    va="bottom",
+                )
+            if hammers_2 > 0:
+                ax.text(
+                    loc[0] + 1.7,
+                    loc[1] + 0.3,
+                    str(hammers_2),
+                    ha="right",
+                    color=text_color,
+                    fontsize=6,
+                    va="bottom",
+                )
 
     return ax.figure
 
