@@ -12,7 +12,7 @@ hive_map_fpath = sorted(
 print(f"![hive map]({Path('images') / hive_map_fpath.name})")
 ]]] -->
 
-![hive map](images/2026-03-10_hive.png)
+![hive map](images/2026-03-13_hive.png)
 
 <!-- [[[end]]] -->
 
@@ -24,7 +24,7 @@ print(f"Cities locations as of {datetime.now(UTC).strftime('%Y-%m-%d')}:\n")
 print(as_markdown_table(get_cities_locations_table(), columns=["Name", "X", "Y"]))
 ]]] -->
 
-Cities locations as of 2026-03-10:
+Cities locations as of 2026-03-13:
 
 | Name             | X   | Y   |
 | ---------------- | --- | --- |
@@ -35,13 +35,13 @@ Cities locations as of 2026-03-10:
 | Azrael           | 735 | 553 |
 | Batas            | 735 | 551 |
 | Bori             | 726 | 546 |
-| Brgy TIBAY       | 723 | 548 |
+| Brgy TIBAY       | 734 | 543 |
 | Brica            | 733 | 551 |
 | Briou            | 718 | 544 |
 | CHEN陈           | 730 | 545 |
 | Cavendish        | 708 | 545 |
 | Cery             | 713 | 549 |
-| Coma             | 717 | 550 |
+| Coma             | 736 | 559 |
 | CravenMoorehead  | 721 | 552 |
 | Creamy Dangles   | 740 | 559 |
 | DarkPanda        | 711 | 549 |
@@ -56,7 +56,7 @@ Cities locations as of 2026-03-10:
 | Fear             | 735 | 547 |
 | FireGOW          | 735 | 549 |
 | Frinkley         | 728 | 546 |
-| George Floyd     | 734 | 543 |
+| George Floyd     | 709 | 549 |
 | Hawkeye          | 728 | 556 |
 | Helzu            | 721 | 554 |
 | Heney            | 733 | 547 |
@@ -118,10 +118,9 @@ Cities locations as of 2026-03-10:
 | Vitvik           | 729 | 550 |
 | Wancho           | 737 | 547 |
 | Willow           | 723 | 554 |
-| Yanta            | 736 | 556 |
+| Yanta            | 734 | 555 |
 | alusia           | 736 | 541 |
 | destro           | 725 | 552 |
-| lord270927633    | 726 | 540 |
 | mary             | 713 | 541 |
 | scorpion         | 730 | 541 |
 | tamere           | 733 | 553 |
