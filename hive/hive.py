@@ -93,6 +93,13 @@ def main():
         default=False,
         help="Wether generate the map with future cities locations, highlighting them.",
     )
+    # Add a boolean argument to show arrows when doing a "moving" map
+    parser.add_argument(
+        "--arrows",
+        action="store_true",
+        default=False,
+        help="When using --moving, show arrows from current to future cities locations.",
+    )
     args = parser.parse_args()
 
     # Cities locations
@@ -131,6 +138,7 @@ def main():
             cities_locs1=cities_locs1,
             cities_locs2=cities_locs2,
             locations_moving=cities_locs_moving,
+            show_arrows=args.arrows,
         )
         if args.show:
             plt.show()
@@ -153,7 +161,7 @@ def get_cities_locations_table():
     return cities_locs_table
 
 
-def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
+def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None, show_arrows=None):
     import matplotlib.font_manager as fm
 
     if locations_moving is None:
@@ -200,23 +208,24 @@ def plot_cities(ax, cities_locs1, cities_locs2, locations_moving=None):
                 rect_kwargs["linewidth"] = 2
                 text_kwargs["fontweight"] = "bold"
 
-                # # Add an arrow from previous location to new location
-                # new_loc = locations_moving[name]
-                # dx, dy, dx_new, dy_new = 1, 1, 1, 1
-                # if new_loc[0] > loc[0]:
-                #     dx, dx_new = 1.7, 0.3
-                # elif new_loc[0] < loc[0]:
-                #     dx, dx_new = 0.3, 1.7
-                # if new_loc[1] > loc[1]:
-                #     dy, dy_new = 1.7, 0.3
-                # elif new_loc[1] < loc[1]:
-                #     dy, dy_new = 0.3, 1.7
-                # ax.annotate(
-                #     "",
-                #     xytext=(loc[0] + dx, loc[1] + dy),
-                #     xy=(new_loc[0] + dx_new, new_loc[1] + dy_new),
-                #     arrowprops=dict(arrowstyle="->", color="black"),
-                # )
+                # Add an arrow from previous location to new location
+                if show_arrows:
+                    new_loc = locations_moving[name]
+                    dx, dy, dx_new, dy_new = 1, 1, 1, 1
+                    if new_loc[0] > loc[0]:
+                        dx, dx_new = 1.7, 0.3
+                    elif new_loc[0] < loc[0]:
+                        dx, dx_new = 0.3, 1.7
+                    if new_loc[1] > loc[1]:
+                        dy, dy_new = 1.7, 0.3
+                    elif new_loc[1] < loc[1]:
+                        dy, dy_new = 0.3, 1.7
+                    ax.annotate(
+                        "",
+                        xytext=(loc[0] + dx, loc[1] + dy),
+                        xy=(new_loc[0] + dx_new, new_loc[1] + dy_new),
+                        arrowprops=dict(arrowstyle="->", color="black"),
+                    )
 
                 # Use new location
                 loc = locations_moving[name]
